@@ -1,0 +1,9 @@
+run.config:
+  engine: ruby
+  extra_packages:
+    - nodejs
+    - pkgconf
+    - libxml2
+    - libxslt
+data.db:
+  image: nanobox/postgresql:9.5
