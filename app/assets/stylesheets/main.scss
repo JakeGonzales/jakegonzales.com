@@ -1,0 +1,49 @@
+/*------------------------------------*\
+  # COMPONENT STRUCTURE
+
+  In here I'll be going for an Atomic structure.
+
+  Source: https://webdesign.tutsplus.com/articles/structuring-sass-saying-goodbye-to-atomic-design-ambiguity--cms-26679
+
+  ## Config
+  - vars
+  - functions
+  - mixins
+
+  ## UI 
+  - base
+  - typography
+  - plugins
+  - toolbox
+  - components
+  - layout
+  - pages
+  - utility
+  main.scss
+  main.css
+
+\*------------------------------------*/
+
+
+
+/*------------------------------------*\
+  # SETTINGS and VARIABLES
+\*------------------------------------*/
+
+// Colors
+@import "settings-variables/colors";
+
+// Z-Indexes
+@import "settings-variables/zindex";
+
+/*------------------------------------*\
+  # BASE
+\*------------------------------------*/
+
+@import "base/normalize";
+
+
+
+
+
+

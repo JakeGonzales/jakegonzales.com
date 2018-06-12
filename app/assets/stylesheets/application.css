@@ -1,7 +1,9 @@
 /*
 
-  Stylesheet organisation from: https://mattboldt.com/organizing-css-and-sass-rails/
+  Stylesheet organisation based on: 
+    https://mattboldt.com/organizing-css-and-sass-rails/
+    https://webdesign.tutsplus.com/articles/structuring-sass-saying-goodbye-to-atomic-design-ambiguity--cms-26679
 
   *= require_self
-  *= require main
+  *= require main.css
 */
