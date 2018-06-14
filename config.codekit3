@@ -104,6 +104,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/app\/assets\/stylesheets\/components\/_buttons.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/app\/assets\/stylesheets\/components\/_buttons.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/app\/assets\/stylesheets\/main.css": {
 		"aP": 1,
 		"bl": 0,
@@ -149,6 +162,58 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/app\/assets\/stylesheets\/settings-variables\/_zindex.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/app\/assets\/stylesheets\/typography\/_copy.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/app\/assets\/stylesheets\/typography\/_copy.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/app\/assets\/stylesheets\/typography\/_fonts.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/app\/assets\/stylesheets\/typography\/_fonts.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/app\/assets\/stylesheets\/typography\/_headings.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/app\/assets\/stylesheets\/typography\/_headings.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/app\/assets\/stylesheets\/typography\/_links.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/app\/assets\/stylesheets\/typography\/_links.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -310,6 +375,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/app\/views\/layouts\/mailer.text.erb",
+		"oF": 0
+		},
+	"\/app\/views\/pages\/components.html.erb": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/app\/views\/pages\/components.html.erb",
 		"oF": 0
 		},
 	"\/app\/views\/pages\/home.html.erb": {

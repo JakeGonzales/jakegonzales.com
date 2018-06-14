@@ -1,0 +1,17 @@
+/*------------------------------------*\
+  # FONTS
+\*------------------------------------*/
+
+// Import Futura from Type Kit
+@import url("https://use.typekit.net/mki5wwj.css");
+
+// https://css-tricks.com/snippets/css/better-helvetica/
+$font__sans-serif: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$font__sans-serif-headings: "futura-pt", Futura, "Trebuchet MS", Arial, sans-serif;
+
+$font__serif: "Crimson Text", Georgia, Cambria, "Times New Roman", Times, serif;
+$font__serif-headings: "Libre Baskerville", Georgia, Cambria, "Times New Roman", Times, serif;
+
+$font__main: $font__sans-serif;
+$font__code: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+$font__pre: "Courier 10 Pitch", Courier, monospace;
