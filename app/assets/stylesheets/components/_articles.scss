@@ -25,14 +25,24 @@
   \*------------------------------------*/
 
   p {
-    margin: 0.87em 0;
+    margin-bottom: 0.87em;
     line-height: 1.3;
+    break-inside: avoid;
+
+    display: inline-block;
   }
 
   b,
   strong {
     font-weight: normal;
     background: $color__highlight;
+  }
+
+  .c-article__text {
+    columns: 2 260px;
+    column-gap: 2em;
+    column-fill: balance;
+    break-inside: avoid;
   }
 
 
