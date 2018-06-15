@@ -2348,6 +2348,10 @@ from2@^2.1.0:
     inherits "^2.0.1"
     readable-stream "^2.0.0"
 
+frow@^3.0.4:
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/frow/-/frow-3.0.4.tgz#bb62128c0c723592f670ddf4a943930187951396"
+
 fs-extra@^0.30.0:
   version "0.30.0"
   resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-0.30.0.tgz#f233ffcc08d4da7d432daa449776989db1df93f0"
