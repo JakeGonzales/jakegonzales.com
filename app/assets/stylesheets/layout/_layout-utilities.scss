@@ -12,32 +12,40 @@
   $padding-outer-x: map-get($var, padding-outer-x);
   $padding-outer-y: map-get($var, padding-outer-y);
 
-  .container {
+  // Space Wrapper to complete the outside padding
+  .u-spacers {
     padding: $padding-outer-y $padding-outer-x;
     &.show-border {
       padding: ($padding-outer-y - 1) ($padding-outer-x - 1);
     }
   }
-  .element {
+  .u-space {
     padding: ($padding-y / 2) ($padding-x / 2);
     &.show-border {
       padding: ($padding-y / 2 - 1) ($padding-x / 2 - 1);
     }
   }
 
-  .elementx2 {
-    padding: ($padding-y) ($padding-x);
+  .u-space-md {
+    padding: ($padding-y) ($padding-x / 2);
     &.show-border {
       padding: ($padding-y / 2 - 1) ($padding-x / 2 - 1);
     }
   }
 
-  .element-stack {
+  .u-space-lg {
+    padding: ($padding-y * 1.5) ($padding-x / 2);
+    &.show-border {
+      padding: ($padding-y / 2 - 1) ($padding-x / 2 - 1);
+    }
+  }
+
+  .u-space-stack {
     padding: 0 ($padding-x / 2);
     margin: ($padding-y / 2) 0;
   }
 
-  .element-full-row {
+  .u-space-full-row {
     margin: 0 (-$padding-outer-x);
     padding: ($padding-y / 2) ($padding-x / 2 + $padding-outer-x);
   }
@@ -47,10 +55,13 @@
 
 // Spacing variables
 $spacing: (
+
   padding-x: 16px,
   padding-y: 10px,
+
   padding-outer-x: 5px,
   padding-outer-y: 5px
+  
 );
 
 // Generate Default CSS Rules

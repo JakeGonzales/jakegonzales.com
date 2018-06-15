@@ -24,8 +24,9 @@ $color__instagram: #683d2f;
 
 
 // State color
-$color__positive: mediumseagreen;
-$color__negative: firebrick;
+$color__positive:   mediumseagreen;
+$color__negative:   firebrick;
+$color__highlight:  lighten($color__primary, 40%);
 
 
 

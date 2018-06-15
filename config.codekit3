@@ -104,6 +104,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/app\/assets\/stylesheets\/components\/_articles.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/app\/assets\/stylesheets\/components\/_articles.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/app\/assets\/stylesheets\/components\/_buttons.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -153,13 +166,20 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/app\/assets\/stylesheets\/main.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/app\/assets\/stylesheets\/main.css.map",
+		"oF": 0
+		},
 	"\/app\/assets\/stylesheets\/main.scss": {
 		"aP": 1,
 		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 0,
 		"oAP": "\/app\/assets\/stylesheets\/main.css",
 		"oF": 0,
