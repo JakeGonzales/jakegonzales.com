@@ -2141,7 +2141,8 @@ a {
   .c-article b,
   .c-article strong {
     font-weight: normal;
-    background: #cedcf3; }
+    background: #dbdbdb;
+    color: #000000; }
   .c-article .c-article__text {
     -webkit-columns: 2 260px;
             columns: 2 260px;
