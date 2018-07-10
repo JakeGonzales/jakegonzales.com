@@ -16,13 +16,10 @@
   font-weight: 700;
   letter-spacing: 0.03em;
 
-  display: inline-block;
+  display: inline-flex;
   padding: 0.5em;
-  min-width: 220px;
-}
 
-.c-button-icon {
-  display: flex;
+  min-width: 200px;
 }
 
 .c-button-icon__icon {

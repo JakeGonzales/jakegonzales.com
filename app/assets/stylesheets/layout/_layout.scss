@@ -1,0 +1,64 @@
+/*------------------------------------*\
+  # LAYOUTS
+
+  The aim here is to make a website that is totally
+  based in intrinsic design and without breakpoints.
+\*------------------------------------*/
+
+/**
+ * A two column grid layout used for most of the site.
+ */
+
+html,
+body {
+  height: 100vh;
+}
+// Object Layout Grid 2 Column
+.o-l__g-2-col {
+  display: grid;
+  grid-template-columns: 1.5fr 2fr;
+
+  height: 100vh;
+}
+
+// Object Layout Flexbox 2 Rows
+.o-l__f-2-row,
+.o-l__f-2-row-faux {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;  
+  align-content: stretch;
+  justify-content: stretch;
+}
+
+// False second row
+.o-l__f-2-row-faux::after {
+  content: "";
+  width: 100%;
+  flex: 1;
+}
+  
+  .o-l__f-2-row-1 {
+    flex: 1;
+  }
+
+  .o-l__f-2-row-2 {
+    flex: 1;
+  }
+
+
+// Object Layout Flexbox Justify End
+.o-l__f-col-justify-end {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.o-l__f-row-justify-end {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
