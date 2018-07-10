@@ -2089,6 +2089,16 @@ a {
     background: #3069C5; }
 
 /*------------------------------------*\
+  # THIS AFFECTS ALL TEXT
+\*------------------------------------*/
+*::-moz-selection {
+  background: #ffb7b7;
+  /* WebKit/Blink Browsers */ }
+*::selection {
+  background: #ffb7b7;
+  /* WebKit/Blink Browsers */ }
+
+/*------------------------------------*\
   # BUTTONS
 \*------------------------------------*/
 /*------------------------------------*\
@@ -2154,18 +2164,38 @@ a {
       margin-top: 0; }
 
 /*------------------------------------*\
+  # UTILITIES
+\*------------------------------------*/
+/*------------------------------------*\
+  # COLOUR NEGATIVES
+
+  These change the polarity of text colour and 
+  background colour. So from a white background
+  to a coloured background and the appropriate text colour.
+\*------------------------------------*/
+.u-negative--blue {
+  background: #3069C5;
+  color: #ffffff; }
+
+/*------------------------------------*\
   # LAYOUT
 \*------------------------------------*/
 /*------------------------------------*\
-  # SPACING
+  # SPACING: LEGO WRAPPERS
 
   Lego Wrappers
   @link: https://codepen.io/moyicat/pen/wzabao
 \*------------------------------------*/
+/* 
+   * Space Wrapper to complete the outside padding
+   * Space betweem components 
+   */
 .u-spacers {
-  padding: 5px 5px; }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 5px 8px; }
   .u-spacers.show-border {
-    padding: 4px 4px; }
+    padding: 4px 7px; }
 
 .u-space {
   padding: 5px 8px; }
@@ -2173,12 +2203,12 @@ a {
     padding: 4px 7px; }
 
 .u-space-md {
-  padding: 10px 8px; }
+  padding: 20px 8px; }
   .u-space-md.show-border {
     padding: 4px 7px; }
 
 .u-space-lg {
-  padding: 15px 8px; }
+  padding: 50px 8px; }
   .u-space-lg.show-border {
     padding: 4px 7px; }
 
@@ -2186,9 +2216,22 @@ a {
   padding: 0 8px;
   margin: 5px 0; }
 
+.u-space-stack-md {
+  padding: 0 8px;
+  margin: 15px 0; }
+
 .u-space-full-row {
-  margin: 0 -5px;
-  padding: 5px 13px; }
+  margin: 0 -8px;
+  padding: 5px 16px; }
+
+/*------------------------------------*\
+  # SPACING: MAX-WIDTHS
+\*------------------------------------*/
+.u-width-100 {
+  width: 100%; }
+
+.u-max-width-copy {
+  max-width: 490px; }
 
 /*------------------------------------*\
   # LAYOUTS
@@ -2205,11 +2248,10 @@ body {
 
 .o-l__g-2-col {
   display: grid;
-  grid-template-columns: 1.5fr 2fr;
-  height: 100vh; }
+  grid-template-columns: 1fr minmax(320px, 50%);
+  min-height: 100vh; }
 
-.o-l__f-2-row,
-.o-l__f-2-row-faux {
+.o-l__f-2-row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2219,28 +2261,22 @@ body {
           flex-direction: column;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -ms-flex-line-pack: stretch;
-      align-content: stretch;
-  -webkit-box-pack: stretch;
-      -ms-flex-pack: stretch;
-          justify-content: stretch; }
-
-.o-l__f-2-row-faux::after {
-  content: "";
-  width: 100%;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1; }
+      align-content: stretch; }
 
 .o-l__f-2-row-1 {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1; }
+  margin-top: 20vh;
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3; }
 
 .o-l__f-2-row-2 {
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1; }
+      -ms-flex: auto;
+          flex: auto; }
 
 .o-l__f-col-justify-end {
   display: -webkit-box;

@@ -16,34 +16,27 @@ body {
 // Object Layout Grid 2 Column
 .o-l__g-2-col {
   display: grid;
-  grid-template-columns: 1.5fr 2fr;
+  grid-template-columns: 1fr minmax(320px, 50%);
 
-  height: 100vh;
+  min-height: 100vh;
 }
 
 // Object Layout Flexbox 2 Rows
-.o-l__f-2-row,
-.o-l__f-2-row-faux {
+.o-l__f-2-row {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;  
+  justify-content: center;
   align-content: stretch;
-  justify-content: stretch;
-}
-
-// False second row
-.o-l__f-2-row-faux::after {
-  content: "";
-  width: 100%;
-  flex: 1;
 }
   
   .o-l__f-2-row-1 {
-    flex: 1;
+    margin-top: 20vh;
+    flex: 3;
   }
 
   .o-l__f-2-row-2 {
-    flex: 1;
+    flex: auto;
   }
 
 
