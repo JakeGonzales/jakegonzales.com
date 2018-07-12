@@ -16,7 +16,7 @@ body {
 // Object Layout Grid 2 Column
 .o-l__g-2-col {
   display: grid;
-  grid-template-columns: 1fr minmax(320px, 50%);
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 
   min-height: 100vh;
 }

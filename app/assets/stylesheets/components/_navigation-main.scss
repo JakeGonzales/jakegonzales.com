@@ -1,0 +1,19 @@
+/*------------------------------------*\
+  # NAVIGATION MAIN
+
+  This should only appear once on the site
+\*------------------------------------*/
+
+.c-navigation-main {
+  font-family: $font__sans-serif-alt;
+  font-weight: 700;
+}
+
+.c-navigation-main__link {
+  padding: 0.1em 0.2em;
+  transition: 0.1s ease-in-out all;
+}
+
+.c-navigation-main__link--icon {
+  display: flex;
+}

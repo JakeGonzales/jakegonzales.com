@@ -15,6 +15,7 @@
 
   h1, .h1 {
     margin-top: 0;
+    margin-bottom: 0.4em;
   }
 
 
@@ -34,8 +35,8 @@
 
   b,
   strong {
-    font-weight: normal;
-    background: $color__highlight;
+    font-weight: 300;
+    background: transparentize($color__highlight, 0.8);
     color: $color__highlight-text;
   }
 
