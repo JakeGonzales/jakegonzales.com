@@ -54,6 +54,39 @@
 		"oAP": "\/app\/assets\/images\/.keep",
 		"oF": 0
 		},
+	"\/app\/assets\/images\/astronaut--spacewalker.png": {
+		"ft": 32768,
+		"iS": 1290423,
+		"oA": 0,
+		"oAP": "\/app\/assets\/images\/astronaut--spacewalker.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/app\/assets\/images\/jeremy-perkins-390608-unsplash__tilable.jpg": {
+		"ft": 16384,
+		"iS": 1268801,
+		"jF": 2,
+		"oA": 0,
+		"oAP": "\/app\/assets\/images\/jeremy-perkins-390608-unsplash__tilable.jpg",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"q": 50
+		},
+	"\/app\/assets\/images\/umbilical-cable.png": {
+		"ft": 32768,
+		"iS": 106623,
+		"oA": 0,
+		"oAP": "\/app\/assets\/images\/umbilical-cable.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/app\/assets\/javascripts\/application.js": {
 		"ft": 64,
 		"ma": 0,
@@ -130,6 +163,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/app\/assets\/stylesheets\/components\/_deep-space.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/app\/assets\/stylesheets\/components\/_deep-space.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/app\/assets\/stylesheets\/components\/_navigation-main.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -139,6 +185,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/app\/assets\/stylesheets\/components\/_navigation-main.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/app\/assets\/stylesheets\/components\/_space-walker.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/app\/assets\/stylesheets\/components\/_space-walker.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

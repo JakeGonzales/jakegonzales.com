@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*------------------------------------*\
   # COMPONENT STRUCTURE
 
@@ -2198,6 +2199,136 @@ a {
   display: flex; }
 
 /*------------------------------------*\
+  # SPACE SCENES AND ASTRONAUTS
+
+  Astronauts and accessories need to come
+  before the scenes
+\*------------------------------------*/
+/*------------------------------------*\
+  # SPACE WALKER ASTRONAUT
+\*------------------------------------*/
+.c-space-walker {
+  max-width: 320px;
+  position: relative; }
+
+/*------------------------------------*\
+  # ASTRONAUT
+\*------------------------------------*/
+.c-space-walker__astronaut {
+  width: 100%;
+  max-width: 318px;
+  position: relative;
+  z-index: 3100; }
+
+.c-astronaut__suit {
+  background: url(moon-walk-faceless--chopped--clear-visor.png) no-repeat top left;
+  background-size: contain;
+  position: relative;
+  z-index: 3100;
+  padding-bottom: 206.918239%; }
+
+.c-astronaut__visor {
+  content: "";
+  overflow: hidden;
+  position: absolute;
+  top: 73px;
+  left: 105px;
+  z-index: 3000;
+  width: 30%;
+  height: 15%;
+  border-radius: 50%;
+  background: orange;
+  opacity: 0.1; }
+
+@-webkit-keyframes emergency-light {
+  0%, 100% {
+    -webkit-box-shadow: inset 0 0 60px red;
+            box-shadow: inset 0 0 60px red; }
+  50% {
+    -webkit-box-shadow: inset 0 0 0px red;
+            box-shadow: inset 0 0 0px red; } }
+
+@keyframes emergency-light {
+  0%, 100% {
+    -webkit-box-shadow: inset 0 0 60px red;
+            box-shadow: inset 0 0 60px red; }
+  50% {
+    -webkit-box-shadow: inset 0 0 0px red;
+            box-shadow: inset 0 0 0px red; } }
+
+/*------------------------------------*\
+  # UMBILICAL CORD
+\*------------------------------------*/
+.c-space-walker__umbilical {
+  background: url(umbilical-cable.png) no-repeat top left;
+  background-size: contain;
+  width: 100%;
+  max-width: 252px;
+  position: absolute;
+  top: -50%;
+  left: 75%;
+  z-index: 3000; }
+
+.c-umbilical__cable {
+  padding-bottom: 262.947368%; }
+
+/*------------------------------------*\
+  # DEEP SPACE
+
+  // Wishlist
+  - Shooting Star (Cred Adam Nielsen)
+\*------------------------------------*/
+.c-deep-space {
+  background-color: #0e0e0e;
+  overflow: hidden;
+  position: relative; }
+
+.c-deep-space__stars {
+  background: transparent url(jeremy-perkins-390608-unsplash__tilable.jpg) repeat top left;
+  height: 100%;
+  width: 7287px;
+  -webkit-animation: slow-scroll 120s linear infinite;
+          animation: slow-scroll 120s linear infinite;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+@-webkit-keyframes slow-scroll {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0); }
+  100% {
+    -webkit-transform: translate3d(-1041px, 0, 0);
+            transform: translate3d(-1041px, 0, 0); } }
+
+@keyframes slow-scroll {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0); }
+  100% {
+    -webkit-transform: translate3d(-1041px, 0, 0);
+            transform: translate3d(-1041px, 0, 0); } }
+
+/*------------------------------------*\
+  # SPACE WALKER POSITIONING
+\*------------------------------------*/
+.c-deep-space__space-walker {
+  margin: 0 auto;
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  margin-left: -160px;
+  width: 100%; }
+
+.c-deep-space__astronaut {
+  /* — we'd like you to roll right to 008 and null your rates for photography of the Comet Bennett. To do that, we would like you to enable quads C and D. For the maneuver, use all your quads. And in precisely 1 minute, we'd like you to terminate the battery charge on battery B. One other request, we'd like to have you verify — */
+  -webkit-transform: rotate(-8deg);
+          transform: rotate(-8deg); }
+
+/*------------------------------------*\
+  # UMBILICAL POSITIONING
+\*------------------------------------*/
+/*------------------------------------*\
   # UTILITIES
 \*------------------------------------*/
 /*------------------------------------*\
@@ -2283,22 +2414,41 @@ body {
           flex-direction: column;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -ms-flex-line-pack: stretch;
       align-content: stretch; }
 
 .o-l__f-2-row-1 {
-  margin-top: 20vh;
-  -webkit-box-flex: 3;
-      -ms-flex: 3;
-          flex: 3; }
+  margin-top: 22vh;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  position: relative;
+  z-index: 1100; }
 
 .o-l__f-2-row-2 {
   -webkit-box-flex: 1;
       -ms-flex: auto;
-          flex: auto; }
+          flex: auto;
+  position: relative;
+  z-index: 1000; }
+
+.o-l__f-col-justify-start {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start; }
 
 .o-l__f-col-justify-end {
   display: -webkit-box;

@@ -26,19 +26,30 @@ body {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;  
-  justify-content: center;
+  justify-content: flex-start;
   align-content: stretch;
 }
   
   .o-l__f-2-row-1 {
-    margin-top: 20vh;
-    flex: 3;
+    margin-top: 22vh;
+    flex: 1;
+    position: relative;
+    z-index: $z-index1-1;
   }
 
   .o-l__f-2-row-2 {
     flex: auto;
+    position: relative;
+    z-index: $z-index1;
   }
 
+
+.o-l__f-col-justify-start {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
 
 // Object Layout Flexbox Justify End
 .o-l__f-col-justify-end {

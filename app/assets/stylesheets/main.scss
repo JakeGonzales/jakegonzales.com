@@ -67,6 +67,16 @@
 @import "components/navigation-main";
 
 /*------------------------------------*\
+  # SPACE SCENES AND ASTRONAUTS
+
+  Astronauts and accessories need to come
+  before the scenes
+\*------------------------------------*/
+
+@import "components/space-walker";
+@import "components/deep-space";
+
+/*------------------------------------*\
   # UTILITIES
 \*------------------------------------*/
 
