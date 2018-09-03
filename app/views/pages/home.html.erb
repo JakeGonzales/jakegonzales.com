@@ -21,20 +21,7 @@
 
   <div class="o-l__f-2-row">
 
-    <nav class="[ c-navigation-main ] u-spacers  o-l__f-row-justify-end">
-      <span class="u-space">
-        <a href="" class="c-navigation-main__link">About</a>
-      </span>
-      <span class="u-space">
-        <a href="" class="c-navigation-main__link">Work</a>
-      </span>
-      <span class="u-space">
-        <a href="" class="c-navigation-main__link">Contact</a>
-      </span>
-      <span class="u-space">
-        <a href="" class="c-navigation-main__link--icon c-navigation-main__link"><i class="fab fa-twitter"></i></a>
-      </span>
-    </nav>
+    <%= render 'shared/nav_main' %>
 
     <section class="c-article o-l__f-2-row-1   o-l__f-col-justify-start"> 
 
@@ -52,10 +39,10 @@
         </div>
 
         <div class="u-space-lg">
-          <a href="#" class="[ c-button c-button-icon ]">
+          <%= link_to skills_path, class: '[ c-button c-button-icon ]' do %>
             <i class="[ c-button-icon__icon ] fa fa-arrow-down"></i>
             <span class="[ c-button-icon__text ]">Skills</span>
-          </a>
+          <% end %>
         </div>
 
       </div>
