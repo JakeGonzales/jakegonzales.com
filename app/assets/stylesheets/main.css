@@ -2237,7 +2237,6 @@ a {
   width: 30%;
   height: 15%;
   border-radius: 50%;
-  background: orange;
   opacity: 1; }
 
 .c-visor__stars {
@@ -2336,6 +2335,10 @@ a {
 \*------------------------------------*/
 .u-negative--blue {
   background: #3069C5;
+  color: #ffffff; }
+
+.u-negative--grey {
+  background: #B1AD95;
   color: #ffffff; }
 
 /*------------------------------------*\
