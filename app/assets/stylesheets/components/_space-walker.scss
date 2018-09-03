@@ -41,20 +41,34 @@
       height: 15%;
       border-radius: 50%;
 
-      background: orange;
-      opacity: 0.1;
+      opacity: 1;
 
       // animation: emergency-light 1s linear infinite;
     }
 
-@keyframes emergency-light {
-  0%, 100%{
-    box-shadow: inset 0 0 60px red;
-  }
-  50%{
-    box-shadow: inset 0 0 0px red;
-  }
-}
+      $deep-space-width: 1041px;
+      .c-visor__stars {
+        background: transparent url(jeremy-perkins-390608-unsplash__tilable.jpg) repeat top left;
+        filter: contrast(1.9);
+
+        height: 100%;
+        width: $deep-space-width * 7;
+        animation: slow-scroll 550s linear infinite;
+
+        position: absolute;
+          top: 0;
+          left: 0;
+      }
+
+
+// @keyframes emergency-light {
+//   0%, 100%{
+//     box-shadow: inset 0 0 60px red;
+//   }
+//   50%{
+//     box-shadow: inset 0 0 0px red;
+//   }
+// }
 
 
 /*------------------------------------*\

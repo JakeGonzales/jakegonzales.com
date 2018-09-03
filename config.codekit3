@@ -76,6 +76,17 @@
 		"opt": 1,
 		"q": 50
 		},
+	"\/app\/assets\/images\/moon-walk-faceless--chopped--clear-visor.png": {
+		"ft": 32768,
+		"iS": 1262541,
+		"oA": 0,
+		"oAP": "\/app\/assets\/images\/moon-walk-faceless--chopped--clear-visor.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/app\/assets\/images\/umbilical-cable.png": {
 		"ft": 32768,
 		"iS": 106623,
