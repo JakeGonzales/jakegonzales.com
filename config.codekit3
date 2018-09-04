@@ -125,6 +125,16 @@
 		"oAP": "\/app\/assets\/javascripts\/channels\/.keep",
 		"oF": 0
 		},
+	"\/app\/assets\/javascripts\/vendor\/fontawesome\/all.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/app\/assets\/javascripts\/vendor\/fontawesome\/all-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/app\/assets\/stylesheets\/application.css": {
 		"aP": 1,
 		"bl": 0,
