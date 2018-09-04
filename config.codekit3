@@ -566,6 +566,13 @@
 		"oAP": "\/app\/views\/pages\/skills.html.erb",
 		"oF": 0
 		},
+	"\/app\/views\/pages\/work.html.erb": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/app\/views\/pages\/work.html.erb",
+		"oF": 0
+		},
 	"\/app\/views\/shared\/_nav_main.html.erb": {
 		"cB": 0,
 		"ft": 8192,

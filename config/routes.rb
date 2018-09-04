@@ -7,5 +7,6 @@ Rails.application.routes.draw do
 
   # Static Pages
   get '/skills', to: 'pages#skills', as: 'skills'
+  get '/work', to: 'pages#work', as: 'work'
 
 end
