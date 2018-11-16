@@ -1,0 +1,68 @@
+/*------------------------------------*\
+  # COLOURS
+\*------------------------------------*/
+
+
+// Common color
+$color__white: #ffffff;
+$color__black: #000000;
+$color__blue-nasa: #3069C5;
+$color__red-nasa: #CB2B40;
+$color__grey-warm-nasa: #B1AD95;
+
+
+// Theme/Brand color
+$color__primary  : $color__blue-nasa;
+$color__secondary: $color__grey-warm-nasa;
+$color__tertiary : $color__red-nasa;
+
+
+// Social network color 
+$color__facebook : #3b5998;
+$color__twitter  : #5ea9dd;
+$color__instagram: #683d2f;
+
+
+// State color
+$color__positive:   mediumseagreen;
+$color__negative:   firebrick;
+$color__highlight:  $color__white;
+$color__highlight-text: $color__white;
+
+
+
+
+
+// Text color
+$color__text-main       : $color__black;
+$color__text-headings   : $color__text-main;
+$color__text-highlight  : $color__primary; 
+$color__link            : $color__primary;
+$color__link-visited    : darken($color__link, 25%);
+$color__link-hover      : $color__link;
+$color__text-input      : $color__text-main;
+$color__text-input-focus: darken($color__text-main, 33%);
+$color__text-screen     : #21759b;
+
+
+// Background color
+$color__background-body  : $color__white;
+$color__background-screen: #f1f1f1;
+$color__background-hr    : $color__text-main;
+$color__background-button: #c8c8c8;
+$color__background-pre   : #eeeeee;
+$color__background-ins   : #fff9c0;
+
+
+// Border Color
+$color__border-button      : #cccccc  #cccccc  #bbbbbb;
+$color__border-button-hover: #cccccc  #bbbbbb  #aaaaaa;
+$color__border-button-focus: #aaaaaa  #bbbbbb  #bbbbbb;
+$color__border-input       : #cccccc;
+$color__border-abbr        : #666666;
+
+
+// Buttons
+$color__btn       : $color__black;
+$color__btn-border: $color__primary;
+$color__btn-text  : $color__white;

@@ -1,0 +1,98 @@
+/*------------------------------------*\
+  # COMPONENT STRUCTURE
+
+  In here I'll be going for an Atomic structure.
+
+  Source: https://webdesign.tutsplus.com/articles/structuring-sass-saying-goodbye-to-atomic-design-ambiguity--cms-26679
+
+  ## Config
+  - vars
+  - functions
+  - mixins
+
+  ## UI 
+  - base
+  - typography
+  - plugins
+  - toolbox
+  - components
+  - layout
+  - pages
+  - utility
+  main.scss
+  main.css
+
+\*------------------------------------*/
+
+
+
+/*------------------------------------*\
+  # SETTINGS and VARIABLES
+\*------------------------------------*/
+
+// Colors
+@import "settings-variables/colors";
+// Z-Indexes
+@import "settings-variables/zindex";
+// Temporarily here until I can remove normalize as a dependency 
+@import "layout/layout-settings";
+
+/*------------------------------------*\
+  # BASE
+\*------------------------------------*/
+
+// @import "base/normalize";
+
+/*------------------------------------*\
+  # TYPOGRAPHY
+\*------------------------------------*/
+
+@import "typography/fonts";
+@import "typography/copy";
+@import "typography/headings";
+@import "typography/links";
+@import "typography/everything";
+
+/*------------------------------------*\
+  # BUTTONS
+\*------------------------------------*/
+
+@import "components/buttons";
+@import "components/articles";
+
+/*------------------------------------*\
+  # NAVIGATION
+\*------------------------------------*/
+
+@import "components/navigation-main";
+
+/*------------------------------------*\
+  # SPACE SCENES AND ASTRONAUTS
+
+  Astronauts and accessories need to come
+  before the scenes
+\*------------------------------------*/
+
+@import "components/space-walker";
+@import "components/deep-space";
+
+/*------------------------------------*\
+  # UTILITIES
+\*------------------------------------*/
+
+@import "utility/negative";
+
+/*------------------------------------*\
+  # LAYOUT
+\*------------------------------------*/
+
+// Layout Settings
+@import "layout/layout-utilities";
+@import "layout/layout";
+
+
+
+
+
+
+

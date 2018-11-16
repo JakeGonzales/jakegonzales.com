@@ -1,0 +1,18 @@
+/*------------------------------------*\
+  # COPY
+\*------------------------------------*/
+
+body {
+ font-family: $font__sans-serif;
+ font-size: 18px;
+ color: $color__black;
+}
+
+b,
+strong {
+  font-weight: 600; // Heavy
+}
+
+p {
+  margin: 0;
+}

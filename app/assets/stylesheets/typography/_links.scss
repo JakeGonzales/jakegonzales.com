@@ -1,0 +1,14 @@
+/*------------------------------------*\
+  # LINKS
+\*------------------------------------*/
+
+a {
+  color: $color__link;
+  text-decoration: none;
+
+  &:hover {
+    color: $color__white;
+    background: $color__link;
+  }
+
+}
