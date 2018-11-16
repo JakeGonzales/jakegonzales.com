@@ -1,5 +1,7 @@
 run.config:
   engine: ruby
+  engine.config:
+    runtime: ruby-2.4.4
   extra_packages:
     - nodejs
     - pkgconf

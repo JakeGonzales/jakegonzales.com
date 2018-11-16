@@ -1,5 +1,5 @@
 {
-"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and\/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https:\/\/codekitapp.com\/",
+"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https://codekitapp.com/",
 "buildSteps": [
 	{
 		"name": "Process All Remaining Files and Folders",
@@ -7,145 +7,138 @@
 		"uuidString": "B96897F7-7FCC-4923-A04F-D4AC72CEF478"
 		}
 	],
-"creatorBuild": "26680",
+"creatorBuild": "28905",
 "files": {
-	"\/.babelrc": {
+	"/.babelrc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/.babelrc",
+		"oAP": "/.babelrc",
 		"oF": 0
 		},
-	"\/.gitignore": {
+	"/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/.gitignore",
+		"oAP": "/.gitignore",
 		"oF": 0
 		},
-	"\/.postcssrc.yml": {
+	"/.postcssrc.yml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/.postcssrc.yml",
+		"oAP": "/.postcssrc.yml",
 		"oF": 0
 		},
-	"\/.ruby-version": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/.ruby-version",
-		"oF": 0
-		},
-	"\/app\/assets\/config\/manifest.js": {
+	"/app/assets/config/manifest.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/app\/assets\/config\/manifest-min.js",
+		"oAP": "/app/assets/config/manifest-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/app\/assets\/images\/.keep": {
+	"/app/assets/images/.keep": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/app\/assets\/images\/.keep",
+		"oAP": "/app/assets/images/.keep",
 		"oF": 0
 		},
-	"\/app\/assets\/images\/astronaut--spacewalker.png": {
+	"/app/assets/images/astronaut--spacewalker.png": {
 		"ft": 32768,
 		"iS": 1290423,
 		"oA": 0,
-		"oAP": "\/app\/assets\/images\/astronaut--spacewalker.png",
+		"oAP": "/app/assets/images/astronaut--spacewalker.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/app\/assets\/images\/jeremy-perkins-390608-unsplash__tilable.jpg": {
+	"/app/assets/images/jeremy-perkins-390608-unsplash__tilable.jpg": {
 		"ft": 16384,
 		"iS": 1268801,
 		"jF": 2,
 		"oA": 0,
-		"oAP": "\/app\/assets\/images\/jeremy-perkins-390608-unsplash__tilable.jpg",
+		"oAP": "/app/assets/images/jeremy-perkins-390608-unsplash__tilable.jpg",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"q": 50
 		},
-	"\/app\/assets\/images\/moon-walk-faceless--chopped--clear-visor.png": {
+	"/app/assets/images/moon-walk-faceless--chopped--clear-visor.png": {
 		"ft": 32768,
 		"iS": 1262541,
 		"oA": 0,
-		"oAP": "\/app\/assets\/images\/moon-walk-faceless--chopped--clear-visor.png",
+		"oAP": "/app/assets/images/moon-walk-faceless--chopped--clear-visor.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/app\/assets\/images\/umbilical-cable.png": {
+	"/app/assets/images/umbilical-cable.png": {
 		"ft": 32768,
 		"iS": 106623,
 		"oA": 0,
-		"oAP": "\/app\/assets\/images\/umbilical-cable.png",
+		"oAP": "/app/assets/images/umbilical-cable.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/app\/assets\/javascripts\/application.js": {
+	"/app/assets/javascripts/application.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/app\/assets\/javascripts\/application-min.js",
+		"oAP": "/app/assets/javascripts/application-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/app\/assets\/javascripts\/cable.js": {
+	"/app/assets/javascripts/cable.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/app\/assets\/javascripts\/cable-min.js",
+		"oAP": "/app/assets/javascripts/cable-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/app\/assets\/javascripts\/channels\/.keep": {
+	"/app/assets/javascripts/channels/.keep": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/app\/assets\/javascripts\/channels\/.keep",
+		"oAP": "/app/assets/javascripts/channels/.keep",
 		"oF": 0
 		},
-	"\/app\/assets\/javascripts\/vendor\/fontawesome\/all.js": {
+	"/app/assets/javascripts/vendor/fontawesome/all.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/app\/assets\/javascripts\/vendor\/fontawesome\/all-min.js",
+		"oAP": "/app/assets/javascripts/vendor/fontawesome/all-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/app\/assets\/stylesheets\/application.css": {
+	"/app/assets/stylesheets/application.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/app\/assets\/stylesheets\/application-min.css",
+		"oAP": "/app/assets/stylesheets/application-min.css",
 		"oF": 1,
 		"oS": 3
 		},
-	"\/app\/assets\/stylesheets\/base\/_normalize.scss": {
+	"/app/assets/stylesheets/base/_normalize.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -153,12 +146,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/app\/assets\/stylesheets\/base\/_normalize.css",
+		"oAP": "/app/assets/stylesheets/base/_normalize.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/assets\/stylesheets\/components\/_articles.scss": {
+	"/app/assets/stylesheets/components/_articles.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -166,12 +159,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/app\/assets\/stylesheets\/components\/_articles.css",
+		"oAP": "/app/assets/stylesheets/components/_articles.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/assets\/stylesheets\/components\/_buttons.scss": {
+	"/app/assets/stylesheets/components/_buttons.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -179,12 +172,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/app\/assets\/stylesheets\/components\/_buttons.css",
+		"oAP": "/app/assets/stylesheets/components/_buttons.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/assets\/stylesheets\/components\/_deep-space.scss": {
+	"/app/assets/stylesheets/components/_deep-space.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -192,12 +185,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/app\/assets\/stylesheets\/components\/_deep-space.css",
+		"oAP": "/app/assets/stylesheets/components/_deep-space.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/assets\/stylesheets\/components\/_navigation-main.scss": {
+	"/app/assets/stylesheets/components/_navigation-main.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -205,12 +198,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/app\/assets\/stylesheets\/components\/_navigation-main.css",
+		"oAP": "/app/assets/stylesheets/components/_navigation-main.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/assets\/stylesheets\/components\/_space-walker.scss": {
+	"/app/assets/stylesheets/components/_space-walker.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -218,12 +211,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/app\/assets\/stylesheets\/components\/_space-walker.css",
+		"oAP": "/app/assets/stylesheets/components/_space-walker.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/assets\/stylesheets\/layout\/_layout-settings.scss": {
+	"/app/assets/stylesheets/layout/_layout-settings.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -231,12 +224,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/app\/assets\/stylesheets\/layout\/_layout-settings.css",
+		"oAP": "/app/assets/stylesheets/layout/_layout-settings.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/assets\/stylesheets\/layout\/_layout-utilities.scss": {
+	"/app/assets/stylesheets/layout/_layout-utilities.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -244,12 +237,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/app\/assets\/stylesheets\/layout\/_layout-utilities.css",
+		"oAP": "/app/assets/stylesheets/layout/_layout-utilities.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/assets\/stylesheets\/layout\/_layout.scss": {
+	"/app/assets/stylesheets/layout/_layout.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -257,29 +250,29 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/app\/assets\/stylesheets\/layout\/_layout.css",
+		"oAP": "/app/assets/stylesheets/layout/_layout.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/assets\/stylesheets\/main.css": {
+	"/app/assets/stylesheets/main.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/app\/assets\/stylesheets\/main-min.css",
+		"oAP": "/app/assets/stylesheets/main-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/app\/assets\/stylesheets\/main.css.map": {
+	"/app/assets/stylesheets/main.css.map": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/app\/assets\/stylesheets\/main.css.map",
+		"oAP": "/app/assets/stylesheets/main.css.map",
 		"oF": 0
 		},
-	"\/app\/assets\/stylesheets\/main.scss": {
+	"/app/assets/stylesheets/main.scss": {
 		"aP": 1,
 		"bl": 1,
 		"dP": 10,
@@ -287,12 +280,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 0,
-		"oAP": "\/app\/assets\/stylesheets\/main.css",
+		"oAP": "/app/assets/stylesheets/main.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/assets\/stylesheets\/settings-variables\/_colors.scss": {
+	"/app/assets/stylesheets/settings-variables/_colors.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -300,12 +293,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/app\/assets\/stylesheets\/settings-variables\/_colors.css",
+		"oAP": "/app/assets/stylesheets/settings-variables/_colors.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/assets\/stylesheets\/settings-variables\/_zindex.scss": {
+	"/app/assets/stylesheets/settings-variables/_zindex.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -313,12 +306,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/app\/assets\/stylesheets\/settings-variables\/_zindex.css",
+		"oAP": "/app/assets/stylesheets/settings-variables/_zindex.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/assets\/stylesheets\/typography\/_copy.scss": {
+	"/app/assets/stylesheets/typography/_copy.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -326,12 +319,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/app\/assets\/stylesheets\/typography\/_copy.css",
+		"oAP": "/app/assets/stylesheets/typography/_copy.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/assets\/stylesheets\/typography\/_everything.scss": {
+	"/app/assets/stylesheets/typography/_everything.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -339,12 +332,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/app\/assets\/stylesheets\/typography\/_everything.css",
+		"oAP": "/app/assets/stylesheets/typography/_everything.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/assets\/stylesheets\/typography\/_fonts.scss": {
+	"/app/assets/stylesheets/typography/_fonts.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -352,12 +345,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/app\/assets\/stylesheets\/typography\/_fonts.css",
+		"oAP": "/app/assets/stylesheets/typography/_fonts.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/assets\/stylesheets\/typography\/_headings.scss": {
+	"/app/assets/stylesheets/typography/_headings.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -365,12 +358,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/app\/assets\/stylesheets\/typography\/_headings.css",
+		"oAP": "/app/assets/stylesheets/typography/_headings.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/assets\/stylesheets\/typography\/_links.scss": {
+	"/app/assets/stylesheets/typography/_links.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -378,12 +371,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/app\/assets\/stylesheets\/typography\/_links.css",
+		"oAP": "/app/assets/stylesheets/typography/_links.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/assets\/stylesheets\/utility\/_negative.scss": {
+	"/app/assets/stylesheets/utility/_negative.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -391,573 +384,573 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/app\/assets\/stylesheets\/utility\/_negative.css",
+		"oAP": "/app/assets/stylesheets/utility/_negative.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/app\/channels\/application_cable\/channel.rb": {
+	"/app/channels/application_cable/channel.rb": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/app\/channels\/application_cable\/channel.rb",
+		"oAP": "/app/channels/application_cable/channel.rb",
 		"oF": 0
 		},
-	"\/app\/channels\/application_cable\/connection.rb": {
+	"/app/channels/application_cable/connection.rb": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/app\/channels\/application_cable\/connection.rb",
+		"oAP": "/app/channels/application_cable/connection.rb",
 		"oF": 0
 		},
-	"\/app\/controllers\/application_controller.rb": {
+	"/app/controllers/application_controller.rb": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/app\/controllers\/application_controller.rb",
+		"oAP": "/app/controllers/application_controller.rb",
 		"oF": 0
 		},
-	"\/app\/controllers\/concerns\/.keep": {
+	"/app/controllers/concerns/.keep": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/app\/controllers\/concerns\/.keep",
+		"oAP": "/app/controllers/concerns/.keep",
 		"oF": 0
 		},
-	"\/app\/controllers\/hello_world_controller.rb": {
+	"/app/controllers/hello_world_controller.rb": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/app\/controllers\/hello_world_controller.rb",
+		"oAP": "/app/controllers/hello_world_controller.rb",
 		"oF": 0
 		},
-	"\/app\/controllers\/pages_controller.rb": {
+	"/app/controllers/pages_controller.rb": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/app\/controllers\/pages_controller.rb",
+		"oAP": "/app/controllers/pages_controller.rb",
 		"oF": 0
 		},
-	"\/app\/helpers\/application_helper.rb": {
+	"/app/helpers/application_helper.rb": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/app\/helpers\/application_helper.rb",
+		"oAP": "/app/helpers/application_helper.rb",
 		"oF": 0
 		},
-	"\/app\/helpers\/pages_helper.rb": {
+	"/app/helpers/pages_helper.rb": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/app\/helpers\/pages_helper.rb",
+		"oAP": "/app/helpers/pages_helper.rb",
 		"oF": 0
 		},
-	"\/app\/javascript\/bundles\/HelloWorld\/components\/HelloWorld.jsx": {
+	"/app/javascript/bundles/HelloWorld/components/HelloWorld.jsx": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/app\/javascript\/bundles\/HelloWorld\/components\/HelloWorld-min.js",
+		"oAP": "/app/javascript/bundles/HelloWorld/components/HelloWorld-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/app\/javascript\/packs\/application.js": {
+	"/app/javascript/packs/application.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/app\/javascript\/packs\/application-min.js",
+		"oAP": "/app/javascript/packs/application-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/app\/javascript\/packs\/hello-world-bundle.js": {
+	"/app/javascript/packs/hello-world-bundle.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/app\/javascript\/packs\/hello-world-bundle-min.js",
+		"oAP": "/app/javascript/packs/hello-world-bundle-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/app\/javascript\/packs\/hello_react.jsx": {
+	"/app/javascript/packs/hello_react.jsx": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/app\/javascript\/packs\/hello_react-min.js",
+		"oAP": "/app/javascript/packs/hello_react-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/app\/jobs\/application_job.rb": {
+	"/app/jobs/application_job.rb": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/app\/jobs\/application_job.rb",
+		"oAP": "/app/jobs/application_job.rb",
 		"oF": 0
 		},
-	"\/app\/mailers\/application_mailer.rb": {
+	"/app/mailers/application_mailer.rb": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/app\/mailers\/application_mailer.rb",
+		"oAP": "/app/mailers/application_mailer.rb",
 		"oF": 0
 		},
-	"\/app\/models\/application_record.rb": {
+	"/app/models/application_record.rb": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/app\/models\/application_record.rb",
+		"oAP": "/app/models/application_record.rb",
 		"oF": 0
 		},
-	"\/app\/models\/concerns\/.keep": {
+	"/app/models/concerns/.keep": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/app\/models\/concerns\/.keep",
+		"oAP": "/app/models/concerns/.keep",
 		"oF": 0
 		},
-	"\/app\/views\/hello_world\/index.html.erb": {
+	"/app/views/hello_world/index.html.erb": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/app\/views\/hello_world\/index.html.erb",
+		"oAP": "/app/views/hello_world/index.html.erb",
 		"oF": 0
 		},
-	"\/app\/views\/layouts\/application.html.erb": {
+	"/app/views/layouts/application.html.erb": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/app\/views\/layouts\/application.html.erb",
+		"oAP": "/app/views/layouts/application.html.erb",
 		"oF": 0
 		},
-	"\/app\/views\/layouts\/hello_world.html.erb": {
+	"/app/views/layouts/hello_world.html.erb": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/app\/views\/layouts\/hello_world.html.erb",
+		"oAP": "/app/views/layouts/hello_world.html.erb",
 		"oF": 0
 		},
-	"\/app\/views\/layouts\/mailer.html.erb": {
+	"/app/views/layouts/mailer.html.erb": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/app\/views\/layouts\/mailer.html.erb",
+		"oAP": "/app/views/layouts/mailer.html.erb",
 		"oF": 0
 		},
-	"\/app\/views\/layouts\/mailer.text.erb": {
+	"/app/views/layouts/mailer.text.erb": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/app\/views\/layouts\/mailer.text.erb",
+		"oAP": "/app/views/layouts/mailer.text.erb",
 		"oF": 0
 		},
-	"\/app\/views\/pages\/components.html.erb": {
+	"/app/views/pages/components.html.erb": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/app\/views\/pages\/components.html.erb",
+		"oAP": "/app/views/pages/components.html.erb",
 		"oF": 0
 		},
-	"\/app\/views\/pages\/home.html.erb": {
+	"/app/views/pages/home.html.erb": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/app\/views\/pages\/home.html.erb",
+		"oAP": "/app/views/pages/home.html.erb",
 		"oF": 0
 		},
-	"\/app\/views\/pages\/skills.html.erb": {
+	"/app/views/pages/skills.html.erb": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/app\/views\/pages\/skills.html.erb",
+		"oAP": "/app/views/pages/skills.html.erb",
 		"oF": 0
 		},
-	"\/app\/views\/pages\/work.html.erb": {
+	"/app/views/pages/work.html.erb": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/app\/views\/pages\/work.html.erb",
+		"oAP": "/app/views/pages/work.html.erb",
 		"oF": 0
 		},
-	"\/app\/views\/shared\/_nav_main.html.erb": {
+	"/app/views/shared/_nav_main.html.erb": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/app\/views\/shared\/_nav_main.html.erb",
+		"oAP": "/app/views/shared/_nav_main.html.erb",
 		"oF": 0
 		},
-	"\/bin\/bundle": {
+	"/bin/bundle": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/bin\/bundle",
+		"oAP": "/bin/bundle",
 		"oF": 0
 		},
-	"\/bin\/rails": {
+	"/bin/rails": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/bin\/rails",
+		"oAP": "/bin/rails",
 		"oF": 0
 		},
-	"\/bin\/rake": {
+	"/bin/rake": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/bin\/rake",
+		"oAP": "/bin/rake",
 		"oF": 0
 		},
-	"\/bin\/setup": {
+	"/bin/setup": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/bin\/setup",
+		"oAP": "/bin/setup",
 		"oF": 0
 		},
-	"\/bin\/spring": {
+	"/bin/spring": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/bin\/spring",
+		"oAP": "/bin/spring",
 		"oF": 0
 		},
-	"\/bin\/update": {
+	"/bin/update": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/bin\/update",
+		"oAP": "/bin/update",
 		"oF": 0
 		},
-	"\/bin\/webpack": {
+	"/bin/webpack": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/bin\/webpack",
+		"oAP": "/bin/webpack",
 		"oF": 0
 		},
-	"\/bin\/webpack-dev-server": {
+	"/bin/webpack-dev-server": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/bin\/webpack-dev-server",
+		"oAP": "/bin/webpack-dev-server",
 		"oF": 0
 		},
-	"\/bin\/yarn": {
+	"/bin/yarn": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/bin\/yarn",
+		"oAP": "/bin/yarn",
 		"oF": 0
 		},
-	"\/boxfile.yml": {
+	"/boxfile.yml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/boxfile.yml",
+		"oAP": "/boxfile.yml",
 		"oF": 0
 		},
-	"\/config.ru": {
+	"/config.ru": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/config.ru",
+		"oAP": "/config.ru",
 		"oF": 0
 		},
-	"\/config\/application.rb": {
+	"/config/application.rb": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/config\/application.rb",
+		"oAP": "/config/application.rb",
 		"oF": 0
 		},
-	"\/config\/boot.rb": {
+	"/config/boot.rb": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/config\/boot.rb",
+		"oAP": "/config/boot.rb",
 		"oF": 0
 		},
-	"\/config\/cable.yml": {
+	"/config/cable.yml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/config\/cable.yml",
+		"oAP": "/config/cable.yml",
 		"oF": 0
 		},
-	"\/config\/credentials.yml.enc": {
+	"/config/credentials.yml.enc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/config\/credentials.yml.enc",
+		"oAP": "/config/credentials.yml.enc",
 		"oF": 0
 		},
-	"\/config\/database.yml": {
+	"/config/database.yml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/config\/database.yml",
+		"oAP": "/config/database.yml",
 		"oF": 0
 		},
-	"\/config\/environment.rb": {
+	"/config/environment.rb": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/config\/environment.rb",
+		"oAP": "/config/environment.rb",
 		"oF": 0
 		},
-	"\/config\/environments\/development.rb": {
+	"/config/environments/development.rb": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/config\/environments\/development.rb",
+		"oAP": "/config/environments/development.rb",
 		"oF": 0
 		},
-	"\/config\/environments\/production.rb": {
+	"/config/environments/production.rb": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/config\/environments\/production.rb",
+		"oAP": "/config/environments/production.rb",
 		"oF": 0
 		},
-	"\/config\/environments\/test.rb": {
+	"/config/environments/test.rb": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/config\/environments\/test.rb",
+		"oAP": "/config/environments/test.rb",
 		"oF": 0
 		},
-	"\/config\/initializers\/application_controller_renderer.rb": {
+	"/config/initializers/application_controller_renderer.rb": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/config\/initializers\/application_controller_renderer.rb",
+		"oAP": "/config/initializers/application_controller_renderer.rb",
 		"oF": 0
 		},
-	"\/config\/initializers\/assets.rb": {
+	"/config/initializers/assets.rb": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/config\/initializers\/assets.rb",
+		"oAP": "/config/initializers/assets.rb",
 		"oF": 0
 		},
-	"\/config\/initializers\/backtrace_silencers.rb": {
+	"/config/initializers/backtrace_silencers.rb": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/config\/initializers\/backtrace_silencers.rb",
+		"oAP": "/config/initializers/backtrace_silencers.rb",
 		"oF": 0
 		},
-	"\/config\/initializers\/content_security_policy.rb": {
+	"/config/initializers/content_security_policy.rb": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/config\/initializers\/content_security_policy.rb",
+		"oAP": "/config/initializers/content_security_policy.rb",
 		"oF": 0
 		},
-	"\/config\/initializers\/cookies_serializer.rb": {
+	"/config/initializers/cookies_serializer.rb": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/config\/initializers\/cookies_serializer.rb",
+		"oAP": "/config/initializers/cookies_serializer.rb",
 		"oF": 0
 		},
-	"\/config\/initializers\/filter_parameter_logging.rb": {
+	"/config/initializers/filter_parameter_logging.rb": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/config\/initializers\/filter_parameter_logging.rb",
+		"oAP": "/config/initializers/filter_parameter_logging.rb",
 		"oF": 0
 		},
-	"\/config\/initializers\/inflections.rb": {
+	"/config/initializers/inflections.rb": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/config\/initializers\/inflections.rb",
+		"oAP": "/config/initializers/inflections.rb",
 		"oF": 0
 		},
-	"\/config\/initializers\/mime_types.rb": {
+	"/config/initializers/mime_types.rb": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/config\/initializers\/mime_types.rb",
+		"oAP": "/config/initializers/mime_types.rb",
 		"oF": 0
 		},
-	"\/config\/initializers\/react_on_rails.rb": {
+	"/config/initializers/react_on_rails.rb": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/config\/initializers\/react_on_rails.rb",
+		"oAP": "/config/initializers/react_on_rails.rb",
 		"oF": 0
 		},
-	"\/config\/initializers\/wrap_parameters.rb": {
+	"/config/initializers/wrap_parameters.rb": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/config\/initializers\/wrap_parameters.rb",
+		"oAP": "/config/initializers/wrap_parameters.rb",
 		"oF": 0
 		},
-	"\/config\/locales\/en.yml": {
+	"/config/locales/en.yml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/config\/locales\/en.yml",
+		"oAP": "/config/locales/en.yml",
 		"oF": 0
 		},
-	"\/config\/master.key": {
+	"/config/master.key": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/config\/master.key",
+		"oAP": "/config/master.key",
 		"oF": 0
 		},
-	"\/config\/puma.rb": {
+	"/config/puma.rb": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/config\/puma.rb",
+		"oAP": "/config/puma.rb",
 		"oF": 0
 		},
-	"\/config\/routes.rb": {
+	"/config/routes.rb": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/config\/routes.rb",
+		"oAP": "/config/routes.rb",
 		"oF": 0
 		},
-	"\/config\/spring.rb": {
+	"/config/spring.rb": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/config\/spring.rb",
+		"oAP": "/config/spring.rb",
 		"oF": 0
 		},
-	"\/config\/storage.yml": {
+	"/config/storage.yml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/config\/storage.yml",
+		"oAP": "/config/storage.yml",
 		"oF": 0
 		},
-	"\/config\/webpack\/development.js": {
+	"/config/webpack/development.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/config\/webpack\/development-min.js",
+		"oAP": "/config/webpack/development-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/config\/webpack\/environment.js": {
+	"/config/webpack/environment.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/config\/webpack\/environment-min.js",
+		"oAP": "/config/webpack/environment-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/config\/webpack\/production.js": {
+	"/config/webpack/production.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/config\/webpack\/production-min.js",
+		"oAP": "/config/webpack/production-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/config\/webpack\/test.js": {
+	"/config/webpack/test.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/config\/webpack\/test-min.js",
+		"oAP": "/config/webpack/test-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/config\/webpacker.yml": {
+	"/config/webpacker.yml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/config\/webpacker.yml",
+		"oAP": "/config/webpacker.yml",
 		"oF": 0
 		},
-	"\/db\/development.sqlite3": {
+	"/db/development.sqlite3": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/db\/development.sqlite3",
+		"oAP": "/db/development.sqlite3",
 		"oF": 0
 		},
-	"\/db\/schema.rb": {
+	"/db/schema.rb": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/db\/schema.rb",
+		"oAP": "/db/schema.rb",
 		"oF": 0
 		},
-	"\/db\/seeds.rb": {
+	"/db/seeds.rb": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/db\/seeds.rb",
+		"oAP": "/db/seeds.rb",
 		"oF": 0
 		},
-	"\/db\/test.sqlite3": {
+	"/db/test.sqlite3": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/db\/test.sqlite3",
+		"oAP": "/db/test.sqlite3",
 		"oF": 0
 		},
-	"\/Gemfile": {
+	"/Gemfile": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/Gemfile",
+		"oAP": "/Gemfile",
 		"oF": 0
 		},
-	"\/Gemfile.lock": {
+	"/Gemfile.lock": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/Gemfile.lock",
+		"oAP": "/Gemfile.lock",
 		"oF": 0
 		},
-	"\/lib\/assets\/.keep": {
+	"/lib/assets/.keep": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/lib\/assets\/.keep",
+		"oAP": "/lib/assets/.keep",
 		"oF": 0
 		},
-	"\/lib\/tasks\/.keep": {
+	"/lib/tasks/.keep": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/lib\/tasks\/.keep",
+		"oAP": "/lib/tasks/.keep",
 		"oF": 0
 		},
-	"\/log": {
+	"/log": {
 		"ft": 65536,
 		"oA": 1,
-		"oAP": "\/build\/log",
+		"oAP": "/build/log",
 		"oF": 0
 		},
-	"\/node_modules": {
+	"/node_modules": {
 		"ft": 65536,
 		"oA": 2,
-		"oAP": "\/build\/node_modules",
+		"oAP": "/build/node_modules",
 		"oF": 0
 		},
-	"\/node_modules\/frow\/_variables.sass": {
+	"/node_modules/frow/_variables.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -965,12 +958,12 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/node_modules\/frow\/_variables.css",
+		"oAP": "/node_modules/frow/_variables.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/node_modules\/frow\/frow.sass": {
+	"/node_modules/frow/frow.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -978,12 +971,12 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/node_modules\/frow\/frow.css",
+		"oAP": "/node_modules/frow/frow.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/node_modules\/frow\/src\/_flexbox.sass": {
+	"/node_modules/frow/src/_flexbox.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -991,12 +984,12 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/node_modules\/frow\/src\/_flexbox.css",
+		"oAP": "/node_modules/frow/src/_flexbox.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/node_modules\/frow\/src\/_grid.sass": {
+	"/node_modules/frow/src/_grid.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1004,12 +997,12 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/node_modules\/frow\/src\/_grid.css",
+		"oAP": "/node_modules/frow/src/_grid.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/node_modules\/frow\/src\/_normalize.sass": {
+	"/node_modules/frow/src/_normalize.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1017,12 +1010,12 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/node_modules\/frow\/src\/_normalize.css",
+		"oAP": "/node_modules/frow/src/_normalize.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/node_modules\/frow\/src\/_responsive-utilities.sass": {
+	"/node_modules/frow/src/_responsive-utilities.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1030,12 +1023,12 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/node_modules\/frow\/src\/_responsive-utilities.css",
+		"oAP": "/node_modules/frow/src/_responsive-utilities.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/node_modules\/frow\/src\/_scaffolding.sass": {
+	"/node_modules/frow/src/_scaffolding.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1043,12 +1036,12 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/node_modules\/frow\/src\/_scaffolding.css",
+		"oAP": "/node_modules/frow/src/_scaffolding.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/node_modules\/frow\/src\/_utilities.sass": {
+	"/node_modules/frow/src/_utilities.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1056,165 +1049,165 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/node_modules\/frow\/src\/_utilities.css",
+		"oAP": "/node_modules/frow/src/_utilities.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/package-lock.json": {
+	"/package-lock.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/package-lock-min.json",
+		"oAP": "/package-lock-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/package.json": {
+	"/package.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/package-min.json",
+		"oAP": "/package-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/Procfile.dev": {
+	"/Procfile.dev": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/Procfile.dev",
+		"oAP": "/Procfile.dev",
 		"oF": 0
 		},
-	"\/Procfile.dev-server": {
+	"/Procfile.dev-server": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/Procfile.dev-server",
+		"oAP": "/Procfile.dev-server",
 		"oF": 0
 		},
-	"\/public\/404.html": {
+	"/public/404.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/public\/404.html",
+		"oAP": "/public/404.html",
 		"oF": 0
 		},
-	"\/public\/422.html": {
+	"/public/422.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/public\/422.html",
+		"oAP": "/public/422.html",
 		"oF": 0
 		},
-	"\/public\/500.html": {
+	"/public/500.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/public\/500.html",
+		"oAP": "/public/500.html",
 		"oF": 0
 		},
-	"\/public\/apple-touch-icon-precomposed.png": {
+	"/public/apple-touch-icon-precomposed.png": {
 		"ft": 32768,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "\/public\/apple-touch-icon-precomposed.png",
+		"oAP": "/public/apple-touch-icon-precomposed.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/public\/apple-touch-icon.png": {
+	"/public/apple-touch-icon.png": {
 		"ft": 32768,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "\/public\/apple-touch-icon.png",
+		"oAP": "/public/apple-touch-icon.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/public\/favicon.ico": {
+	"/public/favicon.ico": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/public\/favicon.ico",
+		"oAP": "/public/favicon.ico",
 		"oF": 0
 		},
-	"\/public\/packs\/application-6cb2ce16bb8aeaa1ca55.js": {
+	"/public/packs/application-6cb2ce16bb8aeaa1ca55.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/public\/packs\/application-6cb2ce16bb8aeaa1ca55-min.js",
+		"oAP": "/public/packs/application-6cb2ce16bb8aeaa1ca55-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/public\/packs\/application-6cb2ce16bb8aeaa1ca55.js.map": {
+	"/public/packs/application-6cb2ce16bb8aeaa1ca55.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/public\/packs\/application-6cb2ce16bb8aeaa1ca55.js.map",
+		"oAP": "/public/packs/application-6cb2ce16bb8aeaa1ca55.js.map",
 		"oF": 0
 		},
-	"\/public\/packs\/hello-world-bundle-d0328b90994cfaf7d956.js": {
+	"/public/packs/hello-world-bundle-d0328b90994cfaf7d956.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/public\/packs\/hello-world-bundle-d0328b90994cfaf7d956-min.js",
+		"oAP": "/public/packs/hello-world-bundle-d0328b90994cfaf7d956-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/public\/packs\/hello-world-bundle-d0328b90994cfaf7d956.js.map": {
+	"/public/packs/hello-world-bundle-d0328b90994cfaf7d956.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/public\/packs\/hello-world-bundle-d0328b90994cfaf7d956.js.map",
+		"oAP": "/public/packs/hello-world-bundle-d0328b90994cfaf7d956.js.map",
 		"oF": 0
 		},
-	"\/public\/packs\/hello_react-dbcf8ad50cfdf9fd1456.js": {
+	"/public/packs/hello_react-dbcf8ad50cfdf9fd1456.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/public\/packs\/hello_react-dbcf8ad50cfdf9fd1456-min.js",
+		"oAP": "/public/packs/hello_react-dbcf8ad50cfdf9fd1456-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/public\/packs\/hello_react-dbcf8ad50cfdf9fd1456.js.map": {
+	"/public/packs/hello_react-dbcf8ad50cfdf9fd1456.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/public\/packs\/hello_react-dbcf8ad50cfdf9fd1456.js.map",
+		"oAP": "/public/packs/hello_react-dbcf8ad50cfdf9fd1456.js.map",
 		"oF": 0
 		},
-	"\/public\/packs\/manifest.json": {
+	"/public/packs/manifest.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/public\/packs\/manifest-min.json",
+		"oAP": "/public/packs/manifest-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/public\/robots.txt": {
+	"/public/robots.txt": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/public\/robots.txt",
+		"oAP": "/public/robots.txt",
 		"oF": 0
 		},
-	"\/Rakefile": {
+	"/Rakefile": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/Rakefile",
+		"oAP": "/Rakefile",
 		"oF": 0
 		},
-	"\/README.md": {
+	"/README.md": {
 		"cB": 0,
 		"cS": 0,
 		"eF": 1,
@@ -1223,7 +1216,7 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"oA": 0,
-		"oAP": "\/README.html",
+		"oAP": "/README.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -1232,139 +1225,139 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/storage\/.keep": {
+	"/storage/.keep": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/storage\/.keep",
+		"oAP": "/storage/.keep",
 		"oF": 0
 		},
-	"\/test\/application_system_test_case.rb": {
+	"/test/application_system_test_case.rb": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/test\/application_system_test_case.rb",
+		"oAP": "/test/application_system_test_case.rb",
 		"oF": 0
 		},
-	"\/test\/controllers\/.keep": {
+	"/test/controllers/.keep": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/test\/controllers\/.keep",
+		"oAP": "/test/controllers/.keep",
 		"oF": 0
 		},
-	"\/test\/fixtures\/.keep": {
+	"/test/fixtures/.keep": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/test\/fixtures\/.keep",
+		"oAP": "/test/fixtures/.keep",
 		"oF": 0
 		},
-	"\/test\/fixtures\/files\/.keep": {
+	"/test/fixtures/files/.keep": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/test\/fixtures\/files\/.keep",
+		"oAP": "/test/fixtures/files/.keep",
 		"oF": 0
 		},
-	"\/test\/helpers\/.keep": {
+	"/test/helpers/.keep": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/test\/helpers\/.keep",
+		"oAP": "/test/helpers/.keep",
 		"oF": 0
 		},
-	"\/test\/integration\/.keep": {
+	"/test/integration/.keep": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/test\/integration\/.keep",
+		"oAP": "/test/integration/.keep",
 		"oF": 0
 		},
-	"\/test\/mailers\/.keep": {
+	"/test/mailers/.keep": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/test\/mailers\/.keep",
+		"oAP": "/test/mailers/.keep",
 		"oF": 0
 		},
-	"\/test\/models\/.keep": {
+	"/test/models/.keep": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/test\/models\/.keep",
+		"oAP": "/test/models/.keep",
 		"oF": 0
 		},
-	"\/test\/system\/.keep": {
+	"/test/system/.keep": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/test\/system\/.keep",
+		"oAP": "/test/system/.keep",
 		"oF": 0
 		},
-	"\/test\/test_helper.rb": {
+	"/test/test_helper.rb": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/test\/test_helper.rb",
+		"oAP": "/test/test_helper.rb",
 		"oF": 0
 		},
-	"\/tmp\/.keep": {
+	"/tmp/.keep": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/tmp\/.keep",
+		"oAP": "/tmp/.keep",
 		"oF": 0
 		},
-	"\/tmp\/cache": {
+	"/tmp/cache": {
 		"ft": 65536,
 		"oA": 1,
-		"oAP": "\/build\/tmp\/cache",
+		"oAP": "/build/tmp/cache",
 		"oF": 0
 		},
-	"\/tmp\/pids\/server.pid": {
+	"/tmp/restart.txt": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/tmp\/pids\/server.pid",
+		"oAP": "/tmp/restart.txt",
 		"oF": 0
 		},
-	"\/tmp\/restart.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/tmp\/restart.txt",
-		"oF": 0
-		},
-	"\/tmp\/server-generated-1.js": {
+	"/tmp/server-generated-1.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/tmp\/server-generated-1-min.js",
+		"oAP": "/tmp/server-generated-1-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/tmp\/storage\/.keep": {
+	"/tmp/storage/.keep": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/tmp\/storage\/.keep",
+		"oAP": "/tmp/storage/.keep",
 		"oF": 0
 		},
-	"\/vendor\/.keep": {
+	"/vendor/.keep": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/vendor\/.keep",
+		"oAP": "/vendor/.keep",
 		"oF": 0
 		},
-	"\/yarn.lock": {
+	"/yarn-error.log": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/yarn.lock",
+		"oAP": "/yarn-error.log",
+		"oF": 0
+		},
+	"/yarn.lock": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/yarn.lock",
 		"oF": 0
 		}
 	},
@@ -1384,141 +1377,94 @@
 	"alwaysUseExternalServer": 1,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
-	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
 	"autoprefixerEnableIEGrid": 0,
+	"babel7PresetType": 1,
+	"babelAllowRCFiles": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
-	"babelConfigFileHandlingType": 0,
+	"babelConfigType": 0,
 	"babelCustomPluginsList": "",
 	"babelCustomPresetsList": "",
 	"babelInsertModuleIDs": 0,
 	"babelModuleID": "",
 	"babelNoComments": 0,
 	"babelPlugins": {
+		"arrow-functions": {
+			"active": 0
+			},
 		"async-generator-functions": {
 			"active": 0
 			},
 		"async-to-generator": {
 			"active": 0
 			},
-		"async-to-module-method": {
+		"block-scoped-functions": {
+			"active": 0
+			},
+		"block-scoping": {
 			"active": 0
 			},
 		"class-properties": {
 			"active": 0
 			},
+		"classes": {
+			"active": 0
+			},
+		"computed-properties": {
+			"active": 0
+			},
 		"decorators": {
 			"active": 0
 			},
-		"decorators-legacy": {
+		"destructuring": {
 			"active": 0
 			},
 		"do-expressions": {
 			"active": 0
 			},
-		"es2015-arrow-functions": {
+		"dotall-regex": {
 			"active": 0
 			},
-		"es2015-block-scoped-functions": {
-			"active": 0
-			},
-		"es2015-block-scoping": {
-			"active": 0
-			},
-		"es2015-classes": {
-			"active": 0
-			},
-		"es2015-computed-properties": {
-			"active": 0
-			},
-		"es2015-constants": {
-			"active": 0
-			},
-		"es2015-destructuring": {
-			"active": 0
-			},
-		"es2015-duplicate-keys": {
-			"active": 0
-			},
-		"es2015-for-of": {
-			"active": 0
-			},
-		"es2015-function-name": {
-			"active": 0
-			},
-		"es2015-literals": {
-			"active": 0
-			},
-		"es2015-modules-amd": {
-			"active": 0
-			},
-		"es2015-modules-commonjs": {
-			"active": 0
-			},
-		"es2015-modules-systemjs": {
-			"active": 0
-			},
-		"es2015-modules-umd": {
-			"active": 0
-			},
-		"es2015-object-super": {
-			"active": 0
-			},
-		"es2015-parameters": {
-			"active": 0
-			},
-		"es2015-shorthand-properties": {
-			"active": 0
-			},
-		"es2015-spread": {
-			"active": 0
-			},
-		"es2015-sticky-regex": {
-			"active": 0
-			},
-		"es2015-template-literals": {
-			"active": 0
-			},
-		"es2015-typeof-symbol": {
-			"active": 0
-			},
-		"es2015-unicode-regex": {
-			"active": 0
-			},
-		"es3-member-expression-literals": {
-			"active": 0
-			},
-		"es3-property-literals": {
-			"active": 0
-			},
-		"es5-property-mutators": {
-			"active": 0
-			},
-		"eval": {
+		"duplicate-keys": {
 			"active": 0
 			},
 		"exponentiation-operator": {
 			"active": 0
 			},
-		"export-extensions": {
+		"export-default-from": {
+			"active": 0
+			},
+		"export-namespace-from": {
 			"active": 0
 			},
 		"external-helpers": {
 			"active": 0
 			},
-		"flow-comments": {
+		"flow-strip-types": {
 			"active": 0
 			},
-		"flow-strip-types": {
+		"for-of": {
 			"active": 0
 			},
 		"function-bind": {
 			"active": 0
 			},
-		"inline-environment-variables": {
+		"function-name": {
+			"active": 0
+			},
+		"function-sent": {
+			"active": 0
+			},
+		"instanceof": {
 			"active": 0
 			},
 		"jscript": {
+			"active": 0
+			},
+		"literals": {
+			"active": 0
+			},
+		"logical-assignment-operators": {
 			"active": 0
 			},
 		"member-expression-literals": {
@@ -1530,7 +1476,28 @@
 		"minify-booleans": {
 			"active": 0
 			},
+		"modules-amd": {
+			"active": 0
+			},
+		"modules-commonjs": {
+			"active": 0
+			},
+		"modules-systemjs": {
+			"active": 0
+			},
+		"modules-umd": {
+			"active": 0
+			},
+		"new-target": {
+			"active": 0
+			},
 		"node-env-inline": {
+			"active": 0
+			},
+		"nullish-coalescing-operator": {
+			"active": 0
+			},
+		"numeric-separator": {
 			"active": 0
 			},
 		"object-assign": {
@@ -1542,7 +1509,25 @@
 		"object-set-prototype-of-to-assign": {
 			"active": 0
 			},
+		"object-super": {
+			"active": 0
+			},
+		"optional-catch-binding": {
+			"active": 0
+			},
+		"optional-chaining": {
+			"active": 0
+			},
+		"parameters": {
+			"active": 0
+			},
+		"pipeline-operator": {
+			"active": 0
+			},
 		"property-literals": {
+			"active": 0
+			},
+		"property-mutators": {
 			"active": 0
 			},
 		"proto-to-assign": {
@@ -1578,53 +1563,46 @@
 		"remove-debugger": {
 			"active": 0
 			},
+		"reserved-words": {
+			"active": 0
+			},
 		"runtime": {
+			"active": 0
+			},
+		"shorthand-properties": {
 			"active": 0
 			},
 		"simplify-comparison-operators": {
 			"active": 0
 			},
+		"spread": {
+			"active": 0
+			},
+		"sticky-regex": {
+			"active": 0
+			},
 		"strict-mode": {
 			"active": 0
 			},
-		"syntax-async-generators": {
+		"template-literals": {
 			"active": 0
 			},
-		"syntax-class-properties": {
+		"throw-expressions": {
 			"active": 0
 			},
-		"syntax-decorators": {
-			"active": 0
-			},
-		"syntax-do-expressions": {
-			"active": 0
-			},
-		"syntax-export-extensions": {
-			"active": 0
-			},
-		"syntax-flow": {
-			"active": 0
-			},
-		"syntax-function-bind": {
-			"active": 0
-			},
-		"syntax-function-sent": {
-			"active": 0
-			},
-		"syntax-jsx": {
-			"active": 0
-			},
-		"syntax-object-rest-spread": {
-			"active": 0
-			},
-		"undeclared-variables-check": {
+		"typeof-symbol": {
 			"active": 0
 			},
 		"undefined-to-void": {
 			"active": 0
+			},
+		"unicode-property-regex": {
+			"active": 0
+			},
+		"unicode-regex": {
+			"active": 0
 			}
 		},
-	"babelPresetType": 193,
 	"babelRetainLines": 0,
 	"bowerAbbreviatedPath": "bower_components",
 	"bowerAutoCreateInfoFile": 1,
@@ -1633,6 +1611,7 @@
 	"bowerSaveDevDependencies": 0,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
+	"browserslistString": ">0.2%, last 2 versions, Firefox ESR, not dead",
 	"buildFolderActive": 0,
 	"buildFolderName": "build",
 	"cleanBuild": 1,
@@ -1990,6 +1969,10 @@
 			"active": 0,
 			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
+		"max-classes-per-file": {
+			"active": 0,
+			"optionString": "1"
+			},
 		"max-depth": {
 			"active": 0,
 			"optionString": "{'max': 4}"
@@ -2001,6 +1984,10 @@
 		"max-lines": {
 			"active": 0,
 			"optionString": "{'max': 300, 'skipBlankLines': true, 'skipComments': true}"
+			},
+		"max-lines-per-function": {
+			"active": 0,
+			"optionString": "{'max': 50, 'skipBlankLines': true, 'skipComments': true, 'IIFEs': false}"
 			},
 		"max-nested-callbacks": {
 			"active": 0,
@@ -2046,6 +2033,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-async-promise-executor": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-await-in-loop": {
 			"active": 0,
 			"optionString": ""
@@ -2064,10 +2055,6 @@
 			},
 		"no-case-declarations": {
 			"active": 1,
-			"optionString": ""
-			},
-		"no-catch-shadow": {
-			"active": 0,
 			"optionString": ""
 			},
 		"no-class-assign": {
@@ -2266,9 +2253,13 @@
 			"active": 0,
 			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
 			},
+		"no-misleading-character-class": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-mixed-operators": {
 			"active": 0,
-			"optionString": "{'groups': [['+', '-', '*', '\/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
+			"optionString": "{'groups': [['+', '-', '*', '/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
 			},
 		"no-mixed-requires": {
 			"active": 0,
@@ -2622,6 +2613,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"prefer-object-spread": {
+			"active": 0,
+			"optionString": ""
+			},
 		"prefer-promise-reject-errors": {
 			"active": 0,
 			"optionString": "{'allowEmptyReject': false}"
@@ -2650,6 +2645,10 @@
 			"active": 0,
 			"optionString": "'always'"
 			},
+		"require-atomic-updates": {
+			"active": 0,
+			"optionString": ""
+			},
 		"require-await": {
 			"active": 0,
 			"optionString": ""
@@ -2657,6 +2656,10 @@
 		"require-jsdoc": {
 			"active": 0,
 			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
+			},
+		"require-unicode-regexp": {
+			"active": 0,
+			"optionString": ""
 			},
 		"require-yield": {
 			"active": 1,
@@ -2712,7 +2715,7 @@
 			},
 		"spaced-comment": {
 			"active": 0,
-			"optionString": "'always', {'line': {'markers': ['\/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
+			"optionString": "'always', {'line': {'markers': ['/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
 			},
 		"strict": {
 			"active": 0,
@@ -3167,7 +3170,6 @@
 		"escapeHTMLCharacters": 0,
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
-		"outputStyle": 0,
 		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
@@ -3186,7 +3188,7 @@
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*-min.js",
-		"autoOutputPathRelativePath": "\/min",
+		"autoOutputPathRelativePath": "/min",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
@@ -3218,19 +3220,19 @@
 		"allowInsecureImports": 0,
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "less",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 1,
-		"disableJavascript": 0,
+		"enableJavascript": 0,
 		"ieCompatibility": 1,
+		"mathStyle": 0,
 		"outputStyle": 0,
-		"relativeURLS": 0,
+		"rewriteURLStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"strictImports": 0,
-		"strictMath": 0,
 		"strictUnits": 0
 		},
 	"languageDefaultsMARKDOWN": {
@@ -3286,7 +3288,7 @@
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
@@ -3315,7 +3317,7 @@
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "stylus",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
@@ -3339,36 +3341,70 @@
 	"languageDefaultsTS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "\/js",
+		"autoOutputPathRelativePath": "/js",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"createDeclarationFile": 0,
 		"createSourceMap": 0,
-		"jsxMode": 0,
 		"minifyOutput": 0,
 		"moduleResolutionType": 0,
 		"moduleType": 2,
-		"noImplicitAny": 0,
-		"preserveConstEnums": 0,
 		"removeComments": 0,
-		"suppressImplicitAnyIndexErrors": 0,
 		"targetECMAVersion": 0
 		},
 	"languageDefaultsUserDefined": [
 		],
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, /storage/framework/sessions, node_modules",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
+	"tsAllowSyntheticDefaultImports": 0,
+	"tsAllowUnreachableCode": 0,
+	"tsAllowUnusedLabels": 0,
+	"tsAlwaysStrict": 0,
+	"tsDownlevelIteration": 0,
+	"tsEmitBOM": 0,
+	"tsEmitDecoratorMetadata": 0,
+	"tsESModuleInterop": 0,
+	"tsForceConsistentCasingInFileNames": 0,
+	"tsImportHelpers": 0,
+	"tsIsolatedModules": 0,
+	"tsJSXFactory": "React.createElement",
+	"tsKeyofStringsOnly": 0,
+	"tsNoEmitHelpers": 0,
+	"tsNoFallthroughCasesInSwitch": 0,
+	"tsNoImplicitAny": 0,
+	"tsNoImplicitReturns": 0,
+	"tsNoImplicitThis": 0,
+	"tsNoImplicitUseStrict": 0,
+	"tsNoLib": 0,
+	"tsNoResolve": 0,
+	"tsNoStrictGenericChecks": 0,
+	"tsNoUnusedLocals": 0,
+	"tsNoUnusedParameters": 0,
+	"tsPreserveConstEnums": 0,
+	"tsPreserveSymlinks": 0,
+	"tsResolveJsonModule": 0,
+	"tsSkipLibCheck": 0,
+	"tsStrictFunctionTypes": 0,
+	"tsStrictNullChecks": 0,
+	"tsStrictPropertyInitialization": 0,
+	"tsStripInternal": 0,
+	"tsSuppressExcessPropertyErrors": 0,
+	"tsSuppressImplicitAnyIndexErrors": 0,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
-		"ascii-only": {
+		"arguments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"ascii_only": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"bare-returns": {
+		"bare_returns": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -3376,11 +3412,11 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"bracketize": {
+		"braces": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"cascade": {
+		"collapse_vars": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -3404,6 +3440,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"directives": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"drop_console": {
 			"active": 0,
 			"flagValue": -1
@@ -3420,7 +3460,15 @@
 			"active": 1,
 			"flagValue": -1
 			},
+		"expression": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_props": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -3428,20 +3476,32 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"if_return": {
+		"html5_comments": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"indent-level": {
+		"ie8": {
 			"active": 0,
-			"flagValue": 4
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
 			},
 		"indent-start": {
 			"active": 0,
 			"flagValue": 0
 			},
-		"inline-script": {
+		"indent_level": {
 			"active": 0,
+			"flagValue": 4
+			},
+		"inline": {
+			"active": 1,
+			"flagValue": 3
+			},
+		"inline_script": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"join_vars": {
@@ -3456,6 +3516,14 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"keep_infinity": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_quoted_props": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"loops": {
 			"active": 1,
 			"flagValue": -1
@@ -3464,12 +3532,20 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"max-line-len": {
+		"max_line_len": {
 			"active": 1,
 			"flagValue": 32000
 			},
 		"negate_iife": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"passes": {
+			"active": 1,
+			"flagValue": 1
+			},
+		"preserve_line": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"properties": {
@@ -3480,11 +3556,19 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"quote-keys": {
+		"quote_keys": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"screw-ie8": {
+		"quote_style": {
+			"active": 1,
+			"flagValue": 0
+			},
+		"reduce_funcs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"reduce_vars": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -3496,23 +3580,51 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"sort": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"space-colon": {
+		"shebang": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"support-ie8": {
-			"active": 0,
+		"side_effects": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"switches": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"toplevel": {
 			"active": 0,
 			"flagValue": -1
 			},
+		"typeofs": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_comps": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_Function": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_math": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_regexp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_undefined": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -3524,9 +3636,17 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"webkit": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"width": {
 			"active": 1,
 			"flagValue": 80
+			},
+		"wrap_iife": {
+			"active": 0,
+			"flagValue": -1
 			}
 		},
 	"uglifyReservedNamesString": "$",
