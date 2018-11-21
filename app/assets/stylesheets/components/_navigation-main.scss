@@ -5,8 +5,12 @@
 \*------------------------------------*/
 
 .c-navigation-main {
+  background: $color__white;
   font-family: $font__sans-serif-alt;
   font-weight: 700;
+
+  position: relative;
+  z-index: $z-index5;
 }
 
 .c-navigation-main__link {
