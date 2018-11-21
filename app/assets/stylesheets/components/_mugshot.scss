@@ -1,0 +1,24 @@
+/*------------------------------------*\
+  # MUGHOST OF MA FACE MATE
+\*------------------------------------*/
+
+.c-mugshot {
+  background: $color__black;
+  position: relative;
+}
+
+  .c-mugshot__coaster {
+    background: $color__black;
+
+    box-sizing: border-box;
+    padding-top: 60px;
+    position: absolute;
+    width: 100%;
+    padding: 10%;
+  }
+
+  .c-mugshot__mug {
+    display: block;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+  }
