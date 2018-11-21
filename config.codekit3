@@ -47,11 +47,11 @@
 		"oAP": "/app/assets/images/.keep",
 		"oF": 0
 		},
-	"/app/assets/images/astronaut--spacewalker.png": {
+	"/app/assets/images/jakegonzales--astronaut.png": {
 		"ft": 32768,
-		"iS": 1290423,
+		"iS": 892084,
 		"oA": 0,
-		"oAP": "/app/assets/images/astronaut--spacewalker.png",
+		"oAP": "/app/assets/images/jakegonzales--astronaut.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -75,8 +75,8 @@
 		"oA": 0,
 		"oAP": "/app/assets/images/moon-walk-faceless--chopped--clear-visor.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -86,8 +86,8 @@
 		"oA": 0,
 		"oAP": "/app/assets/images/umbilical-cable.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
