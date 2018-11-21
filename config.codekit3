@@ -95,9 +95,9 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/app/assets/javascripts/application-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		},
@@ -118,6 +118,16 @@
 		"oAP": "/app/assets/javascripts/channels/.keep",
 		"oF": 0
 		},
+	"/app/assets/javascripts/copy-to-clipboard.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/app/assets/javascripts/copy-to-clipboard-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
 	"/app/assets/javascripts/vendor/fontawesome/all.js": {
 		"ft": 64,
 		"ma": 0,
@@ -125,6 +135,16 @@
 		"oA": 0,
 		"oAP": "/app/assets/javascripts/vendor/fontawesome/all-min.js",
 		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/app/assets/javascripts/vendor/modernizr.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/app/assets/javascripts/vendor/modernizr-min.js",
+		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		},
@@ -376,6 +396,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/app/assets/stylesheets/utility/_email-copy.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/app/assets/stylesheets/utility/_email-copy.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/app/assets/stylesheets/utility/_negative.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -385,6 +418,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/app/assets/stylesheets/utility/_negative.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/app/assets/stylesheets/utility/_visibility.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/app/assets/stylesheets/utility/_visibility.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1313,6 +1359,13 @@
 		"ft": 65536,
 		"oA": 1,
 		"oAP": "/build/tmp/cache",
+		"oF": 0
+		},
+	"/tmp/pids/server.pid": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/tmp/pids/server.pid",
 		"oF": 0
 		},
 	"/tmp/restart.txt": {
