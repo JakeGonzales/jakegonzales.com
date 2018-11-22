@@ -1907,20 +1907,20 @@ h5, .h5 {
   # LINKS
 \*------------------------------------*/
 a {
-  color: #3069C5;
+  color: #3069c5;
   text-decoration: none; }
   a:hover {
     color: #ffffff;
-    background: #3069C5; }
+    background: #3069c5; }
 
 /*------------------------------------*\
   # THIS AFFECTS ALL TEXT
 \*------------------------------------*/
 *::-moz-selection {
-  background: #CB2B40;
+  background: #cb2b40;
   color: #ffffff; }
 *::selection {
-  background: #CB2B40;
+  background: #cb2b40;
   color: #ffffff; }
 
 /*------------------------------------*\
@@ -2182,11 +2182,11 @@ a {
   to a coloured background and the appropriate text colour.
 \*------------------------------------*/
 .u-negative--blue {
-  background: #3069C5;
+  background: #3069c5;
   color: #ffffff; }
 
 .u-negative--grey {
-  background: #B1AD95;
+  background: #828073;
   color: #ffffff; }
 
 /*------------------------------------*\
@@ -2219,7 +2219,7 @@ a {
   top: 130%;
   right: 0;
   padding: 0.3em 0.5em;
-  background: #3069C5;
+  background: #3069c5;
   font-size: 60%;
   text-align: right;
   text-transform: uppercase; }
@@ -2233,7 +2233,7 @@ a {
   width: 0;
   position: absolute;
   pointer-events: none;
-  border-bottom-color: #3069C5;
+  border-bottom-color: #3069c5;
   border-width: 5px;
   margin-left: -5px; }
 
