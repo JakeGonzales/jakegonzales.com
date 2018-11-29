@@ -1961,6 +1961,9 @@ a {
   margin-right: 0.5em; }
 
 /*------------------------------------*\
+  # ARTICLES
+\*------------------------------------*/
+/*------------------------------------*\
   # ARTICLE
 \*------------------------------------*/
 .c-article {
@@ -2025,6 +2028,25 @@ a {
 
 .c-navigation-main__link--icon {
   display: flex; }
+
+/*------------------------------------*\
+  # GENERAL COMPONTENTS
+\*------------------------------------*/
+/*------------------------------------*\
+  # POSTER IMAGES -- FIGURES
+\*------------------------------------*/
+.poster {
+  min-width: 320px; }
+
+.poster__image {
+  margin: 0; }
+
+.poster__image img {
+  display: block; }
+
+.poster__text {
+  padding: 1em 2em;
+  max-width: 420px; }
 
 /*------------------------------------*\
   # SPACE SCENES AND ASTRONAUTS
@@ -2288,6 +2310,12 @@ a {
   max-width: 490px; }
 
 /*------------------------------------*\
+  # DIRECTION 
+\*------------------------------------*/
+.u-rtl {
+  direction: rtl; }
+
+/*------------------------------------*\
   # LAYOUTS
 
   The aim here is to make a website that is totally
@@ -2340,4 +2368,28 @@ body {
   flex-direction: row;
   justify-content: flex-end;
   align-items: flex-start; }
+
+.o-l-tesseract {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  width: 100%;
+  max-width: 1280px;
+  align-self: center; }
+
+.o-l-tesseract__obvious,
+.o-l-tesseract__simple {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  align-items: center; }
+
+.o-l-tesseract__obvious {
+  grid-column: 1/-1; }
+
+.o-l-tesseract__simple {
+  grid-column: auto / span 2; }
+
+ol.o-l-tesseract {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
 /*# sourceMappingURL=main.css.map */

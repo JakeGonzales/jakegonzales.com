@@ -1,0 +1,22 @@
+/*------------------------------------*\
+  # POSTER IMAGES -- FIGURES
+\*------------------------------------*/
+
+
+.poster {
+  min-width: 320px;
+}
+
+.poster__image {
+  margin: 0; 
+}
+
+  .poster__image img {
+    display: block;
+  }
+
+.poster__text {
+  padding: 1em 2em;
+
+  max-width: 420px;
+}
