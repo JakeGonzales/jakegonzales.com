@@ -7,16 +7,38 @@
   min-width: 320px;
 }
 
-.poster__image {
-  margin: 0; 
-}
-
-  .poster__image img {
+  .poster a {
     display: block;
   }
 
-.poster__text {
-  padding: 1em 2em;
-
-  max-width: 420px;
+.poster__image {
+  margin: 0; 
+  background: $color__black;
 }
+
+  .poster__image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+.u-rtl .poster__text {
+  text-align: right;
+}
+
+.text__header {
+  font-size: 0.8em;
+  max-width: 300px;
+}
+
+  .text__header a {
+    color: $color__black;
+
+    &:hover {
+      color: $color__white;
+      background: $color__black;
+    }
+    &:active {
+      transform: skewX(-3deg);
+    }
+  }

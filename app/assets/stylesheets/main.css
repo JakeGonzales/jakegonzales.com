@@ -2038,15 +2038,33 @@ a {
 .poster {
   min-width: 320px; }
 
-.poster__image {
-  margin: 0; }
-
-.poster__image img {
+.poster a {
   display: block; }
 
-.poster__text {
-  padding: 1em 2em;
-  max-width: 420px; }
+.poster__image {
+  margin: 0;
+  background: #000000; }
+
+.poster__image img {
+  width: 100%;
+  height: auto;
+  display: block; }
+
+.u-rtl .poster__text {
+  text-align: right; }
+
+.text__header {
+  font-size: 0.8em;
+  max-width: 300px; }
+
+.text__header a {
+  color: #000000; }
+  .text__header a:hover {
+    color: #ffffff;
+    background: #000000; }
+  .text__header a:active {
+    -webkit-transform: skewX(-3deg);
+            transform: skewX(-3deg); }
 
 /*------------------------------------*\
   # SPACE SCENES AND ASTRONAUTS
@@ -2267,6 +2285,29 @@ a {
   content: "Copied to Clipboard"; }
 
 /*------------------------------------*\
+  # ASPECT RATIOS FOR IMAGES
+  https://codepen.io/wiiiiilllllll/pen/mjBaPj/
+\*------------------------------------*/
+[style*="--aspect-ratio"] > :first-child {
+  width: 100%; }
+
+[style*="--aspect-ratio"] > img {
+  height: auto; }
+
+@supports (--a: b) {
+  [style*="--aspect-ratio"] {
+    position: relative; }
+    [style*="--aspect-ratio"]::before {
+      content: "";
+      display: block;
+      padding-bottom: calc(100% / (var(--aspect-ratio))); }
+    [style*="--aspect-ratio"] > :first-child {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%; } }
+
+/*------------------------------------*\
   # LAYOUT
 \*------------------------------------*/
 /*------------------------------------*\
@@ -2369,6 +2410,9 @@ body {
   justify-content: flex-end;
   align-items: flex-start; }
 
+/*------------------------------------*\
+  # TESSERACT LAYOUT
+\*------------------------------------*/
 .o-l-tesseract {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -2389,7 +2433,7 @@ body {
   grid-column: auto / span 2; }
 
 ol.o-l-tesseract {
-  margin: 0;
+  margin: 0 0 4em 0;
   padding: 0;
   list-style: none; }
 /*# sourceMappingURL=main.css.map */
