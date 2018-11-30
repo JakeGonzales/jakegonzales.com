@@ -2043,7 +2043,7 @@ a {
 
 .poster__image {
   margin: 0;
-  background: #000000; }
+  background: #000000 url(loading.gif) no-repeat center center; }
 
 .poster__image img {
   width: 100%;
@@ -2065,6 +2065,22 @@ a {
   .text__header a:active {
     -webkit-transform: skewX(-3deg);
             transform: skewX(-3deg); }
+
+/*------------------------------------*\
+  # LINEAR LIST
+  This, that, another
+\*------------------------------------*/
+/* ol, ul */
+.c-linear-list {
+  list-style-type: none;
+  padding: 0; }
+
+.c-linear-list li {
+  display: inline; }
+  .c-linear-list li::after {
+    content: ", "; }
+  .c-linear-list li:last-of-type::after {
+    content: "."; }
 
 /*------------------------------------*\
   # SPACE SCENES AND ASTRONAUTS
