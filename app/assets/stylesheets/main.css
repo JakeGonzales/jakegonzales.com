@@ -2057,7 +2057,7 @@ a {
   text-align: right; }
 
 .text__header {
-  font-size: 0.8em; }
+  font-size: 0.7em; }
 
 .text__header a {
   color: #000000; }
@@ -2340,7 +2340,11 @@ a {
    */
 .u-spacers {
   box-sizing: border-box;
-  padding: 8px 2vw 8px 4vw; }
+  padding: 8px 4vw 8px 4vw; }
+
+.u-spacers-static {
+  box-sizing: border-box;
+  padding: 8px 16px; }
 
 .u-space {
   padding: 5px 8px; }

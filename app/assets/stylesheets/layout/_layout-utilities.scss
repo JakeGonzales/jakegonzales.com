@@ -18,7 +18,11 @@
    */
   .u-spacers {
     box-sizing: border-box;
-    padding: 8px 2vw 8px 4vw;
+    padding: 8px 4vw 8px 4vw;
+  }
+  .u-spacers-static {
+    box-sizing: border-box;
+    padding: 8px $padding-x;
   }
   // Space between elements
   .u-space {
