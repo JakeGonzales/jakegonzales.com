@@ -22,13 +22,17 @@
     display: block;
   }
 
+
+.poster__text {
+  max-width: 420px;
+}
+
 .u-rtl .poster__text {
   text-align: right;
 }
 
 .text__header {
   font-size: 0.8em;
-  max-width: 300px;
 }
 
   .text__header a {
