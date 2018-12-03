@@ -99,6 +99,94 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/app/assets/images/work/thumb-bates-saddles.jpg": {
+		"ft": 16384,
+		"iS": 200285,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/thumb-bates-saddles.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/app/assets/images/work/thumb-freo-glitch.jpg": {
+		"ft": 16384,
+		"iS": 209447,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/thumb-freo-glitch.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/app/assets/images/work/thumb-glitch-horror.jpg": {
+		"ft": 16384,
+		"iS": 260204,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/thumb-glitch-horror.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/app/assets/images/work/thumb-izo-photography.jpg": {
+		"ft": 16384,
+		"iS": 274589,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/thumb-izo-photography.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/app/assets/images/work/thumb-macquire-university-hospital.jpg": {
+		"ft": 16384,
+		"iS": 237621,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/thumb-macquire-university-hospital.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/app/assets/images/work/thumb-star-international.jpg": {
+		"ft": 16384,
+		"iS": 170040,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/thumb-star-international.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/app/assets/images/work/thumb-wa-exclusive-meats.jpg": {
+		"ft": 16384,
+		"iS": 190274,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/thumb-wa-exclusive-meats.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/app/assets/images/work/thumb-wintec-saddles.jpg": {
+		"ft": 16384,
+		"iS": 80250,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/thumb-wintec-saddles.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/app/assets/javascripts/application.js": {
 		"ft": 64,
 		"ma": 0,
