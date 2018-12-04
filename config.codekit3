@@ -69,6 +69,14 @@
 		"opt": 1,
 		"q": 50
 		},
+	"/app/assets/images/loading.gif": {
+		"ft": 4194304,
+		"iS": 94526,
+		"oA": 0,
+		"oAP": "/app/assets/images/loading.gif",
+		"oF": 0,
+		"opt": 0
+		},
 	"/app/assets/images/moon-walk-faceless--chopped--clear-visor.png": {
 		"ft": 32768,
 		"iS": 1262541,
@@ -89,6 +97,94 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
+		"q": 100
+		},
+	"/app/assets/images/work/thumb-bates-saddles.jpg": {
+		"ft": 16384,
+		"iS": 200285,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/thumb-bates-saddles.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/app/assets/images/work/thumb-freo-glitch.jpg": {
+		"ft": 16384,
+		"iS": 209447,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/thumb-freo-glitch.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/app/assets/images/work/thumb-glitch-horror.jpg": {
+		"ft": 16384,
+		"iS": 260204,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/thumb-glitch-horror.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/app/assets/images/work/thumb-izo-photography.jpg": {
+		"ft": 16384,
+		"iS": 274589,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/thumb-izo-photography.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/app/assets/images/work/thumb-macquire-university-hospital.jpg": {
+		"ft": 16384,
+		"iS": 237621,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/thumb-macquire-university-hospital.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/app/assets/images/work/thumb-star-international.jpg": {
+		"ft": 16384,
+		"iS": 170040,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/thumb-star-international.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/app/assets/images/work/thumb-wa-exclusive-meats.jpg": {
+		"ft": 16384,
+		"iS": 190274,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/thumb-wa-exclusive-meats.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/app/assets/images/work/thumb-wintec-saddles.jpg": {
+		"ft": 16384,
+		"iS": 80250,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/thumb-wintec-saddles.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/app/assets/javascripts/application.js": {
@@ -223,6 +319,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/app/assets/stylesheets/components/_linear-list.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/app/assets/stylesheets/components/_linear-list.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/app/assets/stylesheets/components/_mugshot.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -245,6 +354,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/app/assets/stylesheets/components/_navigation-main.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/app/assets/stylesheets/components/_poster.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/app/assets/stylesheets/components/_poster.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -418,6 +540,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/app/assets/stylesheets/typography/_links.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/app/assets/stylesheets/utility/_aspect-ratio.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/app/assets/stylesheets/utility/_aspect-ratio.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1385,6 +1520,13 @@
 		"ft": 65536,
 		"oA": 1,
 		"oAP": "/build/tmp/cache",
+		"oF": 0
+		},
+	"/tmp/pids/server.pid": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/tmp/pids/server.pid",
 		"oF": 0
 		},
 	"/tmp/restart.txt": {

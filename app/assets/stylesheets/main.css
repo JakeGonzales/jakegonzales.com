@@ -1961,6 +1961,9 @@ a {
   margin-right: 0.5em; }
 
 /*------------------------------------*\
+  # ARTICLES
+\*------------------------------------*/
+/*------------------------------------*\
   # ARTICLE
 \*------------------------------------*/
 .c-article {
@@ -2025,6 +2028,61 @@ a {
 
 .c-navigation-main__link--icon {
   display: flex; }
+
+/*------------------------------------*\
+  # GENERAL COMPONTENTS
+\*------------------------------------*/
+/*------------------------------------*\
+  # POSTER IMAGES -- FIGURES
+\*------------------------------------*/
+.poster {
+  min-width: 320px; }
+
+.poster a {
+  display: block; }
+
+.poster__image {
+  margin: 0;
+  background: #000000 url(loading.gif) no-repeat center center; }
+
+.poster__image img {
+  width: 100%;
+  height: auto;
+  display: block; }
+
+.poster__text {
+  max-width: 420px; }
+
+.u-rtl .poster__text {
+  text-align: right; }
+
+.text__header {
+  font-size: 0.7em; }
+
+.text__header a {
+  color: #000000; }
+  .text__header a:hover {
+    color: #ffffff;
+    background: #000000; }
+  .text__header a:active {
+    -webkit-transform: skewX(-3deg);
+            transform: skewX(-3deg); }
+
+/*------------------------------------*\
+  # LINEAR LIST
+  This, that, another
+\*------------------------------------*/
+/* ol, ul */
+.c-linear-list {
+  list-style-type: none;
+  padding: 0; }
+
+.c-linear-list li {
+  display: inline; }
+  .c-linear-list li::after {
+    content: ", "; }
+  .c-linear-list li:last-of-type::after {
+    content: "."; }
 
 /*------------------------------------*\
   # SPACE SCENES AND ASTRONAUTS
@@ -2245,6 +2303,29 @@ a {
   content: "Copied to Clipboard"; }
 
 /*------------------------------------*\
+  # ASPECT RATIOS FOR IMAGES
+  https://codepen.io/wiiiiilllllll/pen/mjBaPj/
+\*------------------------------------*/
+[style*="--aspect-ratio"] > :first-child {
+  width: 100%; }
+
+[style*="--aspect-ratio"] > img {
+  height: auto; }
+
+@supports (--a: b) {
+  [style*="--aspect-ratio"] {
+    position: relative; }
+    [style*="--aspect-ratio"]::before {
+      content: "";
+      display: block;
+      padding-bottom: calc(100% / (var(--aspect-ratio))); }
+    [style*="--aspect-ratio"] > :first-child {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%; } }
+
+/*------------------------------------*\
   # LAYOUT
 \*------------------------------------*/
 /*------------------------------------*\
@@ -2259,7 +2340,11 @@ a {
    */
 .u-spacers {
   box-sizing: border-box;
-  padding: 8px 2vw 8px 4vw; }
+  padding: 8px 4vw 8px 4vw; }
+
+.u-spacers-static {
+  box-sizing: border-box;
+  padding: 8px 16px; }
 
 .u-space {
   padding: 5px 8px; }
@@ -2286,6 +2371,18 @@ a {
 
 .u-max-width-copy {
   max-width: 490px; }
+
+/*------------------------------------*\
+  # DIRECTION 
+\*------------------------------------*/
+/* CAUTION: This will butcher english,
+if you want to use this on layouts make sure
+to reset the text back to ltr. */
+.u-rtl {
+  direction: rtl; }
+
+.u-ltr {
+  direction: ltr; }
 
 /*------------------------------------*\
   # LAYOUTS
@@ -2340,4 +2437,31 @@ body {
   flex-direction: row;
   justify-content: flex-end;
   align-items: flex-start; }
+
+/*------------------------------------*\
+  # TESSERACT LAYOUT
+\*------------------------------------*/
+.o-l-tesseract {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  width: 100%;
+  max-width: 1280px;
+  align-self: center; }
+
+.o-l-tesseract__obvious,
+.o-l-tesseract__simple {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  align-items: center; }
+
+.o-l-tesseract__obvious {
+  grid-column: 1/-1; }
+
+.o-l-tesseract__simple {
+  grid-column: auto / span 2; }
+
+ol.o-l-tesseract {
+  margin: 0 0 4em 0;
+  padding: 0;
+  list-style: none; }
 /*# sourceMappingURL=main.css.map */

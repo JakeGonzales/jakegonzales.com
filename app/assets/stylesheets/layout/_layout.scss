@@ -21,6 +21,10 @@ body {
   min-height: 100vh;
 }
 
+
+
+
+
 // Object Layout Flexbox 2 Rows
 .o-l__f-2-row {
   display: flex;
@@ -44,6 +48,10 @@ body {
   }
 
 
+
+
+
+
 .o-l__f-col-justify-start {
   display: flex;
   flex-direction: column;
@@ -64,5 +72,44 @@ body {
   flex-direction: row;
   justify-content: flex-end;
   align-items: flex-start;
+}
+
+
+
+
+/*------------------------------------*\
+  # TESSERACT LAYOUT
+\*------------------------------------*/
+.o-l-tesseract {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+
+  width: 100%;
+  max-width: 320px * 4;
+
+  // Flex
+  align-self: center;
+}
+
+  
+  .o-l-tesseract__obvious,
+  .o-l-tesseract__simple {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    align-items: center;
+  }
+  
+  .o-l-tesseract__obvious {
+    grid-column: 1/-1; 
+  }
+
+  .o-l-tesseract__simple {
+    grid-column: auto / span 2;
+  }
+
+ol.o-l-tesseract { // Oh interesting pattern there!
+  margin: 0 0 4em 0;
+  padding: 0;
+  list-style: none;
 }
 

@@ -18,7 +18,11 @@
    */
   .u-spacers {
     box-sizing: border-box;
-    padding: 8px 2vw 8px 4vw;
+    padding: 8px 4vw 8px 4vw;
+  }
+  .u-spacers-static {
+    box-sizing: border-box;
+    padding: 8px $padding-x;
   }
   // Space between elements
   .u-space {
@@ -76,4 +80,22 @@ $spacing: (
 .u-max-width-copy {
   max-width: 490px;
 }
+
+
+/*------------------------------------*\
+  # DIRECTION 
+\*------------------------------------*/
+
+
+/* CAUTION: This will butcher english,
+if you want to use this on layouts make sure
+to reset the text back to ltr. */
+.u-rtl {
+  direction: rtl;
+}
+
+.u-ltr {
+  direction: ltr;
+}
+
 

@@ -1,0 +1,21 @@
+/*------------------------------------*\
+  # LINEAR LIST
+  This, that, another
+\*------------------------------------*/
+
+/* ol, ul */.c-linear-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.c-linear-list li {
+  display: inline;
+
+  &::after {
+    content: ", ";
+  }
+
+  &:last-of-type::after {
+    content: ".";
+  }
+}

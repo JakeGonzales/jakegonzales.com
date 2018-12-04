@@ -1,0 +1,48 @@
+/*------------------------------------*\
+  # POSTER IMAGES -- FIGURES
+\*------------------------------------*/
+
+
+.poster {
+  min-width: 320px;
+}
+
+  .poster a {
+    display: block;
+  }
+
+.poster__image {
+  margin: 0; 
+  background: $color__black url(loading.gif) no-repeat center center;
+}
+
+  .poster__image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+
+.poster__text {
+  max-width: 420px;
+}
+
+.u-rtl .poster__text {
+  text-align: right;
+}
+
+.text__header {
+  font-size: 0.7em;
+}
+
+  .text__header a {
+    color: $color__black;
+
+    &:hover {
+      color: $color__white;
+      background: $color__black;
+    }
+    &:active {
+      transform: skewX(-3deg);
+    }
+  }
