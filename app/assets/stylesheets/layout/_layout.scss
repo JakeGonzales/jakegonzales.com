@@ -74,7 +74,13 @@ body {
   align-items: flex-start;
 }
 
+.o-l__f-align-center {
+  align-self: center;
+}
 
+.o-l__f-align-end {
+  align-self: flex-end;
+}
 
 
 /*------------------------------------*\
@@ -86,9 +92,6 @@ body {
 
   width: 100%;
   max-width: 320px * 4;
-
-  // Flex
-  align-self: center;
 }
 
   
@@ -111,5 +114,21 @@ ol.o-l-tesseract { // Oh interesting pattern there!
   margin: 0 0 4em 0;
   padding: 0;
   list-style: none;
+}
+
+
+
+
+/*------------------------------------*\
+  # PARAGRAPH COLUMNS
+\*------------------------------------*/
+
+.o-l__text-coumns-3 {
+  -webkit-columns: 3 320px;
+  -moz-columns: 3 320px;
+  columns: 3 320px;
+  -webkit-column-gap: 2em;
+  -moz-column-gap: 2em;
+  column-gap: 2em;
 }
 

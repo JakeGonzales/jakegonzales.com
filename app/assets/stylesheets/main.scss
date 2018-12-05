@@ -71,6 +71,7 @@
 \*------------------------------------*/
 
 @import "components/articles";
+@import "components/work-single";
 
 /*------------------------------------*\
   # NAVIGATION
@@ -84,6 +85,7 @@
 
 @import "components/poster";
 @import "components/linear-list";
+@import "components/code";
 
 /*------------------------------------*\
   # SPACE SCENES AND ASTRONAUTS
@@ -95,7 +97,7 @@
 @import "components/space-walker";
 @import "components/deep-space";
 @import "components/mugshot";
-@import "components/code";
+
 
 /*------------------------------------*\
   # UTILITIES

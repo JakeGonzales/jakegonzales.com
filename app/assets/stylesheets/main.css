@@ -1988,8 +1988,7 @@ a {
     margin-bottom: 0.87em;
     line-height: 1.3;
     -webkit-column-break-inside: avoid;
-            break-inside: avoid;
-    display: inline-block; }
+            break-inside: avoid; }
   .c-article b,
   .c-article strong {
     font-weight: 300;
@@ -2006,6 +2005,53 @@ a {
             break-inside: avoid; }
     .c-article .c-article__text *:first-child {
       margin-top: 0; }
+  .c-article figure {
+    margin: 0;
+    text-align: center;
+    margin-bottom: 0.87em; }
+  .c-article figcaption {
+    font-size: 0.8em;
+    text-align: italic;
+    display: inline-block;
+    padding: 0.5em 1em;
+    margin-bottom: 0.87em;
+    background: #eeeeec; }
+
+.c-article__link-alone {
+  margin-bottom: 0.87em;
+  line-height: 1.3;
+  display: inline-block; }
+
+.c-article__page-topper {
+  display: block;
+  border-bottom: 3px solid #000000;
+  padding-bottom: 1em;
+  font-size: 0.8em; }
+
+/*------------------------------------*\
+  # WORK SINGLE
+\*------------------------------------*/
+.c-work-single::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 60vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #e2e2df;
+  z-index: 1000; }
+
+.c-work-single__header,
+.c-work-single__main {
+  position: relative;
+  z-index: 1100; }
+
+.c-work-single__title {
+  max-width: 600px; }
+
+.c-work-single__description {
+  max-width: 500px; }
 
 /*------------------------------------*\
   # NAVIGATION
@@ -2083,6 +2129,17 @@ a {
     content: ", "; }
   .c-linear-list li:last-of-type::after {
     content: "."; }
+
+/*------------------------------------*\
+  # CODE SNIPPETS
+\*------------------------------------*/
+.c-code-inline {
+  background: #eeeeec;
+  border: 1px solid #cacac4;
+  border-radius: 3px;
+  color: #cb2b40;
+  font-size: 0.9em;
+  padding: 0 0.4em; }
 
 /*------------------------------------*\
   # SPACE SCENES AND ASTRONAUTS
@@ -2234,17 +2291,6 @@ a {
   border-bottom-left-radius: 100%; }
 
 /*------------------------------------*\
-  # CODE SNIPPETS
-\*------------------------------------*/
-.c-code-inline {
-  background: #eeeeec;
-  border: 1px solid #cacac4;
-  border-radius: 3px;
-  color: #cb2b40;
-  font-size: 0.9em;
-  padding: 0 0.4em; }
-
-/*------------------------------------*\
   # UTILITIES
 \*------------------------------------*/
 /*------------------------------------*\
@@ -2374,6 +2420,10 @@ a {
   padding: 0 8px;
   margin: 15px 0; }
 
+.u-space-stack-lg {
+  padding: 0 8px;
+  margin: 20px 0; }
+
 /*------------------------------------*\
   # SPACING: MAX-WIDTHS
 \*------------------------------------*/
@@ -2382,6 +2432,9 @@ a {
 
 .u-max-width-copy {
   max-width: 490px; }
+
+.u-max-width-article {
+  max-width: 1200px; }
 
 /*------------------------------------*\
   # DIRECTION 
@@ -2394,6 +2447,12 @@ to reset the text back to ltr. */
 
 .u-ltr {
   direction: ltr; }
+
+/*------------------------------------*\
+  # FLOATS
+\*------------------------------------*/
+.u-float-right {
+  float: right; }
 
 /*------------------------------------*\
   # LAYOUTS
@@ -2449,6 +2508,12 @@ body {
   justify-content: flex-end;
   align-items: flex-start; }
 
+.o-l__f-align-center {
+  align-self: center; }
+
+.o-l__f-align-end {
+  align-self: flex-end; }
+
 /*------------------------------------*\
   # TESSERACT LAYOUT
 \*------------------------------------*/
@@ -2456,8 +2521,7 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   width: 100%;
-  max-width: 1280px;
-  align-self: center; }
+  max-width: 1280px; }
 
 .o-l-tesseract__obvious,
 .o-l-tesseract__simple {
@@ -2475,4 +2539,13 @@ ol.o-l-tesseract {
   margin: 0 0 4em 0;
   padding: 0;
   list-style: none; }
+
+/*------------------------------------*\
+  # PARAGRAPH COLUMNS
+\*------------------------------------*/
+.o-l__text-coumns-3 {
+  -webkit-columns: 3 320px;
+  columns: 3 320px;
+  -webkit-column-gap: 2em;
+  column-gap: 2em; }
 /*# sourceMappingURL=main.css.map */

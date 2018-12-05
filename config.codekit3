@@ -472,6 +472,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/app/assets/stylesheets/components/_work-single.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/app/assets/stylesheets/components/_work-single.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/app/assets/stylesheets/layout/_layout-settings.scss": {
 		"aP": 0,
 		"bl": 0,
