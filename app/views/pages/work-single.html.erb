@@ -1,0 +1,105 @@
+
+
+<div class="o-l__g-2-col">
+
+  <div class="o-l__f-2-row">
+    <%= render 'shared/nav_main' %>
+
+    <article class="c-article u-max-width-copy">
+      
+      <header>
+        <h1>A Dreamy Botanical Adventure Christmas Party Web Invite</h1>
+        <h2>Macquarie University Hospital</h2>
+        <section>
+          <p>A magical botanical journey through the underbrush fit for a child’s fantastical imagination. A Christmas Party and Reward and Recognition Evening invite for the Macquarie University Hospital, Sydney.</p>
+          <a href="http://christmasparty.muh.org.au" title="Christmas Party Invite for the Macquarie University Hospital 2017">christmasparty.muh.org.au</a>
+          
+        </section>
+      </header>
+
+      <aside>
+        <p>Adam Gormley and I worked as the developers for this project with Kasiani Amara (Designer/Director at Emorfia) to build out her vision for the invite. With a little project management and quoting from Michael Congiusta. Adam Gormley worked on the graphics and I worked on the build.</p>
+      </aside>
+
+      <%= image_tag("work/muh/macquarie-university-hospital__christmas-invite__page-2.jpg", alt: "") %>
+
+      <p><abbr title="Kasiana Amara">Kasi</abbr> came to us with this project for the Macquarie University Hospital in Sydney. A small two page website which lead to an EventBrite page to buy tickets. Kasi was imagining a pretty animation heavy design to really bring the invite to life. It was under a pretty short deadline but we were excited so, elbows were greased. We didn't get that many projects that involved animation this heavily so it was a good opportunity to flex some creative muscles.</p>
+
+      <p>Ok so the setup goes a little like this. We had a desktop mockup with a large raster image background. A couple of minor raster image assets and then rest of the items were vectors. One or two things we needed to cut out of the background and fill the background in a little.</p> 
+
+      <figure>
+        <%= image_tag("work/muh/macquarie-university-hospital__christmas-invite__design.jpg", alt: "Original design for the Macquarie University Hospital Christmas Invite - Page One") %>
+        <figcaption>Original design for the Macquarie University Hospital Christmas Invite - Page One, by Kasiani Amara</figcaption>
+      </figure>
+      
+      <figure>
+        <%= image_tag("work/muh/macquarie-university-hospital__christmas-invite__design-2.jpg", alt: "Original design for the Macquarie University Hospital Christmas Invite - Page Two") %>
+        <figcaption>Original design for the Macquarie University Hospital Christmas Invite - Page Two, by Kasiani Amara</figcaption>
+      </figure>
+      
+
+      <p>On the first screen some of our instructions were:</p>
+      <ul>
+        <li>The spotlight (on a separate layer) shining down,</li>
+        <li>Title to appear &mdash; if possible &mdash; to unravel gradually and glisten/sparkle,</li>
+        <li>Each line to appear one after the other like a story being told,</li>
+        <li>The key must swing to bring attention to the viewer to "Enter Here".</li>
+      </ul>
+
+      <p>And on the second screen:</p>
+      <ul>
+        <li>Stars twinkling in the sky,</li>
+        <li>If possible to have the fairies moving and stars glistening,</li>
+        <li>As per the previous screen: Title to appear &mdash; if possible &mdash; to unravel gradually and glisten/sparkle,</li>
+        <li>Butterfly wings moving.</li>
+      </ul>
+
+      <p>The final requirement was that the two pages needed to be mobile and tablet friendly. Which hopefully wasn't a surprise to anyone.</p>
+      <p><abbr title="Adam Gormley">Gorms</abbr> got stuck into the asset cutouts and setups and I got stuck into the build.</p>
+
+      <hr>
+    
+      <p>I had done a little bit of SVG letter animation before but not with such fine grained control and with such delicate lettering. <abbr title="Adam Gormley">Gorms</abbr> and I worked together to figure out the best paths for animating the SVG which was a great discovery process. The main problem with the paths was the little bit of overlap we would get if we had strokes too big or letters too close.</p>
+
+      <figure role="group">
+        <figure>
+          <%= image_tag("work/muh/svg-path-problem-1.jpg", alt: "") %>
+        </figure>
+        <figure>
+          <%= image_tag("work/muh/svg-path-problem-2.jpg", alt: "") %>
+        </figure>
+        <figcaption>Path overlap when using SVG <code>clip-path</code> to animate letters.</figcaption>
+      </figure>
+
+      <figure role="group">
+        <figure>
+          <%= image_tag("work/muh/open-the-garden-gate_strokepath.svg", alt: "") %>
+        </figure>
+        <figure>
+          <%= image_tag("work/muh/a-dreamy-botanical-adventure_storkepath.svg", alt: "") %>
+        </figure>
+        <figcaption>Animation fill paths for both major titles.</figcaption>
+      </figure>
+
+
+
+
+      <h2>Final Product Pain Points</h2>
+      <ul>
+        <li>Fallbacks not good. No CSS works well, however no JS means it breaks the "Enter Here"</li>
+        <li>Terrible accesibility -- which in hindsight is the dumbest thing here because this is for a hospital. We later found out that this was only for doctors but that really didn't make it much better.</li>
+        <li>The sparkle animation on the key is definitely a machine overheater when it's active.</li>
+      </ul>
+
+      <h2>Pushing the Project Further</h2>
+      <p>I was actually hunting to the sparkles as more of a feature over the entire page but since it was terrible for perfomance I only let it show when the key was hovered. It's a shame too because it would have added so much more atmosphere.</p>
+
+    </article>
+
+    
+
+  </div>
+
+</div>
+
+
