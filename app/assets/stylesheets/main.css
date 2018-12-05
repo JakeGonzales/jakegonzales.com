@@ -2234,6 +2234,17 @@ a {
   border-bottom-left-radius: 100%; }
 
 /*------------------------------------*\
+  # CODE SNIPPETS
+\*------------------------------------*/
+.c-code-inline {
+  background: #eeeeec;
+  border: 1px solid #cacac4;
+  border-radius: 3px;
+  color: #cb2b40;
+  font-size: 0.9em;
+  padding: 0 0.4em; }
+
+/*------------------------------------*\
   # UTILITIES
 \*------------------------------------*/
 /*------------------------------------*\
