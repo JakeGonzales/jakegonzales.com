@@ -7,12 +7,12 @@
   content: "";
   display: block;
   width: 100%;
-  height: 60vh;
+  height: 75vh;
   position: absolute;
     top: 0;
     left: 0;
 
-  background: lighten($color__secondary, 40%);
+  background: lighten($color__secondary, 45%);
   z-index: $z-index1;
 }
 

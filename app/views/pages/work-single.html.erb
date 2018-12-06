@@ -7,6 +7,10 @@
 
     <article class="c-article c-work-single u-max-width-article o-l__f-align-center">
       
+
+
+
+
       <header class="c-work-single__header u-spacers">
         <div class="u-space-md">
           <span class="c-article__page-topper">Macquarie University Hospital</span>
@@ -23,6 +27,10 @@
           <%= image_tag("work/muh/macquarie-university-hospital__christmas-invite__page-2.jpg", alt: "") %>
         </div>
       </header>
+
+
+
+
 
       <main class="c-work-single__main u-spacers o-l__f-2-row">
 
@@ -64,32 +72,44 @@
         </div>
 
         <div class="u-space-md">
-          <h2>SVG Trouble</h2>
+          <h2>SVG Text Animation</h2>
         </div>
 
-        <div class="u-space-stack u-max-width-copy o-l__f-align-center">
-          <p>I had done a little bit of SVG letter animation before but not with such fine grained control and with such delicate lettering. <abbr title="Adam Gormley">Gorms</abbr> and I worked together to figure out the best paths for animating the SVG which was a great discovery process. The main problem with the paths was the little bit of overlap we would get if we had strokes too big or letters too close.</p>
+        <div class="o-l__g-simple">
+
+          <div class="u-space-stack  u-max-width-copy">
+            <p>I wanted to tackle this first in the build because to me it seemed like the most involved. I'd just done some SVG text animation so it seemed like the obvious way to go. To start myself off I just applied what I had done with the previous text to see what I could get away with, it wasn't much.</p>
+            <p>I was using a CSS animated <code class="c-code-inline">stroke-dashoffset</code> combined with an SVG <code class="c-code-inline">clip-path</code> and this worked really well around the entire outside of a large character. However working with this text was much more difficult because the text was thin, there were a lot of tight turns, and the text was close together. The clip path would end up showing on the return route along the other side of the letter and ruined the hand writing effect I'd imagined; kind of a double drawing.</p>
+
+            <p>So the solution it would seem was to only have one path for the drawing and to cut away the other sides of the characters where it was problematic.</p>
+            <p><abbr title="Adam Gormley">Gorms</abbr> and I worked together to figure out the best paths for animating the SVG which was a great discovery process. The main problem with the paths was the little bit of overlap we would get if we had strokes too big or letters too close.</p>
+            <p>In the end we decided to leave this because it wasn't very obvious and we couldn't come up with a better solution fast enough.</p>
+          </div>
+
+          <figure role="group" class="u-space-stack">
+            <figure>
+              <%= image_tag("work/muh/svg-path-problem-1.jpg", alt: "A green line showing the stroke path when animating a letter using SVG clip-path") %>
+            </figure>
+            <figure>
+              <%= image_tag("work/muh/svg-path-problem-2.jpg", alt: "A green line showing the stroke path when animating a letter using SVG clip-path") %>
+            </figure>
+            <figcaption>Path overlap when using SVG <code class="c-code-inline">clip-path</code> to animate letters.</figcaption>
+          </figure>
         </div>
 
-        <figure role="group">
-          <figure>
-            <%= image_tag("work/muh/svg-path-problem-1.jpg", alt: "") %>
-          </figure>
-          <figure>
-            <%= image_tag("work/muh/svg-path-problem-2.jpg", alt: "") %>
-          </figure>
-          <figcaption>Path overlap when using SVG <code class="c-code-inline">clip-path</code> to animate letters.</figcaption>
-        </figure>
 
-        <figure role="group">
-          <figure>
-            <%= image_tag("work/muh/open-the-garden-gate_strokepath.svg", alt: "") %>
+        <div class="o-l__g-simple">
+          <figure class="u-space">
+            <%= image_tag("work/muh/a-dreamy-botanical-adventure_strokepath.svg", alt: "") %>
+            <figcaption>The original <code class="c-code-inline">stroke-path</code></figcaption>
           </figure>
-          <figure>
-            <%= image_tag("work/muh/a-dreamy-botanical-adventure_storkepath.svg", alt: "") %>
+          <figure class="u-space">
+            <%= image_tag("work/muh/a-dreamy-botanical-adventure_strokepath2.svg", alt: "") %>
+            <figcaption>The better <code class="c-code-inline">stroke-path</code> but still with some minor overlap problems.</figcaption>
           </figure>
-          <figcaption>Animation fill paths for both major titles.</figcaption>
-        </figure>
+        </div>
+          
+        
 
 
 

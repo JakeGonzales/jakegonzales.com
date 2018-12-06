@@ -14,11 +14,18 @@ body {
   height: 100vh;
 }
 // Object Layout Grid 2 Column
-.o-l__g-2-col {
+.o-l__g-2-col { // Review this because it can be MORE than two columns
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 
   min-height: 100vh;
+  // This line really doesn't work unless this is used on a full page layout
+  // On simple in-page layouts I kept getting a massive gap and not understanding that I had this
+}
+
+.o-l__g-simple {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 
 
