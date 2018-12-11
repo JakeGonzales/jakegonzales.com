@@ -47,7 +47,7 @@
 
           <div class="u-space u-max-width-copy">
             <p><abbr title="Kasiana Amara">Kasi</abbr> came to us with this project for the Macquarie University Hospital in Sydney. A small two page website which lead to an EventBrite page to buy tickets. Kasi was imagining a pretty animation heavy design to really bring the invite to life. It was under a pretty short deadline but we were excited so, elbows were greased. We didn't get that many projects that involved animation this heavily so it was a good opportunity to flex some creative muscles.</p>
-
+            <p>I am going to cover the animations mostly because that took the vast majority of the time and brought up the most interesting work.</p>
             <p>Ok so the setup goes a little like this. We had a desktop mockup with a large raster image background. A couple of minor raster image assets and then rest of the items were vectors. One or two assets we needed to cut out of the background and then redraw the background.</p> 
           </div>
         </div>
@@ -83,8 +83,12 @@
           <p><abbr title="Adam Gormley">Gorms</abbr> got stuck into the asset cutouts and setups and I got stuck into the build.</p>
         </div>
 
-        <div class="u-space-md">
-          <h2>SVG Text Animation</h2>
+
+
+
+
+        <div class="u-space">
+          <h2>SVG Text Animation, Drawing Letters</h2>
         </div>
 
         <div class="o-l__g-simple">
@@ -98,27 +102,68 @@
             <p>In the end we decided to leave this because it wasn't very obvious and we couldn't come up with a better solution fast enough.</p>
           </div>
 
-          <figure role="group" class="u-space-stack">
-            <figure>
-              <%= image_tag("work/muh/svg-path-problem-1.jpg", alt: "A green line showing the stroke path when animating a letter using SVG clip-path") %>
+          <div class="u-space-stack u-max-width-copy">
+            <figure role="group">
+              <figure>
+                <%= image_tag("work/muh/svg-path-problem-1.jpg", alt: "A green line showing the stroke path when animating a letter using SVG clip-path") %>
+              </figure>
+              <figure>
+                <%= image_tag("work/muh/svg-path-problem-2.jpg", alt: "A green line showing the stroke path when animating a letter using SVG clip-path") %>
+              </figure>
+              <figcaption>Path overlap when using SVG <code class="c-code-inline">clip-path</code> to animate letters.</figcaption>
             </figure>
-            <figure>
-              <%= image_tag("work/muh/svg-path-problem-2.jpg", alt: "A green line showing the stroke path when animating a letter using SVG clip-path") %>
-            </figure>
-            <figcaption>Path overlap when using SVG <code class="c-code-inline">clip-path</code> to animate letters.</figcaption>
-          </figure>
+          </div>
+
         </div>
 
 
         <div class="o-l__g-simple">
           <figure class="u-space">
             <%= image_tag("work/muh/a-dreamy-botanical-adventure_strokepath.svg", alt: "") %>
-            <figcaption>The original <code class="c-code-inline">stroke-path</code></figcaption>
+            <figcaption>The original <code class="c-code-inline">stroke-path</code> style.</figcaption>
           </figure>
           <figure class="u-space">
             <%= image_tag("work/muh/a-dreamy-botanical-adventure_strokepath2.svg", alt: "") %>
-            <figcaption>The better <code class="c-code-inline">stroke-path</code> but still with some minor overlap problems.</figcaption>
+            <figcaption>The improved <code class="c-code-inline">stroke-path</code> but still with some minor overlap problems.</figcaption>
           </figure>
+        </div>
+
+        <div class="u-space-stack u-max-width-copy">
+          <p>Each letter in the animation was carefully timed with delays so that they would draw organically but fast enough that it wouldn't be boring. The first letter <code class="c-code-inline">animation: draw 3s linear forwards;</code> compared to the last letter <code class="c-code-inline">animation: draw-e 1.8s ease-in-out forwards 5s;</code></p>
+          <p>Previously I had tried to use jQuery to handle the animation queues but it didn't work as I expected. This actually worked better because when JavaScript was disabled it still functioned perfectly and I didn't need to think about the fallback. That's not to say that the whole site functioned properly without JavaScript but I'll come back to that later.</p>
+        </div>
+
+
+
+
+
+        <div class="u-space-md">
+          <h2>Key Swing Animation</h2>
+          <p data-height="605" data-theme-id="0" data-slug-hash="ZVYMwB" data-default-tab="css,result" data-user="JakeGonzales" data-pen-title="Object Swinging in the Wind - CSS Only" class="codepen">See the Pen <a href="https://codepen.io/JakeGonzales/pen/ZVYMwB/">Object Swinging in the Wind - CSS Only</a> by Jake Gonzales (<a href="https://codepen.io/JakeGonzales">@JakeGonzales</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+          <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+        </div>
+
+        <div class="u-space-stack o-l__text-coumns-3">
+          
+          <p>Unlike the SVG animation I didn't have a leg up on this one. I was a little bit concerned about it actually because of where I would need to rotate the key for it look like it was swinging. I was playing with Velocity.js a while back and wanted to change the pivot point from the center but couldn't get it working. I was excited to have another chance at the problem of course.</p>
+          <p>My problem solving apprach was obviously flawed at the time because it did not take me long to find out that there was a CSS property specifically for doing this that I had never seen before <code class="c-code-inline">transform-origin</code>. CSS makes me feel like a kid in a candy store sometimes. That's all it took for me to know exactly how to get that key swinging. The golden little nugget that is <code class="c-code-inline">transform-origin: center top;</code>.</p>
+          <p>Banking on some low level learning I had previously with nested animations in Flash (or nested symbols), essentially I would swing a pseudo element inside a swinging element. It's not hard to draw parallels with how you animate legs walking.</p>
+
+
+          <p>You can see here </p>
+        </div>
+
+
+
+
+        <div class="u-space-md">
+          <h2>Butterfly Wings Flapping Animation</h2>
+        </div>
+
+        <div class="u-space">
+          
+          <p></p>
+
         </div>
           
         
@@ -128,11 +173,13 @@
 
         <h2>Final Product Pain Points</h2>
         <ul>
-          <li>Fallbacks not good. No CSS works well, however no JS means it breaks the "Enter Here"</li>
+          <li>Fallbacks not good. No CSS works well, however no JS means it breaks the "Enter Here" as mentioned in the SVG section with fallbacks</li>
           <li>Terrible accesibility -- which in hindsight is the dumbest thing here because this is for a hospital. We later found out that this was only for doctors but that really didn't make it much better.</li>
           <li>The sparkle animation on the key is definitely a machine overheater when it's active.</li>
           <li>The mobile experience is not that enjoyable, some things can be clicked accidentally.</li>
         </ul>
+
+        <p>Note: Talk about CSS gracefully degrading better than the JS. However mentioned screen readers aren't going to do so well.</p>
 
         <h2>Pushing the Project Further</h2>
         <p>I was actually hunting to the sparkles as more of a feature over the entire page but since it was terrible for perfomance I only let it show when the key was hovered. It's a shame too because it would have added so much more atmosphere.</p>
