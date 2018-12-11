@@ -1874,6 +1874,14 @@ strong {
 p {
   margin: 0; }
 
+abbr,
+abbr[title] {
+  cursor: help; }
+
+abbr[title] {
+  text-decoration: none;
+  border-bottom: 1px dotted #000000; }
+
 /*------------------------------------*\
   # HEADINGS
 \*------------------------------------*/

@@ -16,3 +16,14 @@ strong {
 p {
   margin: 0;
 }
+
+abbr,
+abbr[title] {
+  cursor: help;
+}
+
+abbr[title] {
+  text-decoration: none; // Reset
+
+  border-bottom: 1px dotted $color__black;
+}
