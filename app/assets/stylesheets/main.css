@@ -2034,9 +2034,8 @@ a {
 .c-article__colophon {
   font-size: 0.8em;
   max-width: 320px;
-  border-bottom: 3px solid #000000;
-  border-top: 3px solid #000000;
-  padding: 1em 0; }
+  border-left: 3px solid black;
+  padding-left: 2em; }
 
 /*------------------------------------*\
   # WORK SINGLE
