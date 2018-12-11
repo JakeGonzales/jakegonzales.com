@@ -97,3 +97,12 @@
 
   font-size: 0.8em;
 }
+
+.c-article__colophon {
+  font-size: 0.8em;
+  max-width: 320px;
+
+  border-bottom: 3px solid $color__black;
+  border-top: 3px solid $color__black;
+  padding: 1em 0;
+}
