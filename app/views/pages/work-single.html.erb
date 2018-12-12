@@ -144,28 +144,30 @@
         </div>
 
         <div class="u-space-stack o-l__text-coumns-3">
-          
           <p>Unlike the SVG animation I didn't have a leg up on this one. I was a little bit concerned about it actually because of where I would need to rotate the key for it look like it was swinging. I was playing with Velocity.js a while back and wanted to change the pivot point from the center but couldn't get it working. I was excited to have another chance at the problem of course.</p>
           <p>My problem solving apprach was obviously flawed at the time because it did not take me long to find out that there was a CSS property specifically for doing this that I had never seen before <code class="c-code-inline">transform-origin</code>. CSS makes me feel like a kid in a candy store sometimes. That's all it took for me to know exactly how to get that key swinging. The golden little nugget that is <code class="c-code-inline">transform-origin: center top;</code>.</p>
           <p>Banking on some low level learning I had previously with nested animations in Flash (or nested symbols), essentially I would swing a pseudo element inside a swinging element. It's not hard to draw parallels with how you animate legs walking.</p>
-
-
-          <p>You can see here </p>
+          <p>Adjusting the chain length with breakpoints was a breeze with this setup which was an unintended bonus. It did however mean that the animation didn't look as natural with the longer lengths because the animation angle didn't scale with the chain length that well.</p>
         </div>
 
 
 
 
         <div class="u-space-md">
-          <h2>Butterfly Wings Flapping Animation</h2>
+          <h2>Butterfly Wing Flapping Animation</h2>
         </div>
 
-        <div class="u-space">
-          
-          <p></p>
-
+        <div class="u-space-md">
+          <p data-height="384" data-theme-id="0" data-slug-hash="qLdYGV" data-default-tab="css,result" data-user="JakeGonzales" data-pen-title="Butterfly Flapping Wings " class="codepen">See the Pen <a href="https://codepen.io/JakeGonzales/pen/qLdYGV/">Butterfly Flapping Wings </a> by Jake Gonzales (<a href="https://codepen.io/JakeGonzales">@JakeGonzales</a>) on <a href="https://codepen.io">CodePen</a>.</p>
         </div>
-          
+
+        <div class="u-space-stack o-l__text-coumns-3">
+          <p>This simple little butterfly is definitely my favourite part of this whole project. I had been looking for an excuse to use <code class="c-code-inline">transform: rotate3d();</code> for a while.</p>
+          <p>I could have done something a little simpler like crushing the wings horizontally and rotating the whole butterfly 45 degrees but it felt logical to do it in 3D space.</p>
+          <p>Working straight from the static 45 degree position most of this animation was just tweaking and playing with the values. When the wings started to look natural I fine tuned it from there. Adjusting different degrees of rotation would totally throw out the wings timing together so it was definitely a lot of tweak one wing and then the other.</p> 
+          <p>A lot of CSS I can mostly see the results in my head but 3D transforms were new for me. Like I said I think you can get a similar effect with a much easier method but I'm happy with the results.</p>
+        </div>
+
         
 
 
