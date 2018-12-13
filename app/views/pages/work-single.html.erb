@@ -178,24 +178,23 @@
 
           <p>As promised I mostly talked about animations but there are a few things I want to touch on that I don't like about this project that I would like to have fixed before it was launched.</p>
 
-          <h3>Accessability</h3>
+          <h3>Fallback Failure</h3>
+          <p>I'm not too unhappy with my fallbacks because I got really close to it being decent. The major thing is that if JS is disabled you can't navigate to the next page which completely breaks the site. So that is really <strong>major</strong>. The reason I'm not too annoyed by that is that I know it would have been an easy fix and <a href="https://blockmetry.com/blog/javascript-disabled" title="What percentage of browsers with javascript disabled? on blockmetry.com">in 2016 only 0.2% of users had JavaScript disabled</a>. So even though <em>it's not a good thing</em>, the impact is potentially low.</p>
+          <p>Really I think the site would have been better off being two pages. Not just for fallbacks but also because if you want to go back to the other page with the browser buttons you leave the site. It's also bad for screen readers because once they navigate to the second page the order in which they are reading becomes reversed. A new page could have easily solved that. I made it a single page purely for aesthetic reasons for fade ins and outs.</p>
+
+          <h3>Poor Accessibility Can Be More Than Poor Usability</h3>
           <p>Initially I didn't think that the site was going to be good on the accessibility front because I didn't specifically do an analyses. I was going to write about how it was a major failure on my part &mdash; given this is for a hospital &mdash; that the site was not very accessible.</p>
           <p>However after doing some testing I would say that it does manage to be accessible just enough. When I say just enough I mean that it is at the very least accessible. However it is probably not an enjoyable or really simple experience. Front end designers spend a lot of time making sites functional and pleasurable for the majority but what would constitute a pleasurable experience for someone using a screen reader?</p> 
           <p>If I were to focus on making this site more enjoyable for people who are using screen readers I would definitely have injected more of a narrative in the background describing the key blowing in the breeze, the text appearing slowly, just really setting the theme a lot more.</p>
           <p>At present the experience is lacking and the text is quite elusive in respect to letting people know what the site is about. I managed to make this accessible enough but I can definitely see that I could have made it a lot better. And <em>a lot better</em> will come from more of a focus on accessibility.</p>
           <p>Thinking about this particular case reminds me of Eric Meyers's thoughts about <a href="https://medium.com/net-magazine/designing-for-crisis-9cab10b4c519" title="Designing For Crisis Article - Eric A. Meyer urges designers to pay attention to the worst-case scenario, and make a better experience for all users">designing for crisis.</a></p>
         
-          <h3>Fallbacks</h3>
-          <p>I'm not too unhappy with my fallbacks because I got really close to it being decent. The major thing is that if JS is disabled you can't navigate to the next page which completely breaks the site. So that is really <strong>major</strong>. The reason I'm not too annoyed by that is that I know it would have been an easy fix and <a href="https://blockmetry.com/blog/javascript-disabled" title="What percentage of browsers with javascript disabled? on blockmetry.com">in 2016 only 0.2% of users had JavaScript disabled</a>. So even though <em>it's not a good thing</em>, the impact is potentially low.</p>
-          
+          <h3>Performance Hits</h3>
+          <p>I used <a href="https://github.com/simeydotme" title="Simon Goellner's Github Page">Simon Goellner's</a> <a href="http://simeydotme.github.io/jQuery-canvas-sparkles/" title="Simon Goellner's jQuery Canvas Sparkles - A little canvas script to add magicto DOM elements">jQuery Canvas Sparkles</a> to add a little something extra to the keys on hover. However in the state they were in when I used them they were pretty heavy on performance.</p> 
+          <p>I was originally going to have them in quite a few places on the site to add a lot more atmosphere: sparkling through the light ray, on the text, and on the fairies. However when I discovered the performance hit I had to think otherwise. They ended up on the key mostly because only having them appear on hover didn't melt computers and because, well, they're really pretty.</p>
 
-
-
-          <ul>
-            <li>Fallbacks</li>
-            <li>The sparkle animation on the key is definitely a machine overheater when it's active.</li>
-            <li>The mobile experience is not that enjoyable, some things can be clicked accidentally.</li>
-          </ul>
+          <h3>You Can Accidentally Click the Key on Mobile</h3>
+          <p>In hindsight this is a really silly mistake which could have been easily fixed. The key gets longer on mobile and the chain cuts through the whole screen. The key is an anchor so then there's this massive link swinging through the page which you can accidentally click when you're scrolling on touch devices, not cool.</p>
 
         </div>
 
