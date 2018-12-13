@@ -1882,6 +1882,9 @@ abbr[title] {
   text-decoration: none;
   border-bottom: 1px dotted #000000; }
 
+abbr:hover {
+  background: #cacac4; }
+
 /*------------------------------------*\
   # HEADINGS
 \*------------------------------------*/

@@ -27,3 +27,7 @@ abbr[title] {
 
   border-bottom: 1px dotted $color__black;
 }
+
+abbr:hover {
+  background: lighten($color__secondary, 30%);
+}
