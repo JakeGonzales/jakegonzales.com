@@ -1,7 +1,22 @@
 /*------------------------------------*\
-  # WORK SINGLE
+  # WORK SINGLE PAGE
 \*------------------------------------*/
 
+.work-single .c-navigation-main {
+  background: transparent;
+}
+
+
+
+
+
+/*------------------------------------*\
+  # WORK SINGLE COMPONENT
+\*------------------------------------*/
+
+.c-work-single {
+  width: 100%;
+}
 
 .c-work-single::before {
   content: "";
@@ -29,3 +44,5 @@
 .c-work-single__description {
   max-width: 500px;
 }
+
+

@@ -2056,8 +2056,17 @@ a {
   padding: 0 1em 0 2em; }
 
 /*------------------------------------*\
-  # WORK SINGLE
+  # WORK SINGLE PAGE
 \*------------------------------------*/
+.work-single .c-navigation-main {
+  background: transparent; }
+
+/*------------------------------------*\
+  # WORK SINGLE COMPONENT
+\*------------------------------------*/
+.c-work-single {
+  width: 100%; }
+
 .c-work-single::before {
   content: "";
   display: block;
@@ -2505,6 +2514,12 @@ body {
 .o-l__g-simple {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); }
+
+.o-l__f-simple {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: flex-start; }
 
 .o-l__f-2-row {
   display: flex;

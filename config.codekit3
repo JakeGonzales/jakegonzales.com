@@ -898,11 +898,18 @@
 		"oAP": "/app/views/shared/_nav_main.html.erb",
 		"oF": 0
 		},
-	"/app/views/shared/_work_header.html.erb": {
+	"/app/views/shared/_work_after.html.erb": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "/app/views/shared/_work_header.html.erb",
+		"oAP": "/app/views/shared/_work_after.html.erb",
+		"oF": 0
+		},
+	"/app/views/shared/_work_before.html.erb": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/app/views/shared/_work_before.html.erb",
 		"oF": 0
 		},
 	"/app/views/work/anomaly.html.erb": {

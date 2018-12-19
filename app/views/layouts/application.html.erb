@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html class="no-js">
   <head>
-    <title>Jake Rodriguez-Gonzales</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
+    <title>
+      <% if content_for?(:title) %><%= yield(:title) %> — <% end %>Jake Rodriguez-Gonzales
+    </title>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <% if content_for?(:description) %>
+      <meta name="description" content="<%= yield(:description) %>">
+    <% end %>
+
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
+  <body class="<%= yield (:body_class) %>">
     <%= yield %>
   </body>
 

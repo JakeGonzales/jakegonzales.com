@@ -1,4 +1,8 @@
-<%= render 'shared/work_header' %>
+<% content_for :body_class, "work-single " %>
+<% content_for :title, "" %>
+<% content_for :description, "" %>
+
+<%= render 'shared/work_before' %>
 
 
 
@@ -24,7 +28,7 @@
 
 
 
-      <main class="c-work-single__main u-spacers o-l__f-2-row">
+      <main class="c-work-single__main u-spacers">
 
         <div class="o-l__g-simple">
           <div class="u-space-md">
@@ -200,16 +204,9 @@
 
 
 
-        
-
       </main>
 
-    </article>
+<%= render 'shared/work_after' %>
 
-    
-
-  </div>
-
-</div>
 
 
