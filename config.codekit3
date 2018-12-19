@@ -739,6 +739,13 @@
 		"oAP": "/app/controllers/pages_controller.rb",
 		"oF": 0
 		},
+	"/app/controllers/work_controller.rb": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/app/controllers/work_controller.rb",
+		"oF": 0
+		},
 	"/app/helpers/application_helper.rb": {
 		"cB": 0,
 		"ft": 8192,
@@ -877,13 +884,6 @@
 		"oAP": "/app/views/pages/skills.html.erb",
 		"oF": 0
 		},
-	"/app/views/pages/work-single.html.erb": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/app/views/pages/work-single.html.erb",
-		"oF": 0
-		},
 	"/app/views/pages/work.html.erb": {
 		"cB": 0,
 		"ft": 8192,
@@ -896,6 +896,69 @@
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "/app/views/shared/_nav_main.html.erb",
+		"oF": 0
+		},
+	"/app/views/shared/_work_header.html.erb": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/app/views/shared/_work_header.html.erb",
+		"oF": 0
+		},
+	"/app/views/work/anomaly.html.erb": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/app/views/work/anomaly.html.erb",
+		"oF": 0
+		},
+	"/app/views/work/bates.html.erb": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/app/views/work/bates.html.erb",
+		"oF": 0
+		},
+	"/app/views/work/glitched.html.erb": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/app/views/work/glitched.html.erb",
+		"oF": 0
+		},
+	"/app/views/work/izo.html.erb": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/app/views/work/izo.html.erb",
+		"oF": 0
+		},
+	"/app/views/work/muh_invite.html.erb": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/app/views/work/muh_invite.html.erb",
+		"oF": 0
+		},
+	"/app/views/work/star.html.erb": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/app/views/work/star.html.erb",
+		"oF": 0
+		},
+	"/app/views/work/wa_meats.html.erb": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/app/views/work/wa_meats.html.erb",
+		"oF": 0
+		},
+	"/app/views/work/wintec.html.erb": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/app/views/work/wintec.html.erb",
 		"oF": 0
 		},
 	"/bin/bundle": {
