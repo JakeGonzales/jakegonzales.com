@@ -1,0 +1,31 @@
+/*------------------------------------*\
+  # WORK SINGLE
+\*------------------------------------*/
+
+
+.c-work-single::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 75vh;
+  position: absolute;
+    top: 0;
+    left: 0;
+
+  background: lighten($color__secondary, 45%);
+  z-index: $z-index1;
+}
+
+.c-work-single__header,
+.c-work-single__main {
+  position: relative;
+   z-index: $z-index1-1;
+}
+
+.c-work-single__title {
+  max-width: 600px;
+}
+
+.c-work-single__description {
+  max-width: 500px;
+}

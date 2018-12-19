@@ -1874,6 +1874,17 @@ strong {
 p {
   margin: 0; }
 
+abbr,
+abbr[title] {
+  cursor: help; }
+
+abbr[title] {
+  text-decoration: none;
+  border-bottom: 1px dotted #000000; }
+
+abbr:hover {
+  background: #cacac4; }
+
 /*------------------------------------*\
   # HEADINGS
 \*------------------------------------*/
@@ -1986,10 +1997,12 @@ a {
     margin-bottom: 0; }
   .c-article p {
     margin-bottom: 0.87em;
-    line-height: 1.3;
     -webkit-column-break-inside: avoid;
-            break-inside: avoid;
-    display: inline-block; }
+            break-inside: avoid; }
+  .c-article p, .c-article ul, .c-article ol, .c-article li {
+    line-height: 1.3; }
+  .c-article li {
+    margin-bottom: 0.4em; }
   .c-article b,
   .c-article strong {
     font-weight: 300;
@@ -2006,6 +2019,66 @@ a {
             break-inside: avoid; }
     .c-article .c-article__text *:first-child {
       margin-top: 0; }
+  .c-article figure {
+    text-align: center;
+    overflow: hidden;
+    background: #eeeeec;
+    padding: 5vw;
+    margin: 1.2em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+  .c-article figure img {
+    display: block;
+    margin-bottom: 1.2em; }
+  .c-article figcaption {
+    font-size: 0.8em;
+    display: inline-block;
+    padding-top: 1.2em;
+    border-top: 1px solid #d6d6d1; }
+
+.c-article__link-alone {
+  margin-bottom: 0.87em;
+  line-height: 1.3;
+  display: inline-block; }
+
+.c-article__page-topper {
+  display: block;
+  border-bottom: 3px solid #000000;
+  padding-bottom: 1em;
+  font-size: 0.8em; }
+
+.c-article__colophon {
+  font-size: 0.8em;
+  max-width: 320px;
+  border-left: 3px solid black;
+  padding: 0 1em 0 2em; }
+
+/*------------------------------------*\
+  # WORK SINGLE
+\*------------------------------------*/
+.c-work-single::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 75vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #eeeeec;
+  z-index: 1000; }
+
+.c-work-single__header,
+.c-work-single__main {
+  position: relative;
+  z-index: 1100; }
+
+.c-work-single__title {
+  max-width: 600px; }
+
+.c-work-single__description {
+  max-width: 500px; }
 
 /*------------------------------------*\
   # NAVIGATION
@@ -2083,6 +2156,17 @@ a {
     content: ", "; }
   .c-linear-list li:last-of-type::after {
     content: "."; }
+
+/*------------------------------------*\
+  # CODE SNIPPETS
+\*------------------------------------*/
+.c-code-inline {
+  background: #eeeeec;
+  border: 1px solid #cacac4;
+  border-radius: 3px;
+  color: #cb2b40;
+  font-size: 0.9em;
+  padding: 0 0.4em; }
 
 /*------------------------------------*\
   # SPACE SCENES AND ASTRONAUTS
@@ -2363,6 +2447,10 @@ a {
   padding: 0 8px;
   margin: 15px 0; }
 
+.u-space-stack-lg {
+  padding: 0 8px;
+  margin: 20px 0; }
+
 /*------------------------------------*\
   # SPACING: MAX-WIDTHS
 \*------------------------------------*/
@@ -2371,6 +2459,9 @@ a {
 
 .u-max-width-copy {
   max-width: 490px; }
+
+.u-max-width-article {
+  max-width: 1200px; }
 
 /*------------------------------------*\
   # DIRECTION 
@@ -2383,6 +2474,15 @@ to reset the text back to ltr. */
 
 .u-ltr {
   direction: ltr; }
+
+/*------------------------------------*\
+  # FLOATS
+\*------------------------------------*/
+.u-float-right {
+  float: right; }
+
+.u-float-left {
+  float: left; }
 
 /*------------------------------------*\
   # LAYOUTS
@@ -2401,6 +2501,10 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   min-height: 100vh; }
+
+.o-l__g-simple {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); }
 
 .o-l__f-2-row {
   display: flex;
@@ -2438,6 +2542,12 @@ body {
   justify-content: flex-end;
   align-items: flex-start; }
 
+.o-l__f-align-center {
+  align-self: center; }
+
+.o-l__f-align-end {
+  align-self: flex-end; }
+
 /*------------------------------------*\
   # TESSERACT LAYOUT
 \*------------------------------------*/
@@ -2445,8 +2555,7 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   width: 100%;
-  max-width: 1280px;
-  align-self: center; }
+  max-width: 1280px; }
 
 .o-l-tesseract__obvious,
 .o-l-tesseract__simple {
@@ -2464,4 +2573,19 @@ ol.o-l-tesseract {
   margin: 0 0 4em 0;
   padding: 0;
   list-style: none; }
+
+/*------------------------------------*\
+  # PARAGRAPH COLUMNS
+\*------------------------------------*/
+.o-l__text-coumns-3 {
+  -webkit-columns: 3 280px;
+          columns: 3 280px;
+  -webkit-column-gap: 2em;
+          column-gap: 2em; }
+
+.o-l__text-coumns-2 {
+  -webkit-columns: 2 320px;
+          columns: 2 320px;
+  -webkit-column-gap: 2em;
+          column-gap: 2em; }
 /*# sourceMappingURL=main.css.map */

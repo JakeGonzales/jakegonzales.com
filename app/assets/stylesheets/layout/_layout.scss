@@ -14,11 +14,18 @@ body {
   height: 100vh;
 }
 // Object Layout Grid 2 Column
-.o-l__g-2-col {
+.o-l__g-2-col { // Review this because it can be MORE than two columns
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 
   min-height: 100vh;
+  // This line really doesn't work unless this is used on a full page layout
+  // On simple in-page layouts I kept getting a massive gap and not understanding that I had this
+}
+
+.o-l__g-simple {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 
 
@@ -74,7 +81,13 @@ body {
   align-items: flex-start;
 }
 
+.o-l__f-align-center {
+  align-self: center;
+}
 
+.o-l__f-align-end {
+  align-self: flex-end;
+}
 
 
 /*------------------------------------*\
@@ -86,9 +99,6 @@ body {
 
   width: 100%;
   max-width: 320px * 4;
-
-  // Flex
-  align-self: center;
 }
 
   
@@ -113,3 +123,19 @@ ol.o-l-tesseract { // Oh interesting pattern there!
   list-style: none;
 }
 
+
+
+
+/*------------------------------------*\
+  # PARAGRAPH COLUMNS
+\*------------------------------------*/
+
+.o-l__text-coumns-3 {
+  columns: 3 280px;
+  column-gap: 2em;
+}
+
+.o-l__text-coumns-2 {
+  columns: 2 320px;
+  column-gap: 2em;
+}

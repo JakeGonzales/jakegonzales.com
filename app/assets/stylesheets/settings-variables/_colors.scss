@@ -44,6 +44,11 @@ $color__text-input      : $color__text-main;
 $color__text-input-focus: darken($color__text-main, 33%);
 $color__text-screen     : #21759b;
 
+// <code> color
+$color__code-background : lighten($color__grey-warm-nasa, 45%);
+$color__code-border     : lighten($color__grey-warm-nasa, 30%);
+$color__code-text       : $color__red-nasa;
+
 
 // Background color
 $color__background-body  : $color__white;

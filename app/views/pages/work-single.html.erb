@@ -1,0 +1,223 @@
+
+
+<div class="o-l__g-2-col">
+
+  <div class="o-l__f-2-row">
+    <%= render 'shared/nav_main' %>
+
+    <article class="c-article c-work-single u-max-width-article o-l__f-align-center">
+      
+
+
+
+
+      <header class="c-work-single__header u-spacers">
+        <div class="u-space-md">
+          <span class="c-article__page-topper">Macquarie University Hospital</span>
+        </div>
+        <div class="u-space-stack-lg">
+          <h1 class="c-work-single__title">A Dreamy Botanical Adventure Christmas Party Web Invite</h1>
+          <section class="c-work-single__description">
+            <p>A magical botanical journey through the underbrush fit for a child’s fantastical imagination. A Christmas Party and Reward and Recognition Evening invite for the Macquarie University Hospital, Sydney.</p>
+            <a class="c-article__link-alone" href="http://christmasparty.muh.org.au" title="Christmas Party Invite for the Macquarie University Hospital 2017">christmasparty.muh.org.au</a>
+          </section>
+        </div>
+
+        <div class="u-space-md">
+          <%= image_tag("work/muh/macquarie-university-hospital__christmas-invite__page-2.jpg", alt: "") %>
+        </div>
+      </header>
+
+
+
+
+
+      <main class="c-work-single__main u-spacers o-l__f-2-row">
+
+        <div class="o-l__g-simple">
+          <div class="u-space-md">
+            <aside class="c-article__colophon">
+              <h1>Credits</h1>
+              <p>A Kasiani Amara Project (Designer/Director at Emorfia) in conjuction with Two Of Three. Desktop designs by Kasiana. Graphics preparation by Adam Gormley.</p>
+              <p>I worked on asset construction, SVG creation, animation, and device friendly layouts.</p>
+              <h2>Support</h2>
+              <p>Quote, Project Management, and environment support from Michael Congiusta. Fairy animation and typography support from Adam Gormley. Both Adam and I worked on creative direction.</p>
+            </aside>
+          </div>
+
+          <div class="u-space u-max-width-copy">
+            <p><abbr title="Kasiana Amara">Kasi</abbr> came to us with this project for the Macquarie University Hospital in Sydney. A small two page website which lead to an EventBrite page to buy tickets. Kasi was imagining a pretty animation heavy design to really bring the invite to life. It was under a pretty short deadline but we were excited so, elbows were greased. We didn't get that many projects that involved animation this heavily so it was a good opportunity to flex some creative muscles.</p>
+            <p>I am going to cover the animations mostly because that took the vast majority of the time and brought out the most interesting work.</p>
+            <p>Ok so the setup goes a little like this. We had a desktop mockup with a large raster image background. A couple of minor raster image assets and then rest of the items were vectors. One or two assets we needed to cut out of the background and then redraw the background.</p> 
+          </div>
+        </div>
+
+        <figure>
+          <%= image_tag("work/muh/macquarie-university-hospital__christmas-invite__design.jpg", alt: "Original design for the Macquarie University Hospital Christmas Invite - Page One") %>
+          <%= image_tag("work/muh/macquarie-university-hospital__christmas-invite__design-2.jpg", alt: "Original design for the Macquarie University Hospital Christmas Invite - Page Two") %>
+          <figcaption>Original designs for the Macquarie University Hospital Christmas Invite, by Kasiani Amara</figcaption>
+        </figure>
+        
+        <div class="u-space-stack o-l__text-coumns-3">
+          <p>On the first screen some of our instructions were:</p>
+          <ul>
+            <li>The spotlight (on a separate layer) shining down,</li>
+            <li>Title to appear &mdash; if possible &mdash; to unravel gradually and glisten/sparkle,</li>
+            <li>Each line to appear one after the other like a story being told,</li>
+            <li>The key must swing to bring attention to the viewer to "Enter Here".</li>
+          </ul>
+
+          <p>And on the second screen:</p>
+          <ul>
+            <li>Stars twinkling in the sky,</li>
+            <li>If possible to have the fairies moving and stars glistening,</li>
+            <li>As per the previous screen: Title to appear &mdash; if possible &mdash; to unravel gradually and glisten/sparkle,</li>
+            <li>Butterfly wings moving.</li>
+          </ul>
+
+          <p>The final requirement was that the two pages needed to be mobile and tablet friendly. Which hopefully wasn't a surprise to anyone.</p>
+          <p><abbr title="Adam Gormley">Gorms</abbr> got stuck into the asset cutouts and setups and I got stuck into the build.</p>
+        </div>
+
+
+
+
+
+        <div class="u-space">
+          <h2>SVG Text Animation, Drawing Letters</h2>
+        </div>
+
+        <div class="o-l__g-simple">
+
+          <div class="u-space-stack  u-max-width-copy">
+            <p>I wanted to tackle this first in the build because to me it seemed like the most involved. I'd just done some SVG text animation so it seemed like the obvious way to go. To start myself off I just applied what I had done with the previous text to see what I could get away with, it wasn't much.</p>
+            <p>I was using a CSS animated <code class="c-code-inline">stroke-dashoffset</code> combined with an SVG <code class="c-code-inline">clip-path</code> and this worked really well around the entire outside of a large character. However working with this text was much more difficult because the text was thin, there were a lot of tight turns, and the text was close together. The clip path would end up showing on the return route along the other side of the letter and ruined the hand writing effect I'd imagined; kind of a double drawing.</p>
+
+            <p>So the solution it would seem was to only have one path for the drawing and to cut away the other sides of the characters where it was problematic.</p>
+            <p><abbr title="Adam Gormley">Gorms</abbr> and I worked together to figure out the best paths for animating the SVG which was a great discovery process. The main problem with the paths was the little bit of overlap we would get if we had strokes too big or letters too close.</p>
+            <p>In the end we decided to leave this because it wasn't very obvious and we couldn't come up with a better solution fast enough.</p>
+          </div>
+
+          <div>
+            <figure>
+              <%= image_tag("work/muh/svg-path-problem-1.jpg", alt: "A green line showing the stroke path when animating a letter using SVG clip-path") %>
+              <%= image_tag("work/muh/svg-path-problem-2.jpg", alt: "A green line showing the stroke path when animating a letter using SVG clip-path") %>
+              <figcaption>Path overlap when using SVG <code class="c-code-inline">clip-path</code> to animate letters.</figcaption>
+            </figure>
+          </div>
+
+        </div>
+
+
+        <div class="o-l__g-simple">
+
+          <figure>
+            <%= image_tag("work/muh/a-dreamy-botanical-adventure_strokepath.svg", alt: "") %>
+            <figcaption>The original <code class="c-code-inline">stroke-path</code> style.</figcaption>
+          </figure>
+
+          <figure>
+            <%= image_tag("work/muh/a-dreamy-botanical-adventure_strokepath2.svg", alt: "") %>
+            <figcaption>The improved <code class="c-code-inline">stroke-path</code> but still with some minor overlap problems.</figcaption>
+          </figure>
+
+        </div>
+
+        <div class="u-space-stack u-max-width-copy">
+          <p>Each letter in the animation was carefully timed with delays so that they would draw organically but fast enough that it wouldn't be boring. The first letter <code class="c-code-inline">animation: draw 3s linear forwards</code> compared to the last letter <code class="c-code-inline">animation: draw-e 1.8s ease-in-out forwards 5s</code>.</p>
+          <p>Previously I had tried to use jQuery to handle the animation queues but it didn't work as I expected. This actually worked better because when JavaScript was disabled it still functioned perfectly and I didn't need to think about the fallback. That's not to say that the whole site functioned properly without JavaScript but I'll come back to that later.</p>
+        </div>
+
+
+
+
+
+        <div class="u-space-md">
+          <h2>Key Swing Animation</h2>
+
+          <p data-height="605" data-theme-id="0" data-slug-hash="ZVYMwB" data-default-tab="css,result" data-user="JakeGonzales" data-pen-title="Object Swinging in the Wind - CSS Only" class="codepen">See the Pen <a href="https://codepen.io/JakeGonzales/pen/ZVYMwB/">Object Swinging in the Wind - CSS Only</a> by Jake Gonzales (<a href="https://codepen.io/JakeGonzales">@JakeGonzales</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+          <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+        </div>
+
+        <div class="u-space-stack o-l__text-coumns-3">
+          <p>Unlike the SVG animation I didn't have a leg up on this one. I was a little bit concerned about it actually because of where I would need to rotate the key for it look like it was swinging. I was playing with Velocity.js a while back and wanted to change the pivot point from the center but couldn't get it working. I was excited to have another chance at the problem of course.</p>
+          <p>My problem solving approach was obviously flawed at the time because it did not take me long to find out that there was a CSS property specifically for doing this that I had never seen before <code class="c-code-inline">transform-origin</code>. CSS makes me feel like a kid in a candy store sometimes. That's all it took for me to know exactly how to get that key swinging. The golden little nugget that is <code class="c-code-inline">transform-origin: center top;</code>.</p>
+          <p>Banking on some low level learning I had previously with nested animations in Flash (or nested symbols), essentially I would swing a pseudo element inside a swinging element. It's not hard to draw parallels with how you animate legs walking.</p>
+          <p>Adjusting the chain length with breakpoints was a breeze with this setup which was an unintended bonus. It did however mean that the animation didn't look as natural with the longer lengths because the animation angle didn't scale with the chain length that well.</p>
+        </div>
+
+
+
+
+        <div class="u-space-md">
+          <h2>Butterfly Wing Flapping Animation</h2>
+
+          <p data-height="384" data-theme-id="0" data-slug-hash="qLdYGV" data-default-tab="css,result" data-user="JakeGonzales" data-pen-title="Butterfly Flapping Wings " class="codepen">See the Pen <a href="https://codepen.io/JakeGonzales/pen/qLdYGV/">Butterfly Flapping Wings </a> by Jake Gonzales (<a href="https://codepen.io/JakeGonzales">@JakeGonzales</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+        </div>
+
+        <div class="u-space-stack o-l__text-coumns-3">
+          <p>This simple little butterfly is definitely my favourite part of this whole project. I had been looking for an excuse to use <code class="c-code-inline">transform: rotate3d();</code> for a while.</p>
+          <p>I could have done something a little simpler like crushing the wings horizontally and rotating the whole butterfly 45 degrees but it felt logical to do it in 3D space.</p>
+          <p>Working straight from the static 45 degree position most of this animation was just tweaking and playing with the values. When the wings started to look natural I fine tuned it from there. Adjusting different degrees of rotation would totally throw out the wings timing together so it was definitely a lot of tweak one wing and then the other.</p> 
+          <p>With a lot of CSS I can see the results in my head before it hits the page but 3D transforms were new for me so I couldn't map it out straight away. As I said I think you can get a similar effect with a much easier method but I'm happy with the results.</p>
+        </div>
+        
+
+
+
+        <div class="u-space">
+          <h2>The Ugly Bits</h2>
+        </div>
+
+        <div class="u-space-stack o-l__text-coumns-2">
+
+          <p>As promised I mostly talked about animations but there are a few things I want to touch on that I don't like about this project that I would like to have fixed before it was launched.</p>
+
+          <h3>Fallback Failure</h3>
+          <p>I'm not too unhappy with my fallbacks because I got really close to it being decent. The major thing is that if JS is disabled you can't navigate to the next page which completely breaks the site. So that is really <strong>major</strong>. The reason I'm not too annoyed by that is that I know it would have been an easy fix and <a href="https://blockmetry.com/blog/javascript-disabled" title="What percentage of browsers with javascript disabled? on blockmetry.com">in 2016 only 0.2% of users had JavaScript disabled</a>. So even though <em>it's not a good thing</em>, the impact is potentially low.</p>
+          <p>Really I think the site would have been better off being two pages. Not just for fallbacks but also because if you want to go back to the other page with the browser buttons you leave the site. It's also bad for screen readers because once they navigate to the second page the order in which they are reading becomes reversed. A new page could have easily solved that. I made it a single page purely for aesthetic reasons for fade ins and outs.</p>
+
+          <h3>Poor Accessibility Can Be More Than Poor Usability</h3>
+          <p>Initially I didn't think that the site was going to be good on the accessibility front because I didn't specifically do an analyses. I was going to write about how it was a major failure on my part &mdash; given this is for a hospital &mdash; that the site was not very accessible.</p>
+          <p>However after doing some testing I would say that it does manage to be accessible just enough. When I say just enough I mean that it is at the very least accessible. However it is probably not an enjoyable or really simple experience. Front end designers spend a lot of time making sites functional and pleasurable for the majority but what would constitute a pleasurable experience for someone using a screen reader?</p> 
+          <p>If I were to focus on making this site more enjoyable for people who are using screen readers I would definitely have injected more of a narrative in the background describing the key blowing in the breeze, the text appearing slowly, just really setting the theme a lot more.</p>
+          <p>At present the experience is lacking and the text is quite elusive in respect to letting people know what the site is about. I managed to make this accessible enough but I can definitely see that I could have made it a lot better. And <em>a lot better</em> will come from more of a focus on accessibility.</p>
+          <p>Thinking about this particular case reminds me of Eric Meyers's thoughts about <a href="https://medium.com/net-magazine/designing-for-crisis-9cab10b4c519" title="Designing For Crisis Article - Eric A. Meyer urges designers to pay attention to the worst-case scenario, and make a better experience for all users">designing for crisis.</a></p>
+        
+          <h3>Performance Hits</h3>
+          <p>I used <a href="https://github.com/simeydotme" title="Simon Goellner's Github Page">Simon Goellner's</a> <a href="http://simeydotme.github.io/jQuery-canvas-sparkles/" title="Simon Goellner's jQuery Canvas Sparkles - A little canvas script to add magicto DOM elements">jQuery Canvas Sparkles</a> to add a little something extra to the keys on hover. However in the state they were in when I used them they were pretty heavy on performance.</p> 
+          <p>I was originally going to have them in quite a few places on the site to add a lot more atmosphere: sparkling through the light ray, on the text, and on the fairies. However when I discovered the performance hit I had to think otherwise. They ended up on the key mostly because only having them appear on hover didn't melt computers and because, well, they're really pretty.</p>
+
+          <h3>You Can Accidentally Click the Key on Mobile</h3>
+          <p>In hindsight this is a really silly mistake which could have been easily fixed. The key gets longer on mobile and the chain cuts through the whole screen. The key is an anchor so then there's this massive link swinging through the page which you can accidentally click when you're scrolling on touch devices, not cool.</p>
+
+        </div>
+
+        <div class="u-space">
+          <h2>Pushing the Project Further</h2>
+        </div>
+
+        <div class="u-space u-max-width-copy">
+          <p>I really loved working on this project so there's a lot of ideas that didn't get implemented due to budget and time that would have really hit home the <em>mystery forest</em> feeling. I plan on coming back to this and adding some things in for my own satisfaction.</p>
+          <ul>
+            <li>The experience is quite flat. I'd put more depth into the scene with some slightly parallaxed layers including some depth of field with blurring; only lightly moving.</li>
+            <li>The crepuscular/god ray should definitely move and have some particle affects like dust floating throughout. I'm not 100% sure the performance for a blurred PNG is good so I'd need to research that first.</li>
+            <li>Some mysterious shadows flitting around the screen, whether it be animals or plants blowing in the wind would add a lot more atmosphere, it's all about the atmosphere.</li>
+          </ul>
+        </div>
+
+
+
+        
+
+      </main>
+
+    </article>
+
+    
+
+  </div>
+
+</div>
+
+

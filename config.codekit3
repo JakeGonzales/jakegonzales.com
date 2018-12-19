@@ -99,6 +99,81 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/app/assets/images/work/muh/a-dreamy-botanical-adventure_strokepath.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/app/assets/images/work/muh/a-dreamy-botanical-adventure_strokepath.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/app/assets/images/work/muh/a-dreamy-botanical-adventure_strokepath2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/app/assets/images/work/muh/a-dreamy-botanical-adventure_strokepath2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/app/assets/images/work/muh/macquarie-university-hospital__christmas-invite__design-2.jpg": {
+		"ft": 16384,
+		"iS": 571456,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/muh/macquarie-university-hospital__christmas-invite__design-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/app/assets/images/work/muh/macquarie-university-hospital__christmas-invite__design.jpg": {
+		"ft": 16384,
+		"iS": 281453,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/muh/macquarie-university-hospital__christmas-invite__design.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/app/assets/images/work/muh/macquarie-university-hospital__christmas-invite__page-2.jpg": {
+		"ft": 16384,
+		"iS": 846112,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/muh/macquarie-university-hospital__christmas-invite__page-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/app/assets/images/work/muh/svg-path-problem-1.jpg": {
+		"ft": 16384,
+		"iS": 41189,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/muh/svg-path-problem-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/app/assets/images/work/muh/svg-path-problem-2.jpg": {
+		"ft": 16384,
+		"iS": 43131,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/muh/svg-path-problem-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/app/assets/images/work/thumb-bates-saddles.jpg": {
 		"ft": 16384,
 		"iS": 200285,
@@ -306,6 +381,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/app/assets/stylesheets/components/_code.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/app/assets/stylesheets/components/_code.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/app/assets/stylesheets/components/_deep-space.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -380,6 +468,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/app/assets/stylesheets/components/_space-walker.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/app/assets/stylesheets/components/_work-single.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/app/assets/stylesheets/components/_work-single.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -774,6 +875,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/app/views/pages/skills.html.erb",
+		"oF": 0
+		},
+	"/app/views/pages/work-single.html.erb": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/app/views/pages/work-single.html.erb",
 		"oF": 0
 		},
 	"/app/views/pages/work.html.erb": {
