@@ -53,12 +53,8 @@
         </div>
 
         <figure>
-          <figure class="u-space">
-            <%= image_tag("work/muh/macquarie-university-hospital__christmas-invite__design.jpg", alt: "Original design for the Macquarie University Hospital Christmas Invite - Page One") %>
-          </figure>
-          <figure class="u-space">
-            <%= image_tag("work/muh/macquarie-university-hospital__christmas-invite__design-2.jpg", alt: "Original design for the Macquarie University Hospital Christmas Invite - Page Two") %>
-          </figure>
+          <%= image_tag("work/muh/macquarie-university-hospital__christmas-invite__design.jpg", alt: "Original design for the Macquarie University Hospital Christmas Invite - Page One") %>
+          <%= image_tag("work/muh/macquarie-university-hospital__christmas-invite__design-2.jpg", alt: "Original design for the Macquarie University Hospital Christmas Invite - Page Two") %>
           <figcaption>Original designs for the Macquarie University Hospital Christmas Invite, by Kasiani Amara</figcaption>
         </figure>
         
@@ -102,14 +98,10 @@
             <p>In the end we decided to leave this because it wasn't very obvious and we couldn't come up with a better solution fast enough.</p>
           </div>
 
-          <div class="u-space-stack u-max-width-copy">
-            <figure role="group">
-              <figure>
-                <%= image_tag("work/muh/svg-path-problem-1.jpg", alt: "A green line showing the stroke path when animating a letter using SVG clip-path") %>
-              </figure>
-              <figure>
-                <%= image_tag("work/muh/svg-path-problem-2.jpg", alt: "A green line showing the stroke path when animating a letter using SVG clip-path") %>
-              </figure>
+          <div>
+            <figure>
+              <%= image_tag("work/muh/svg-path-problem-1.jpg", alt: "A green line showing the stroke path when animating a letter using SVG clip-path") %>
+              <%= image_tag("work/muh/svg-path-problem-2.jpg", alt: "A green line showing the stroke path when animating a letter using SVG clip-path") %>
               <figcaption>Path overlap when using SVG <code class="c-code-inline">clip-path</code> to animate letters.</figcaption>
             </figure>
           </div>
@@ -118,18 +110,21 @@
 
 
         <div class="o-l__g-simple">
-          <figure class="u-space">
+
+          <figure>
             <%= image_tag("work/muh/a-dreamy-botanical-adventure_strokepath.svg", alt: "") %>
             <figcaption>The original <code class="c-code-inline">stroke-path</code> style.</figcaption>
           </figure>
-          <figure class="u-space">
+
+          <figure>
             <%= image_tag("work/muh/a-dreamy-botanical-adventure_strokepath2.svg", alt: "") %>
             <figcaption>The improved <code class="c-code-inline">stroke-path</code> but still with some minor overlap problems.</figcaption>
           </figure>
+
         </div>
 
         <div class="u-space-stack u-max-width-copy">
-          <p>Each letter in the animation was carefully timed with delays so that they would draw organically but fast enough that it wouldn't be boring. The first letter <code class="c-code-inline">animation: draw 3s linear forwards;</code> compared to the last letter <code class="c-code-inline">animation: draw-e 1.8s ease-in-out forwards 5s;</code></p>
+          <p>Each letter in the animation was carefully timed with delays so that they would draw organically but fast enough that it wouldn't be boring. The first letter <code class="c-code-inline">animation: draw 3s linear forwards</code> compared to the last letter <code class="c-code-inline">animation: draw-e 1.8s ease-in-out forwards 5s</code>.</p>
           <p>Previously I had tried to use jQuery to handle the animation queues but it didn't work as I expected. This actually worked better because when JavaScript was disabled it still functioned perfectly and I didn't need to think about the fallback. That's not to say that the whole site functioned properly without JavaScript but I'll come back to that later.</p>
         </div>
 
