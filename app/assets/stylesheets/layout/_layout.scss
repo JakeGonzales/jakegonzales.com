@@ -131,19 +131,11 @@ ol.o-l-tesseract { // Oh interesting pattern there!
 \*------------------------------------*/
 
 .o-l__text-coumns-3 {
-  -webkit-columns: 3 320px;
-  -moz-columns: 3 320px;
-  columns: 3 320px;
-  -webkit-column-gap: 2em;
-  -moz-column-gap: 2em;
+  columns: 3 280px;
   column-gap: 2em;
 }
 
 .o-l__text-coumns-2 {
-  -webkit-columns: 2 490px;
-  -moz-columns: 2 490px;
-  columns: 2 490px;
-  -webkit-column-gap: 2em;
-  -moz-column-gap: 2em;
+  columns: 2 320px;
   column-gap: 2em;
 }
