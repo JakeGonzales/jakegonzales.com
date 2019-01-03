@@ -273,6 +273,83 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/app/assets/images/work/wintec/wintec__web-about-800x470.jpg": {
+		"ft": 16384,
+		"iS": 81635,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/wintec/wintec__web-about-800x470.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/app/assets/images/work/wintec/wintec__web-banner.jpg": {
+		"ft": 16384,
+		"iS": 293421,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/wintec/wintec__web-banner.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/app/assets/images/work/wintec/wintec__web-blog-800x470.jpg": {
+		"ft": 16384,
+		"iS": 68279,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/wintec/wintec__web-blog-800x470.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/app/assets/images/work/wintec/wintec__web-contact-800x470.jpg": {
+		"ft": 16384,
+		"iS": 49846,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/wintec/wintec__web-contact-800x470.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/app/assets/images/work/wintec/wintec__web-saddles-800x470.jpg": {
+		"ft": 16384,
+		"iS": 56445,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/wintec/wintec__web-saddles-800x470.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/app/assets/images/work/wintec/wintec__web-stockist-list.jpg": {
+		"ft": 16384,
+		"iS": 249473,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/wintec/wintec__web-stockist-list.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/app/assets/images/work/wintec/wintec__web-stockists.jpg": {
+		"ft": 16384,
+		"iS": 232826,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/wintec/wintec__web-stockists.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/app/assets/javascripts/application.js": {
 		"ft": 64,
 		"ma": 0,
@@ -1709,6 +1786,13 @@
 		"ft": 65536,
 		"oA": 1,
 		"oAP": "/build/tmp/cache",
+		"oF": 0
+		},
+	"/tmp/pids/server.pid": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/tmp/pids/server.pid",
 		"oF": 0
 		},
 	"/tmp/restart.txt": {
