@@ -99,6 +99,94 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/app/assets/images/work/bates/bates__web-advocates-800x470.jpg": {
+		"ft": 16384,
+		"iS": 54719,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/bates/bates__web-advocates-800x470.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/app/assets/images/work/bates/bates__web-banner.jpg": {
+		"ft": 16384,
+		"iS": 314032,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/bates/bates__web-banner.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/app/assets/images/work/bates/bates__web-contact-800x470.jpg": {
+		"ft": 16384,
+		"iS": 45915,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/bates/bates__web-contact-800x470.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/app/assets/images/work/bates/bates__web-leather-800x470.jpg": {
+		"ft": 16384,
+		"iS": 66842,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/bates/bates__web-leather-800x470.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/app/assets/images/work/bates/bates__web-performance-800x470.jpg": {
+		"ft": 16384,
+		"iS": 63567,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/bates/bates__web-performance-800x470.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/app/assets/images/work/bates/bates__web-products-800x470.jpg": {
+		"ft": 16384,
+		"iS": 60217,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/bates/bates__web-products-800x470.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/app/assets/images/work/bates/bates__web-stockist-list.jpg": {
+		"ft": 16384,
+		"iS": 231429,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/bates/bates__web-stockist-list.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/app/assets/images/work/bates/bates__web-stockists.jpg": {
+		"ft": 16384,
+		"iS": 215853,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/bates/bates__web-stockists.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/app/assets/images/work/muh/a-dreamy-botanical-adventure_strokepath.svg": {
 		"ft": 2097152,
 		"miP": 0,
