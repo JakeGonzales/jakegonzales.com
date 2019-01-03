@@ -99,6 +99,127 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/app/assets/images/work/anomaly/anchor.png": {
+		"ft": 32768,
+		"iS": 860,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/anomaly/anchor.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/app/assets/images/work/anomaly/boat.png": {
+		"ft": 32768,
+		"iS": 11805,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/anomaly/boat.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/app/assets/images/work/anomaly/bottom-chunk.png": {
+		"ft": 32768,
+		"iS": 165846,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/anomaly/bottom-chunk.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/app/assets/images/work/anomaly/chocolate-drop.png": {
+		"ft": 32768,
+		"iS": 10013,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/anomaly/chocolate-drop.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/app/assets/images/work/anomaly/crown.png": {
+		"ft": 32768,
+		"iS": 3243,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/anomaly/crown.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/app/assets/images/work/anomaly/green-ball.png": {
+		"ft": 32768,
+		"iS": 3462,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/anomaly/green-ball.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/app/assets/images/work/anomaly/laser-beam.png": {
+		"ft": 32768,
+		"iS": 28533,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/anomaly/laser-beam.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/app/assets/images/work/anomaly/licorice-swoosh.png": {
+		"ft": 32768,
+		"iS": 16118,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/anomaly/licorice-swoosh.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/app/assets/images/work/anomaly/rock-tunnel.png": {
+		"ft": 32768,
+		"iS": 5224,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/anomaly/rock-tunnel.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/app/assets/images/work/anomaly/top-chunk.png": {
+		"ft": 32768,
+		"iS": 215409,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/anomaly/top-chunk.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/app/assets/images/work/anomaly/yellow-ball.png": {
+		"ft": 32768,
+		"iS": 1722,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/anomaly/yellow-ball.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/app/assets/images/work/bates/bates__web-advocates-800x470.jpg": {
 		"ft": 16384,
 		"iS": 54719,
