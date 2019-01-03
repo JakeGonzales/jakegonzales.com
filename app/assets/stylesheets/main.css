@@ -2521,6 +2521,12 @@ body {
   align-content: center;
   justify-content: flex-start; }
 
+.o-l__f {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap; }
+
 .o-l__f-2-row {
   display: flex;
   flex-direction: column;
