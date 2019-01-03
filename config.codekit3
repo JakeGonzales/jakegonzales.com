@@ -273,6 +273,61 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/app/assets/images/work/wa-exclusive-meats/waexclusivemeats__web-about-800x470.jpg": {
+		"ft": 16384,
+		"iS": 55064,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/wa-exclusive-meats/waexclusivemeats__web-about-800x470.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/app/assets/images/work/wa-exclusive-meats/waexclusivemeats__web-banner.jpg": {
+		"ft": 16384,
+		"iS": 365820,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/wa-exclusive-meats/waexclusivemeats__web-banner.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/app/assets/images/work/wa-exclusive-meats/waexclusivemeats__web-contact-800x470.jpg": {
+		"ft": 16384,
+		"iS": 28144,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/wa-exclusive-meats/waexclusivemeats__web-contact-800x470.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/app/assets/images/work/wa-exclusive-meats/waexclusivemeats__web-products-800x470.jpg": {
+		"ft": 16384,
+		"iS": 51289,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/wa-exclusive-meats/waexclusivemeats__web-products-800x470.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/app/assets/images/work/wa-exclusive-meats/waexclusivemeats__web-spithire.jpg": {
+		"ft": 16384,
+		"iS": 321933,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/wa-exclusive-meats/waexclusivemeats__web-spithire.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/app/assets/images/work/wintec/wintec__web-about-800x470.jpg": {
 		"ft": 16384,
 		"iS": 81635,
