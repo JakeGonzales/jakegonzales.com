@@ -273,6 +273,50 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/app/assets/images/work/star-international/star-international__web-banner.jpg": {
+		"ft": 16384,
+		"iS": 695764,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/star-international/star-international__web-banner.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/app/assets/images/work/star-international/star-international__web-contact-800x470.jpg": {
+		"ft": 16384,
+		"iS": 146227,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/star-international/star-international__web-contact-800x470.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/app/assets/images/work/star-international/star-international__web-home-grid.jpg": {
+		"ft": 16384,
+		"iS": 695206,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/star-international/star-international__web-home-grid.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/app/assets/images/work/star-international/star-international__web-internal-800x470.jpg": {
+		"ft": 16384,
+		"iS": 285330,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/star-international/star-international__web-internal-800x470.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/app/assets/images/work/thumb-bates-saddles.jpg": {
 		"ft": 16384,
 		"iS": 200285,
