@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 
   # Homepage
-  root :to => 'pages#home'
+  root to: 'pages#home', as: 'about'
 
   # Static Pages
   get '/skills',      to: 'pages#skills',   as: 'skills'

@@ -1,0 +1,454 @@
+/*------------------------------------*\
+  # GRAPHICS AND WEBSITES YO!
+
+    Animate it my dude.
+\*------------------------------------*/
+
+$dir: "work/graphics-websites-yo";
+$zi: 3000;
+
+
+.gawy {
+  padding: 10vw 40px;
+}
+
+.gawy__title {
+  display: none;
+}
+
+.gawy__background {
+  background: url(#{$dir}/backround.gif) no-repeat center center;
+  background-size: cover;
+  background-size: 1440px 900px;
+}
+
+.gawy img {
+  background: transparent;
+}
+
+
+
+
+
+
+
+
+.gawy__text-title,
+.gawy__text-outlines,
+.gawy__text-outlines::before,
+.gawy__text-outlines::after,
+.gawy__text-outlines-2,
+.gawy__text-dropshadow,
+.gawy__image-computer-glow::before,
+.gawy__image-computer-glow::after,
+.gawy__image-computer-glow--static,
+.gawy__image-computer-glow--static::before,
+.gawy__image-computer-glow--static::after {
+
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: contain;
+
+  display: block;
+
+  height: 100%;
+  width: 100%;
+
+  position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+
+/*------------------------------------*\
+  # TEXT
+\*------------------------------------*/
+
+/* Divide by two for retina */
+$text-width: (2280/2); // px
+$text-height: (680/2); // px
+
+$text-padding-ratio: ($text-height/$text-width * 100%);
+
+.gawy__text {
+  position: relative;
+
+  width: 100%;
+  max-width: ($text-width/1.5)+px; // Biggest ratio
+
+  margin: 0 auto;
+
+  animation: floaty-s 15s infinite;
+}
+
+// Used for responsive sizing.
+.gawy__text-ratio {
+  width: 100%;
+  padding-bottom: $text-padding-ratio;
+}
+
+.gawy__text-title {
+  background-image: url(#{$dir}/type@2x.png);
+  z-index: ($zi + 50);
+
+  animation: floaty-l 6s infinite;
+}
+
+.gawy__text-outlines {
+  background-image: url(#{$dir}/outline-pink@2x.png);
+  z-index: ($zi + 49);
+
+  animation: floaty-m 6s infinite;
+
+  &::before,
+  &::after {
+    display: block;
+    content: "";
+
+    background-image: url(#{$dir}/outline-pink@2x.png);
+  }
+
+  &::before {
+    left: 1%;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+
+    animation: glitch-anim 3s infinite alternate;
+  }
+
+  &::after {
+    left: -1.4%;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+
+    animation: glitch-anim-2 3s infinite alternate;
+  }
+}
+
+.gawy__text-outlines-2 {
+  background-image: url(#{$dir}/outline-blue@2x.png);
+  z-index: ($zi + 48);
+
+  animation: floaty-s 6s infinite;
+}
+
+.gawy__text-dropshadow {
+  background-image: url(#{$dir}/drop-shadow@2x.png);
+  z-index: ($zi + 47);
+}
+
+
+
+
+
+
+/*------------------------------------*\
+  # COMPUTER
+\*------------------------------------*/
+
+/* Divide by two for retina */
+$computer-width: (1170/2); // px
+$computer-height: (1200/2); //px
+
+$computer-padding-ratio: ($computer-width/$computer-height * 100%);
+
+.gawy__image-computer {
+  position: relative;
+  z-index: ($zi + 60);
+
+  width: 100%;
+  max-width: ($computer-width/1.5)+px; // Biggest ratio
+
+  transition: 0.2s ease-in-out all;
+
+  margin: -6.5% auto 0 auto;
+
+  @media only screen and (max-width: 665px) {
+    margin-top: -13.5%;
+  }
+
+  @media only screen and (min-width: 665px) and (max-width: 800px) {
+    margin-top: -10.5%;
+  }
+}
+
+.gawy__image-computer-ratio {
+  padding-top: $computer-padding-ratio;
+}
+
+.gawy__image-computer-screen,
+.gawy__image-computer-glow {
+  display: block;
+
+  position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.gawy__image-computer-screen {
+  width: 100%;
+}
+
+.gawy__image-computer-glow {
+  background: url(#{$dir}/kill-screen@2x.png) no-repeat 0 0;
+  background-size: 100%;
+
+  animation: fade 6s infinite alternate;
+
+  width: 100%;
+  height: 100%;
+
+  /* Distored skull */
+  &::before {
+    content: "";
+
+    background: url(#{$dir}/static-skull@2x.png) no-repeat 0 0;
+    background-size: 100%;
+
+    opacity: 0;
+    animation: fade 6s infinite alternate;
+  }
+}
+
+.gawy__image-computer-glow--static {
+  // background: url(#{$dir}/static-01@2x.png) no-repeat 0 0;
+  // background-size: 100%;
+
+  width: 100%;
+  height: 100%;
+
+  &::before,
+  &::after {
+    content: "";
+  }
+
+  &::before {
+    background: url(#{$dir}/static-01@2x.png) no-repeat 0 0;
+    background-size: 100%;
+
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+
+    animation: glitch-anim 3s infinite alternate;
+  }
+
+  &::after {
+    background: url(#{$dir}/static-02@2x.png) no-repeat 0 0;
+    background-size: 100%;
+
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+
+    animation: glitch-anim-2 3s infinite alternate;
+  }
+
+
+}
+
+
+/*------------------------------------*\
+  # ANIMATIONS
+\*------------------------------------*/
+
+/* Fade and Flicker */
+
+@keyframes fade {
+
+
+  50% { opacity: 0;
+  }
+  60% { opacity: 1.0;
+  }
+  62% { opacity: 0.2;
+  }
+  65% { opacity: 0.5;
+  }
+  68% { opacity: 0.8;
+  }
+  70% { opacity: 1.0;
+  }
+  72% { opacity: 0;
+  }
+
+}
+
+@keyframes fade-2 {
+
+
+  50% { opacity: 0;
+  }
+  60% { opacity: 0;
+  }
+  62% { opacity: 0.5;
+  }
+  65% { opacity: 0;
+  }
+  68% { opacity: 0;
+  }
+  70% { opacity: 1.0;
+  }
+  72% { opacity: 0;
+  }
+
+}
+
+@keyframes fade-3 {
+
+
+  50% { opacity: 0;
+  }
+  60% { opacity: 0;
+  }
+  62% { opacity: 0.4;
+  }
+  65% { opacity: 0.2;
+  }
+  68% { opacity: 0.7;
+  }
+  70% { opacity: 0;
+  }
+  72% { opacity: 0;
+  }
+
+}
+
+
+/* 
+ * Based off Lucas Bebber's Glitch
+ * @link: https://css-tricks.com/glitch-effect-text-images-svg/
+ */
+ 
+@keyframes glitch-anim {
+  $left: 0;
+  $right: 100%;
+
+  30% {
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    opacity: 0;
+  }
+  40% {
+    $top: 10%;
+    $bottom: 20%;
+    clip-path: polygon($left $top, $right $top, $right $bottom, $left $bottom);
+    opacity: 1;
+  }
+
+  42% {
+    $top: 80%;
+    $bottom: 85%;
+    clip-path: polygon($left $top, $right $top, $right $bottom, $left $bottom);
+    opacity: 1;
+  }
+
+  43% {
+    $top: 35%;
+    $bottom: 45%;
+    clip-path: polygon($left $top, $right $top, $right $bottom, $left $bottom);
+    opacity: 1;
+  }
+
+  45% {
+    $top: 60%;
+    $bottom: 62%;
+    clip-path: polygon($left $top, $right $top, $right $bottom, $left $bottom);
+    opacity: 1;
+  }
+
+  46% {
+    $top: 20%;
+    $bottom: 22%;
+    clip-path: polygon($left $top, $right $top, $right $bottom, $left $bottom);
+    opacity: 1;
+  }
+  47% {
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    opacity: 0;
+  }
+
+}
+
+@keyframes glitch-anim-2 {
+  $left: 0;
+  $right: 100%;
+
+  30% {
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    opacity: 0;
+  }
+  40% {
+    $top: 90%;
+    $bottom: 99%;
+    clip-path: polygon($left $top, $right $top, $right $bottom, $left $bottom);
+    opacity: 1;
+  }
+
+  42% {
+    $top: 30%;
+    $bottom: 35%;
+    clip-path: polygon($left $top, $right $top, $right $bottom, $left $bottom);
+    opacity: 1;
+  }
+
+  43% {
+    $top: 25%;
+    $bottom: 45%;
+    clip-path: polygon($left $top, $right $top, $right $bottom, $left $bottom);
+    opacity: 1;
+  }
+
+  45% {
+    $top: 80%;
+    $bottom: 82%;
+    clip-path: polygon($left $top, $right $top, $right $bottom, $left $bottom);
+    opacity: 1;
+  }
+
+  46% {
+    $top: 60%;
+    $bottom: 65%;
+    clip-path: polygon($left $top, $right $top, $right $bottom, $left $bottom);
+    opacity: 1;
+  }
+  47% {
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    opacity: 0;
+  }
+
+}
+
+
+
+
+
+@keyframes floaty-l {
+  50%  { 
+   transform: translate3d(0, 12px, 0); // x, y, z
+   animation-timing-function: ease-in-out;
+  }
+  0%, 100% { // Same starting and ending properties.
+   transform: translate3d(0, 0, 0);
+   animation-timing-function: ease-in-out; 
+  }
+}
+
+@keyframes floaty-m {
+  50%  { 
+   transform: translate3d(0, 8px, 0); // x, y, z
+   animation-timing-function: ease-in-out;
+  }
+  0%, 100% { // Same starting and ending properties.
+   transform: translate3d(0, 0, 0);
+   animation-timing-function: ease-in-out; 
+  }
+}
+
+@keyframes floaty-s {
+  50%  { 
+   transform: translate3d(0, 4px, 0); // x, y, z
+   animation-timing-function: ease-in-out;
+  }
+  0%, 100% { // Same starting and ending properties.
+   transform: translate3d(0, 0, 0);
+   animation-timing-function: ease-in-out; 
+  }
+}
+
+

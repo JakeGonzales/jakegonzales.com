@@ -2327,6 +2327,464 @@ a {
   border-bottom-left-radius: 100%; }
 
 /*------------------------------------*\
+  # WORK ITEM SPECIFIC STYLES
+\*------------------------------------*/
+/*------------------------------------*\
+  # GRAPHICS AND WEBSITES YO!
+
+    Animate it my dude.
+\*------------------------------------*/
+.gawy {
+  padding: 10vw 40px; }
+
+.gawy__title {
+  display: none; }
+
+.gawy__background {
+  background: url(work/graphics-websites-yo/backround.gif) no-repeat center center;
+  background-size: cover;
+  background-size: 1440px 900px; }
+
+.gawy img {
+  background: transparent; }
+
+.gawy__text-title,
+.gawy__text-outlines,
+.gawy__text-outlines::before,
+.gawy__text-outlines::after,
+.gawy__text-outlines-2,
+.gawy__text-dropshadow,
+.gawy__image-computer-glow::before,
+.gawy__image-computer-glow::after,
+.gawy__image-computer-glow--static,
+.gawy__image-computer-glow--static::before,
+.gawy__image-computer-glow--static::after {
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: contain;
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+/*------------------------------------*\
+  # TEXT
+\*------------------------------------*/
+/* Divide by two for retina */
+.gawy__text {
+  position: relative;
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto;
+  -webkit-animation: floaty-s 15s infinite;
+          animation: floaty-s 15s infinite; }
+
+.gawy__text-ratio {
+  width: 100%;
+  padding-bottom: 29.8245614035%; }
+
+.gawy__text-title {
+  background-image: url(work/graphics-websites-yo/type@2x.png);
+  z-index: 3050;
+  -webkit-animation: floaty-l 6s infinite;
+          animation: floaty-l 6s infinite; }
+
+.gawy__text-outlines {
+  background-image: url(work/graphics-websites-yo/outline-pink@2x.png);
+  z-index: 3049;
+  -webkit-animation: floaty-m 6s infinite;
+          animation: floaty-m 6s infinite; }
+  .gawy__text-outlines::before, .gawy__text-outlines::after {
+    display: block;
+    content: "";
+    background-image: url(work/graphics-websites-yo/outline-pink@2x.png); }
+  .gawy__text-outlines::before {
+    left: 1%;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    -webkit-animation: glitch-anim 3s infinite alternate;
+            animation: glitch-anim 3s infinite alternate; }
+  .gawy__text-outlines::after {
+    left: -1.4%;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    -webkit-animation: glitch-anim-2 3s infinite alternate;
+            animation: glitch-anim-2 3s infinite alternate; }
+
+.gawy__text-outlines-2 {
+  background-image: url(work/graphics-websites-yo/outline-blue@2x.png);
+  z-index: 3048;
+  -webkit-animation: floaty-s 6s infinite;
+          animation: floaty-s 6s infinite; }
+
+.gawy__text-dropshadow {
+  background-image: url(work/graphics-websites-yo/drop-shadow@2x.png);
+  z-index: 3047; }
+
+/*------------------------------------*\
+  # COMPUTER
+\*------------------------------------*/
+/* Divide by two for retina */
+.gawy__image-computer {
+  position: relative;
+  z-index: 3060;
+  width: 100%;
+  max-width: 390px;
+  transition: 0.2s ease-in-out all;
+  margin: -6.5% auto 0 auto; }
+  @media only screen and (max-width: 665px) {
+    .gawy__image-computer {
+      margin-top: -13.5%; } }
+  @media only screen and (min-width: 665px) and (max-width: 800px) {
+    .gawy__image-computer {
+      margin-top: -10.5%; } }
+
+.gawy__image-computer-ratio {
+  padding-top: 97.5%; }
+
+.gawy__image-computer-screen,
+.gawy__image-computer-glow {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.gawy__image-computer-screen {
+  width: 100%; }
+
+.gawy__image-computer-glow {
+  background: url(work/graphics-websites-yo/kill-screen@2x.png) no-repeat 0 0;
+  background-size: 100%;
+  -webkit-animation: fade 6s infinite alternate;
+          animation: fade 6s infinite alternate;
+  width: 100%;
+  height: 100%;
+  /* Distored skull */ }
+  .gawy__image-computer-glow::before {
+    content: "";
+    background: url(work/graphics-websites-yo/static-skull@2x.png) no-repeat 0 0;
+    background-size: 100%;
+    opacity: 0;
+    -webkit-animation: fade 6s infinite alternate;
+            animation: fade 6s infinite alternate; }
+
+.gawy__image-computer-glow--static {
+  width: 100%;
+  height: 100%; }
+  .gawy__image-computer-glow--static::before, .gawy__image-computer-glow--static::after {
+    content: ""; }
+  .gawy__image-computer-glow--static::before {
+    background: url(work/graphics-websites-yo/static-01@2x.png) no-repeat 0 0;
+    background-size: 100%;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    -webkit-animation: glitch-anim 3s infinite alternate;
+            animation: glitch-anim 3s infinite alternate; }
+  .gawy__image-computer-glow--static::after {
+    background: url(work/graphics-websites-yo/static-02@2x.png) no-repeat 0 0;
+    background-size: 100%;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    -webkit-animation: glitch-anim-2 3s infinite alternate;
+            animation: glitch-anim-2 3s infinite alternate; }
+
+/*------------------------------------*\
+  # ANIMATIONS
+\*------------------------------------*/
+/* Fade and Flicker */
+@-webkit-keyframes fade {
+  50% {
+    opacity: 0; }
+  60% {
+    opacity: 1.0; }
+  62% {
+    opacity: 0.2; }
+  65% {
+    opacity: 0.5; }
+  68% {
+    opacity: 0.8; }
+  70% {
+    opacity: 1.0; }
+  72% {
+    opacity: 0; } }
+@keyframes fade {
+  50% {
+    opacity: 0; }
+  60% {
+    opacity: 1.0; }
+  62% {
+    opacity: 0.2; }
+  65% {
+    opacity: 0.5; }
+  68% {
+    opacity: 0.8; }
+  70% {
+    opacity: 1.0; }
+  72% {
+    opacity: 0; } }
+
+@-webkit-keyframes fade-2 {
+  50% {
+    opacity: 0; }
+  60% {
+    opacity: 0; }
+  62% {
+    opacity: 0.5; }
+  65% {
+    opacity: 0; }
+  68% {
+    opacity: 0; }
+  70% {
+    opacity: 1.0; }
+  72% {
+    opacity: 0; } }
+
+@keyframes fade-2 {
+  50% {
+    opacity: 0; }
+  60% {
+    opacity: 0; }
+  62% {
+    opacity: 0.5; }
+  65% {
+    opacity: 0; }
+  68% {
+    opacity: 0; }
+  70% {
+    opacity: 1.0; }
+  72% {
+    opacity: 0; } }
+
+@-webkit-keyframes fade-3 {
+  50% {
+    opacity: 0; }
+  60% {
+    opacity: 0; }
+  62% {
+    opacity: 0.4; }
+  65% {
+    opacity: 0.2; }
+  68% {
+    opacity: 0.7; }
+  70% {
+    opacity: 0; }
+  72% {
+    opacity: 0; } }
+
+@keyframes fade-3 {
+  50% {
+    opacity: 0; }
+  60% {
+    opacity: 0; }
+  62% {
+    opacity: 0.4; }
+  65% {
+    opacity: 0.2; }
+  68% {
+    opacity: 0.7; }
+  70% {
+    opacity: 0; }
+  72% {
+    opacity: 0; } }
+
+/* 
+ * Based off Lucas Bebber's Glitch
+ * @link: https://css-tricks.com/glitch-effect-text-images-svg/
+ */
+@-webkit-keyframes glitch-anim {
+  30% {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    opacity: 0; }
+  40% {
+    -webkit-clip-path: polygon(0 10%, 100% 10%, 100% 20%, 0 20%);
+            clip-path: polygon(0 10%, 100% 10%, 100% 20%, 0 20%);
+    opacity: 1; }
+  42% {
+    -webkit-clip-path: polygon(0 80%, 100% 80%, 100% 85%, 0 85%);
+            clip-path: polygon(0 80%, 100% 80%, 100% 85%, 0 85%);
+    opacity: 1; }
+  43% {
+    -webkit-clip-path: polygon(0 35%, 100% 35%, 100% 45%, 0 45%);
+            clip-path: polygon(0 35%, 100% 35%, 100% 45%, 0 45%);
+    opacity: 1; }
+  45% {
+    -webkit-clip-path: polygon(0 60%, 100% 60%, 100% 62%, 0 62%);
+            clip-path: polygon(0 60%, 100% 60%, 100% 62%, 0 62%);
+    opacity: 1; }
+  46% {
+    -webkit-clip-path: polygon(0 20%, 100% 20%, 100% 22%, 0 22%);
+            clip-path: polygon(0 20%, 100% 20%, 100% 22%, 0 22%);
+    opacity: 1; }
+  47% {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    opacity: 0; } }
+@keyframes glitch-anim {
+  30% {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    opacity: 0; }
+  40% {
+    -webkit-clip-path: polygon(0 10%, 100% 10%, 100% 20%, 0 20%);
+            clip-path: polygon(0 10%, 100% 10%, 100% 20%, 0 20%);
+    opacity: 1; }
+  42% {
+    -webkit-clip-path: polygon(0 80%, 100% 80%, 100% 85%, 0 85%);
+            clip-path: polygon(0 80%, 100% 80%, 100% 85%, 0 85%);
+    opacity: 1; }
+  43% {
+    -webkit-clip-path: polygon(0 35%, 100% 35%, 100% 45%, 0 45%);
+            clip-path: polygon(0 35%, 100% 35%, 100% 45%, 0 45%);
+    opacity: 1; }
+  45% {
+    -webkit-clip-path: polygon(0 60%, 100% 60%, 100% 62%, 0 62%);
+            clip-path: polygon(0 60%, 100% 60%, 100% 62%, 0 62%);
+    opacity: 1; }
+  46% {
+    -webkit-clip-path: polygon(0 20%, 100% 20%, 100% 22%, 0 22%);
+            clip-path: polygon(0 20%, 100% 20%, 100% 22%, 0 22%);
+    opacity: 1; }
+  47% {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    opacity: 0; } }
+
+@-webkit-keyframes glitch-anim-2 {
+  30% {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    opacity: 0; }
+  40% {
+    -webkit-clip-path: polygon(0 90%, 100% 90%, 100% 99%, 0 99%);
+            clip-path: polygon(0 90%, 100% 90%, 100% 99%, 0 99%);
+    opacity: 1; }
+  42% {
+    -webkit-clip-path: polygon(0 30%, 100% 30%, 100% 35%, 0 35%);
+            clip-path: polygon(0 30%, 100% 30%, 100% 35%, 0 35%);
+    opacity: 1; }
+  43% {
+    -webkit-clip-path: polygon(0 25%, 100% 25%, 100% 45%, 0 45%);
+            clip-path: polygon(0 25%, 100% 25%, 100% 45%, 0 45%);
+    opacity: 1; }
+  45% {
+    -webkit-clip-path: polygon(0 80%, 100% 80%, 100% 82%, 0 82%);
+            clip-path: polygon(0 80%, 100% 80%, 100% 82%, 0 82%);
+    opacity: 1; }
+  46% {
+    -webkit-clip-path: polygon(0 60%, 100% 60%, 100% 65%, 0 65%);
+            clip-path: polygon(0 60%, 100% 60%, 100% 65%, 0 65%);
+    opacity: 1; }
+  47% {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    opacity: 0; } }
+
+@keyframes glitch-anim-2 {
+  30% {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    opacity: 0; }
+  40% {
+    -webkit-clip-path: polygon(0 90%, 100% 90%, 100% 99%, 0 99%);
+            clip-path: polygon(0 90%, 100% 90%, 100% 99%, 0 99%);
+    opacity: 1; }
+  42% {
+    -webkit-clip-path: polygon(0 30%, 100% 30%, 100% 35%, 0 35%);
+            clip-path: polygon(0 30%, 100% 30%, 100% 35%, 0 35%);
+    opacity: 1; }
+  43% {
+    -webkit-clip-path: polygon(0 25%, 100% 25%, 100% 45%, 0 45%);
+            clip-path: polygon(0 25%, 100% 25%, 100% 45%, 0 45%);
+    opacity: 1; }
+  45% {
+    -webkit-clip-path: polygon(0 80%, 100% 80%, 100% 82%, 0 82%);
+            clip-path: polygon(0 80%, 100% 80%, 100% 82%, 0 82%);
+    opacity: 1; }
+  46% {
+    -webkit-clip-path: polygon(0 60%, 100% 60%, 100% 65%, 0 65%);
+            clip-path: polygon(0 60%, 100% 60%, 100% 65%, 0 65%);
+    opacity: 1; }
+  47% {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    opacity: 0; } }
+
+@-webkit-keyframes floaty-l {
+  50% {
+    -webkit-transform: translate3d(0, 12px, 0);
+            transform: translate3d(0, 12px, 0);
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out; }
+  0%, 100% {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out; } }
+
+@keyframes floaty-l {
+  50% {
+    -webkit-transform: translate3d(0, 12px, 0);
+            transform: translate3d(0, 12px, 0);
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out; }
+  0%, 100% {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out; } }
+
+@-webkit-keyframes floaty-m {
+  50% {
+    -webkit-transform: translate3d(0, 8px, 0);
+            transform: translate3d(0, 8px, 0);
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out; }
+  0%, 100% {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out; } }
+
+@keyframes floaty-m {
+  50% {
+    -webkit-transform: translate3d(0, 8px, 0);
+            transform: translate3d(0, 8px, 0);
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out; }
+  0%, 100% {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out; } }
+
+@-webkit-keyframes floaty-s {
+  50% {
+    -webkit-transform: translate3d(0, 4px, 0);
+            transform: translate3d(0, 4px, 0);
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out; }
+  0%, 100% {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out; } }
+
+@keyframes floaty-s {
+  50% {
+    -webkit-transform: translate3d(0, 4px, 0);
+            transform: translate3d(0, 4px, 0);
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out; }
+  0%, 100% {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out; } }
+
+/*------------------------------------*\
   # UTILITIES
 \*------------------------------------*/
 /*------------------------------------*\
@@ -2520,6 +2978,12 @@ body {
   flex-direction: column;
   align-content: center;
   justify-content: flex-start; }
+
+.o-l__f {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap; }
 
 .o-l__f-2-row {
   display: flex;

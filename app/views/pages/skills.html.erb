@@ -14,9 +14,15 @@
 
     <section class="c-article o-l__f-2-row-1   o-l__f-col-justify-start"> 
 
-      <header class="u-spacers">
-        <div class="u-space-stack-md u-max-width-copy">
+      <header class="u-spacers o-l__f">
+        <div class="u-space-md u-max-width-copy">
           <h1 class="h1-blocked-white">Skills Summary</h1>
+        </div>
+        <div class="u-space-md">
+          <%= link_to about_path, class: '[ c-button c-button-icon ]' do %>
+            <i class="[ c-button-icon__icon ] fa fa-arrow-up"></i>
+            <span class="[ c-button-icon__text ]">About</span>
+          <% end %>
         </div>
       </header>
 
