@@ -308,6 +308,124 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/app/assets/images/work/graphics-websites-yo/1973-BMT-100@2x.png": {
+		"ft": 32768,
+		"iS": 334839,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/graphics-websites-yo/1973-BMT-100@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/app/assets/images/work/graphics-websites-yo/backround.gif": {
+		"ft": 4194304,
+		"iS": 21464,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/graphics-websites-yo/backround.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"/app/assets/images/work/graphics-websites-yo/drop-shadow@2x.png": {
+		"ft": 32768,
+		"iS": 8624,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/graphics-websites-yo/drop-shadow@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/app/assets/images/work/graphics-websites-yo/kill-screen@2x.png": {
+		"ft": 32768,
+		"iS": 197420,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/graphics-websites-yo/kill-screen@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/app/assets/images/work/graphics-websites-yo/outline-blue@2x.png": {
+		"ft": 32768,
+		"iS": 11141,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/graphics-websites-yo/outline-blue@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/app/assets/images/work/graphics-websites-yo/outline-pink@2x.png": {
+		"ft": 32768,
+		"iS": 36568,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/graphics-websites-yo/outline-pink@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/app/assets/images/work/graphics-websites-yo/static-01@2x.png": {
+		"ft": 32768,
+		"iS": 36513,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/graphics-websites-yo/static-01@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/app/assets/images/work/graphics-websites-yo/static-02@2x.png": {
+		"ft": 32768,
+		"iS": 37077,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/graphics-websites-yo/static-02@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/app/assets/images/work/graphics-websites-yo/static-03@2x.png": {
+		"ft": 32768,
+		"iS": 38668,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/graphics-websites-yo/static-03@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/app/assets/images/work/graphics-websites-yo/static-skull@2x.png": {
+		"ft": 32768,
+		"iS": 76976,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/graphics-websites-yo/static-skull@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/app/assets/images/work/graphics-websites-yo/type@2x.png": {
+		"ft": 32768,
+		"iS": 155761,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/graphics-websites-yo/type@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/app/assets/images/work/muh/a-dreamy-botanical-adventure_strokepath.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -801,6 +919,19 @@
 		"oAP": "/app/assets/stylesheets/components/_deep-space.css",
 		"oF": 0,
 		"oS": 0,
+		"uL": 1
+		},
+	"/app/assets/stylesheets/components/_graphics-websites-yo.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/app/assets/stylesheets/graphics-websites-yo.css",
+		"oF": 3,
+		"oS": 3,
 		"uL": 1
 		},
 	"/app/assets/stylesheets/components/_linear-list.scss": {
