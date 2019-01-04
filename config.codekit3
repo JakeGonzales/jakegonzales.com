@@ -426,6 +426,61 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/app/assets/images/work/izo-photography/izo-photography__web-about-800x470.jpg": {
+		"ft": 16384,
+		"iS": 267227,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/izo-photography/izo-photography__web-about-800x470.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/app/assets/images/work/izo-photography/izo-photography__web-banner.jpg": {
+		"ft": 16384,
+		"iS": 854274,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/izo-photography/izo-photography__web-banner.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/app/assets/images/work/izo-photography/izo-photography__web-latest.jpg": {
+		"ft": 16384,
+		"iS": 716359,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/izo-photography/izo-photography__web-latest.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/app/assets/images/work/izo-photography/izo-photography__web-menu-800x470.jpg": {
+		"ft": 16384,
+		"iS": 154670,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/izo-photography/izo-photography__web-menu-800x470.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/app/assets/images/work/izo-photography/izo-photography__web-overview.jpg": {
+		"ft": 16384,
+		"iS": 869624,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/izo-photography/izo-photography__web-overview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/app/assets/images/work/muh/a-dreamy-botanical-adventure_strokepath.svg": {
 		"ft": 2097152,
 		"miP": 0,
