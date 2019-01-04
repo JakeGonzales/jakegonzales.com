@@ -2124,8 +2124,7 @@ a {
   display: block; }
 
 .poster__image {
-  margin: 0;
-  background: #000000 url(loading.gif) no-repeat center center; }
+  margin: 0; }
 
 .poster__image img {
   width: 100%;
@@ -2875,6 +2874,12 @@ a {
       top: 0;
       left: 0;
       height: 100%; } }
+
+/*------------------------------------*\
+  # IMAGE LOADING BACKGROUND
+\*------------------------------------*/
+.u-image-loader {
+  background: #000000 url(loading.gif) no-repeat center center; }
 
 /*------------------------------------*\
   # LAYOUT
