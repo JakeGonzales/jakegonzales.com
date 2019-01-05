@@ -13,20 +13,31 @@ html,
 body {
   height: 100vh;
 }
-// Object Layout Grid 2 Column
-.o-l__g-2-col { // Review this because it can be MORE than two columns
+
+// Object Layout Grid Fluid Columns (Full Height Page Layouts)
+.o-l__g-fluid-100vh {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 
   min-height: 100vh;
-  // This line really doesn't work unless this is used on a full page layout
-  // On simple in-page layouts I kept getting a massive gap and not understanding that I had this
+  // This line really doesn't work unless this is used on a full page layout. On simple in-page layouts I kept getting a massive gap at the bottom and not understanding that I had this.
 }
 
-.o-l__g-simple {
+.o-l__g-fluid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  // This doesn't allow for empty columns, it will just fill it up if there's empty space. @link: https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/
 }
+
+.o-l__g-2col {
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+   // We really want empty columns here if there's only one image.
+}
+
+
+
+
 
 .o-l__f-simple {
   display: flex;
@@ -102,6 +113,10 @@ body {
 .o-l__f-align-end {
   align-self: flex-end;
 }
+
+
+
+
 
 
 /*------------------------------------*\
