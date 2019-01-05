@@ -2981,7 +2981,7 @@ body {
 
 .o-l__g-2col {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); }
+  grid-template-columns: repeat(auto-fill, minmax(380px, 1fr)); }
 
 .o-l__f-simple {
   display: flex;
