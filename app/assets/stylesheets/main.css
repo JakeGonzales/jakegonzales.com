@@ -1986,7 +1986,7 @@ a {
   \*------------------------------------*/ }
   .c-article h1, .c-article h2, .c-article h3, .c-article h4, .c-article h5,
   .c-article .h1, .c-article .h2, .c-article .h3, .c-article .h4, .c-article .h5 {
-    margin: 0.87em 0; }
+    margin: 1.3em 0 0.32em 0; }
   .c-article h1, .c-article .h1 {
     margin-top: 0;
     margin-bottom: 0.4em; }
@@ -2799,6 +2799,10 @@ a {
 \*------------------------------------*/
 .u-negative--blue {
   background: #3069c5;
+  color: #ffffff; }
+
+.u-negative--red {
+  background: #cb2b40;
   color: #ffffff; }
 
 .u-negative--grey {
