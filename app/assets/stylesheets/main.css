@@ -2146,9 +2146,6 @@ a {
 .u-rtl .poster__text {
   text-align: right; }
 
-.u-rtl .c-tag-list {
-  justify-content: flex-end; }
-
 .text__header {
   font-size: 0.7em; }
 
@@ -2197,6 +2194,12 @@ a {
     background: #3069c5; }
   .c-tag-list .c-tag-list__tag::selection {
     background: #3069c5; }
+
+.u-rtl .c-tag-list {
+  justify-content: flex-end; }
+
+.u-rtl .c-tag-list__tag {
+  margin: 0 0 0.25em 0.25em; }
 
 /*------------------------------------*\
   # CODE SNIPPETS

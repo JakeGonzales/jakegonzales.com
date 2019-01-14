@@ -25,3 +25,11 @@
     background: $color__primary;
   }
 }
+
+.u-rtl .c-tag-list {
+    justify-content: flex-end;
+}
+
+.u-rtl .c-tag-list__tag {
+  margin: 0 0 0.25em 0.25em;
+}
