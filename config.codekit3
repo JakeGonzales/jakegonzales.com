@@ -220,6 +220,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/app/assets/images/work/bates/bates__web-advanta-spread.jpg": {
+		"ft": 16384,
+		"iS": 1261626,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/bates/bates__web-advanta-spread.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/app/assets/images/work/bates/bates__web-advocates-800x470.jpg": {
 		"ft": 16384,
 		"iS": 54719,
@@ -699,6 +710,25 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/app/assets/images/work/wa-exclusive-meats/waexclusivemeats__animation-specials.gif": {
+		"ft": 4194304,
+		"iS": 204399,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/wa-exclusive-meats/waexclusivemeats__animation-specials.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"/app/assets/images/work/wa-exclusive-meats/waexclusivemeats__web-404.jpg": {
+		"ft": 16384,
+		"iS": 393258,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/wa-exclusive-meats/waexclusivemeats__web-404.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/app/assets/images/work/wa-exclusive-meats/waexclusivemeats__web-about-800x470.jpg": {
 		"ft": 16384,
 		"iS": 55064,
@@ -749,6 +779,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/app/assets/images/work/wa-exclusive-meats/waexclusivemeats__web-spithire.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/app/assets/images/work/wa-exclusive-meats/waexclusivemeats_illustration-800x800.jpg": {
+		"ft": 16384,
+		"iS": 113392,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/app/assets/images/work/wa-exclusive-meats/waexclusivemeats_illustration-800x800.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1050,6 +1091,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/app/assets/stylesheets/components/_space-walker.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/app/assets/stylesheets/components/_tag-list.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/app/assets/stylesheets/components/_tag-list.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2293,6 +2347,13 @@
 		"ft": 65536,
 		"oA": 1,
 		"oAP": "/build/tmp/cache",
+		"oF": 0
+		},
+	"/tmp/pids/server.pid": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/tmp/pids/server.pid",
 		"oF": 0
 		},
 	"/tmp/restart.txt": {
