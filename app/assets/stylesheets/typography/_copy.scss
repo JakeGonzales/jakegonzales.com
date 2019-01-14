@@ -31,3 +31,7 @@ abbr[title] {
 abbr:hover {
   background: lighten($color__secondary, 30%);
 }
+
+b, strong {
+  font-weight: 800;
+}
