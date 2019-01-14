@@ -20,3 +20,10 @@
   background: $color__secondary;
   color: $color__white;
 }
+
+.u-negative b,
+.u-negative strong {
+  font-weight: 300;
+  background: transparentize($color__highlight, 0.8);
+  color: $color__highlight-text;
+}

@@ -1885,6 +1885,9 @@ abbr[title] {
 abbr:hover {
   background: #cacac4; }
 
+b, strong {
+  font-weight: 800; }
+
 /*------------------------------------*\
   # HEADINGS
 \*------------------------------------*/
@@ -2003,11 +2006,6 @@ a {
     line-height: 1.3; }
   .c-article li {
     margin-bottom: 0.4em; }
-  .c-article b,
-  .c-article strong {
-    font-weight: 300;
-    background: rgba(255, 255, 255, 0.2);
-    color: #ffffff; }
   .c-article .c-article__text {
     -webkit-columns: 2 260px;
             columns: 2 260px;
@@ -2807,6 +2805,12 @@ a {
 
 .u-negative--grey {
   background: #828073;
+  color: #ffffff; }
+
+.u-negative b,
+.u-negative strong {
+  font-weight: 300;
+  background: rgba(255, 255, 255, 0.2);
   color: #ffffff; }
 
 /*------------------------------------*\

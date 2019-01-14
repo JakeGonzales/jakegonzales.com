@@ -46,13 +46,6 @@
     margin-bottom: 0.4em;
   }
 
-  b,
-  strong {
-    font-weight: 300;
-    background: transparentize($color__highlight, 0.8);
-    color: $color__highlight-text;
-  }
-
   // Review: Is this even being used?
   .c-article__text {
     columns: 2 260px;
