@@ -1,5 +1,5 @@
 <nav class="c-navigation-main u-spacers">
-  <span class="u-space-stack o-l__menu-right">
+  <span class="u-space-stack l__menu-right">
     <%= link_to "About", '/', title: "", :class => "c-navigation-main__link #{current_page?('/') ? 'c-navigation-main__link--active' : ''}"  %>
     <%= link_to "Skills", skills_path, title: "", :class => "c-navigation-main__link #{current_page?('/skills') ? 'c-navigation-main__link--active' : ''}"  %>
     <%= link_to "Work", work_path, title: "", :class => "c-navigation-main__link #{request.fullpath.start_with?('/work') ? 'c-navigation-main__link--active' : ''}"  %>

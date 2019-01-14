@@ -3015,80 +3015,80 @@ html,
 body {
   height: 100vh; }
 
-.o-l__g-fluid-100vh {
+.l__g-fluid-100vh {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   min-height: 100vh; }
 
-.o-l__g-fluid {
+.l__g-fluid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); }
 
-.o-l__g-2col {
+.l__g-2col {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(380px, 1fr)); }
 
-.o-l__f-simple {
+.l__f-simple {
   display: flex;
   flex-direction: column;
   align-content: center;
   justify-content: flex-start; }
 
-.o-l__f {
+.l__f {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   flex-wrap: wrap; }
 
-.o-l__f-2-row {
+.l__f-2-row {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: flex-start;
   align-content: stretch; }
 
-.o-l__f-2-row-1 {
+.l__f-2-row-1 {
   margin-top: 22vh;
   flex: 1;
   position: relative;
   z-index: 1100; }
 
-.o-l__f-2-row-2 {
+.l__f-2-row-2 {
   flex: auto;
   position: relative;
   z-index: 1000; }
 
-.o-l__f-col-justify-start {
+.l__f-col-justify-start {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start; }
 
-.o-l__f-col-justify-end {
+.l__f-col-justify-end {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-start; }
 
-.o-l__f-row-justify-end {
+.l__f-row-justify-end {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   align-items: flex-start; }
 
-.o-l__f-align-center {
+.l__f-align-center {
   align-self: center; }
 
-.o-l__f-align-end {
+.l__f-align-end {
   align-self: flex-end; }
 
-.o-l__f-justify-stretch {
+.l__f-justify-stretch {
   justify-content: stretch; }
 
 /*------------------------------------*\
   # SPECIFIC LAYOUTS
 \*------------------------------------*/
-.o-l__menu-right {
+.l__menu-right {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -3098,25 +3098,25 @@ body {
 /*------------------------------------*\
   # TESSERACT LAYOUT
 \*------------------------------------*/
-.o-l-tesseract {
+.l__tesseract {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   width: 100%;
   max-width: 1280px; }
 
-.o-l-tesseract__obvious,
-.o-l-tesseract__simple {
+.l__tesseract__obvious,
+.l__tesseract__simple {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   align-items: center; }
 
-.o-l-tesseract__obvious {
+.l__tesseract__obvious {
   grid-column: 1/-1; }
 
-.o-l-tesseract__simple {
+.l__tesseract__simple {
   grid-column: auto / span 2; }
 
-ol.o-l-tesseract {
+ol.l__tesseract {
   margin: 0 0 4em 0;
   padding: 0;
   list-style: none; }
@@ -3124,13 +3124,13 @@ ol.o-l-tesseract {
 /*------------------------------------*\
   # PARAGRAPH COLUMNS
 \*------------------------------------*/
-.o-l__text-coumns-3 {
+.l__text-coumns-3 {
   -webkit-columns: 3 280px;
           columns: 3 280px;
   -webkit-column-gap: 2em;
           column-gap: 2em; }
 
-.o-l__text-coumns-2 {
+.l__text-coumns-2 {
   -webkit-columns: 2 320px;
           columns: 2 320px;
   -webkit-column-gap: 2em;

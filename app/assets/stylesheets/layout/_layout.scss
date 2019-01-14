@@ -15,7 +15,7 @@ body {
 }
 
 // Object Layout Grid Fluid Columns (Full Height Page Layouts)
-.o-l__g-fluid-100vh {
+.l__g-fluid-100vh {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 
@@ -23,13 +23,13 @@ body {
   // This line really doesn't work unless this is used on a full page layout. On simple in-page layouts I kept getting a massive gap at the bottom and not understanding that I had this.
 }
 
-.o-l__g-fluid {
+.l__g-fluid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   // This doesn't allow for empty columns, it will just fill it up if there's empty space. @link: https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/
 }
 
-.o-l__g-2col {
+.l__g-2col {
    display: grid;
    grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
    // We really want empty columns here if there's only one image.
@@ -39,14 +39,14 @@ body {
 
 
 
-.o-l__f-simple {
+.l__f-simple {
   display: flex;
   flex-direction: column;
   align-content: center;
   justify-content: flex-start;
 }
 
-.o-l__f {
+.l__f {
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -58,7 +58,7 @@ body {
 
 
 // Object Layout Flexbox 2 Rows
-.o-l__f-2-row {
+.l__f-2-row {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;  
@@ -66,14 +66,14 @@ body {
   align-content: stretch;
 }
   
-  .o-l__f-2-row-1 {
+  .l__f-2-row-1 {
     margin-top: 22vh;
     flex: 1;
     position: relative;
     z-index: $z-index1-1;
   }
 
-  .o-l__f-2-row-2 {
+  .l__f-2-row-2 {
     flex: auto;
     position: relative;
     z-index: $z-index1;
@@ -84,7 +84,7 @@ body {
 
 
 
-.o-l__f-col-justify-start {
+.l__f-col-justify-start {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -92,29 +92,29 @@ body {
 }
 
 // Object Layout Flexbox Justify End
-.o-l__f-col-justify-end {
+.l__f-col-justify-end {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-start;
 }
 
-.o-l__f-row-justify-end {
+.l__f-row-justify-end {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   align-items: flex-start;
 }
 
-.o-l__f-align-center {
+.l__f-align-center {
   align-self: center;
 }
 
-.o-l__f-align-end {
+.l__f-align-end {
   align-self: flex-end;
 }
 
-.o-l__f-justify-stretch {
+.l__f-justify-stretch {
   justify-content: stretch;
 }
 
@@ -122,7 +122,7 @@ body {
   # SPECIFIC LAYOUTS
 \*------------------------------------*/
 
-.o-l__menu-right {
+.l__menu-right {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -139,7 +139,7 @@ body {
 /*------------------------------------*\
   # TESSERACT LAYOUT
 \*------------------------------------*/
-.o-l-tesseract {
+.l__tesseract {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 
@@ -148,22 +148,22 @@ body {
 }
 
   
-  .o-l-tesseract__obvious,
-  .o-l-tesseract__simple {
+  .l__tesseract__obvious,
+  .l__tesseract__simple {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     align-items: center;
   }
   
-  .o-l-tesseract__obvious {
+  .l__tesseract__obvious {
     grid-column: 1/-1; 
   }
 
-  .o-l-tesseract__simple {
+  .l__tesseract__simple {
     grid-column: auto / span 2;
   }
 
-ol.o-l-tesseract { // Oh interesting pattern there!
+ol.l__tesseract { // Oh interesting pattern there!
   margin: 0 0 4em 0;
   padding: 0;
   list-style: none;
@@ -176,12 +176,12 @@ ol.o-l-tesseract { // Oh interesting pattern there!
   # PARAGRAPH COLUMNS
 \*------------------------------------*/
 
-.o-l__text-coumns-3 {
+.l__text-coumns-3 {
   columns: 3 280px;
   column-gap: 2em;
 }
 
-.o-l__text-coumns-2 {
+.l__text-coumns-2 {
   columns: 2 320px;
   column-gap: 2em;
 }

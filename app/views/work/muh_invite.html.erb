@@ -37,7 +37,7 @@
 
       <main class="c-work-single__main u-spacers">
 
-        <div class="o-l__g-fluid">
+        <div class="l__g-fluid">
           <div class="u-space-md">
             <aside class="c-article__colophon">
               <h1>Credits</h1>
@@ -61,7 +61,7 @@
           <figcaption>Original designs for the Macquarie University Hospital Christmas Invite, by Kasiani Amara</figcaption>
         </figure>
         
-        <div class="u-space-stack o-l__text-coumns-3">
+        <div class="u-space-stack l__text-coumns-3">
           <p>On the first screen some of our instructions were:</p>
           <ul>
             <li>The spotlight (on a separate layer) shining down,</li>
@@ -90,7 +90,7 @@
           <h2>SVG Text Animation, Drawing Letters</h2>
         </div>
 
-        <div class="o-l__g-fluid">
+        <div class="l__g-fluid">
 
           <div class="u-space-stack  u-max-width-copy">
             <p>I wanted to tackle this first in the build because to me it seemed like the most involved. I'd just done some SVG text animation so it seemed like the obvious way to go. To start myself off I just applied what I had done with the previous text to see what I could get away with, it wasn't much.</p>
@@ -112,7 +112,7 @@
         </div>
 
 
-        <div class="o-l__g-fluid">
+        <div class="l__g-fluid">
 
           <figure>
             <%= image_tag("work/muh/a-dreamy-botanical-adventure_strokepath.svg", alt: "") %>
@@ -142,7 +142,7 @@
           <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
         </div>
 
-        <div class="u-space-stack o-l__text-coumns-3">
+        <div class="u-space-stack l__text-coumns-3">
           <p>Unlike the SVG animation I didn't have a leg up on this one. I was a little bit concerned about it actually because of where I would need to rotate the key for it look like it was swinging. I was playing with Velocity.js a while back and wanted to change the pivot point from the center but couldn't get it working. I was excited to have another chance at the problem of course.</p>
           <p>My problem solving approach was obviously flawed at the time because it did not take me long to find out that there was a CSS property specifically for doing this that I had never seen before <code class="c-code-inline">transform-origin</code>. CSS makes me feel like a kid in a candy store sometimes. That's all it took for me to know exactly how to get that key swinging. The golden little nugget that is <code class="c-code-inline">transform-origin: center top;</code>.</p>
           <p>Banking on some low level learning I had previously with nested animations in Flash (or nested symbols), essentially I would swing a pseudo element inside a swinging element. It's not hard to draw parallels with how you animate legs walking.</p>
@@ -158,7 +158,7 @@
           <p data-height="384" data-theme-id="0" data-slug-hash="qLdYGV" data-default-tab="css,result" data-user="JakeGonzales" data-pen-title="Butterfly Flapping Wings " class="codepen">See the Pen <a href="https://codepen.io/JakeGonzales/pen/qLdYGV/">Butterfly Flapping Wings </a> by Jake Gonzales (<a href="https://codepen.io/JakeGonzales">@JakeGonzales</a>) on <a href="https://codepen.io">CodePen</a>.</p>
         </div>
 
-        <div class="u-space-stack o-l__text-coumns-3">
+        <div class="u-space-stack l__text-coumns-3">
           <p>This simple little butterfly is definitely my favourite part of this whole project. I had been looking for an excuse to use <code class="c-code-inline">transform: rotate3d();</code> for a while.</p>
           <p>I could have done something a little simpler like crushing the wings horizontally and rotating the whole butterfly 45 degrees but it felt logical to do it in 3D space.</p>
           <p>Working straight from the static 45 degree position most of this animation was just tweaking and playing with the values. When the wings started to look natural I fine tuned it from there. Adjusting different degrees of rotation would totally throw out the wings timing together so it was definitely a lot of tweak one wing and then the other.</p> 
@@ -172,7 +172,7 @@
           <h2>The Ugly Bits</h2>
         </div>
 
-        <div class="u-space-stack o-l__text-coumns-2">
+        <div class="u-space-stack l__text-coumns-2">
 
           <p>As promised I mostly talked about animations but there are a few things I want to touch on that I don't like about this project that I would like to have fixed before it was launched.</p>
 
