@@ -2106,12 +2106,19 @@ a {
   z-index: 5000; }
 
 .c-navigation-main__link {
-  padding: 0.1em 0.2em;
+  padding: 0.1em 0.4em;
+  margin-left: 0.25em;
   transition: 0.1s ease-in-out all;
   color: #000000; }
 
-.c-navigation-main__link--icon {
-  display: flex; }
+.c-navigation-main__link-icon {
+  display: flex;
+  padding-left: 0.2em;
+  padding-right: 0.2em; }
+
+.c-navigation-main__link--active {
+  background: #000000;
+  color: #ffffff; }
 
 /*------------------------------------*\
   # GENERAL COMPONENTS
