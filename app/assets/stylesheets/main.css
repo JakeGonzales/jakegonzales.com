@@ -3082,6 +3082,19 @@ body {
 .o-l__f-align-end {
   align-self: flex-end; }
 
+.o-l__f-justify-stretch {
+  justify-content: stretch; }
+
+/*------------------------------------*\
+  # SPECIFIC LAYOUTS
+\*------------------------------------*/
+.o-l__menu-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-wrap: wrap; }
+
 /*------------------------------------*\
   # TESSERACT LAYOUT
 \*------------------------------------*/
