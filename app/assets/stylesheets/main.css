@@ -2114,7 +2114,7 @@ a {
   display: flex; }
 
 /*------------------------------------*\
-  # GENERAL COMPONTENTS
+  # GENERAL COMPONENTS
 \*------------------------------------*/
 /*------------------------------------*\
   # POSTER IMAGES -- FIGURES
@@ -2138,6 +2138,9 @@ a {
 
 .u-rtl .poster__text {
   text-align: right; }
+
+.u-rtl .c-tag-list {
+  justify-content: flex-end; }
 
 .text__header {
   font-size: 0.7em; }
@@ -2166,6 +2169,27 @@ a {
     content: ", "; }
   .c-linear-list li:last-of-type::after {
     content: "."; }
+
+/*------------------------------------*\
+  # TAG LIST
+\*------------------------------------*/
+.c-tag-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap; }
+
+.c-tag-list .c-tag-list__tag {
+  background: #cb2b40;
+  color: #ffffff;
+  display: block;
+  font-size: 0.8em;
+  margin: 0 0.25em 0.25em 0;
+  padding: 0.25em 0.5em; }
+  .c-tag-list .c-tag-list__tag::-moz-selection {
+    background: #3069c5; }
+  .c-tag-list .c-tag-list__tag::selection {
+    background: #3069c5; }
 
 /*------------------------------------*\
   # CODE SNIPPETS

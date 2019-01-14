@@ -1,0 +1,27 @@
+/*------------------------------------*\
+  # TAG LIST
+\*------------------------------------*/
+
+
+.c-tag-list {
+  list-style-type: none;
+  padding: 0;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.c-tag-list .c-tag-list__tag {
+  background: $color__tertiary;
+  color: $color__white;
+  display: block;
+
+  font-size: 0.8em;
+
+  margin: 0 0.25em 0.25em 0;
+  padding: 0.25em 0.5em;
+
+  &::selection {
+    background: $color__primary;
+  }
+}
