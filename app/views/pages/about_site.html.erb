@@ -1,0 +1,58 @@
+<% content_for :body_class, "about-site work-single" %>
+<% content_for :title, "About This Site" %>
+<% content_for :description, "Details about how this site was built and any credits." %>
+
+<%= render 'shared/work_before' %>
+
+
+<header class="c-work-single__header u-spacers">
+        <div class="u-space-md">
+          <div class="c-article__page-topper">
+            Jake Rodriguez-Gonzales
+          </div>
+        </div>
+        <div class="u-space-stack-lg">
+          <h1 class="c-work-single__title">About This Site</h1>
+          <section class="c-work-single__description">
+            <p></p>
+          </section>
+        </div>
+      </header>
+
+
+      <main class="c-work-single__main u-spacers">
+
+        <div class="l__g-2col">
+
+          <div class="u-space u-max-width-copy">
+            <p>The layouts, colours, typography, and some of the ethos for the site were taken from the <a href="https://www.nasa.gov/sites/default/files/atoms/files/nasa_graphics_manual_nhb_1430-2_jan_1976.pdf" title="">NASA Graphics Standards Manual (NHB 1430.2) (January 1976) <sup>PDF</sup></a></p>
+            <p>In the age of design systems I wanted to see if I could take NASA's graphics standards and apply some of them to the web.</p>
+
+            <h2>My major goals for the site were:</h2>
+            <ul>
+              <li><strong>No media queries.</strong> This is of course inspired by Jen Simmons' idea of <em>intrinsic design</em>.</li>
+              <li><strong>Use spacing as a component as much as possible.</strong> This was inspired specifically by Samantha Zhang's <a href="https://alistapart.com/article/learning-from-lego-a-step-forward-in-modular-web-design" title="Learning from Lego: A Step Forward in Modular Web Design">Learning from Lego: A Step Forward in Modular Web Design</a>.</li>
+            </ul>
+
+            <h2>Up Next</h2>
+            <ul>
+              <li>Animation transitions between pages.</li>
+              <li>Replace fontawesome with curated SVGs.</li>
+            </ul>
+          </div>
+
+          <div class="u-space-md">
+            <aside class="c-article__colophon">
+              <h1>Credits</h1>
+              <ul>
+                <li>Jeremy Perkins (Unsplash): Space field photo on the homepage</li>
+              </ul>
+            </aside>
+          </div>
+
+        </div>
+
+      </main>
+
+
+<%= render 'shared/work_after' %>
