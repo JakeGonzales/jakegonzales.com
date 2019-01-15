@@ -690,7 +690,7 @@
 		},
 	"/app/assets/images/work/thumb-wa-exclusive-meats.jpg": {
 		"ft": 16384,
-		"iS": 157813,
+		"iS": 190274,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/app/assets/images/work/thumb-wa-exclusive-meats.jpg",
@@ -2354,6 +2354,13 @@
 		"ft": 65536,
 		"oA": 1,
 		"oAP": "/build/tmp/cache",
+		"oF": 0
+		},
+	"/tmp/pids/server.pid": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/tmp/pids/server.pid",
 		"oF": 0
 		},
 	"/tmp/restart.txt": {
