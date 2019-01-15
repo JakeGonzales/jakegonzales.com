@@ -1512,6 +1512,13 @@
 		"oAP": "/app/views/layouts/mailer.text.erb",
 		"oF": 0
 		},
+	"/app/views/pages/about_site.html.erb": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/app/views/pages/about_site.html.erb",
+		"oF": 0
+		},
 	"/app/views/pages/components.html.erb": {
 		"cB": 0,
 		"ft": 8192,
@@ -2152,7 +2159,7 @@
 		},
 	"/public/apple-touch-icon.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 45905,
 		"oA": 0,
 		"oAP": "/public/apple-touch-icon.png",
 		"oF": 0,
@@ -2349,13 +2356,6 @@
 		"oAP": "/build/tmp/cache",
 		"oF": 0
 		},
-	"/tmp/pids/server.pid": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/tmp/pids/server.pid",
-		"oF": 0
-		},
 	"/tmp/restart.txt": {
 		"cB": 0,
 		"ft": 8192,
@@ -2410,7 +2410,7 @@
 	"creationDate": 550466480,
 	"displayValue": "jakegonzales.com",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-cryingJordan",
+	"iconImageName": "/public/apple-touch-icon.png",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {

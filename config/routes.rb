@@ -6,8 +6,9 @@ Rails.application.routes.draw do
   root to: 'pages#home', as: 'about'
 
   # Static Pages
-  get '/skills',      to: 'pages#skills',   as: 'skills'
-  get '/work',        to: 'pages#work',     as: 'work'
+  get '/skills',        to: 'pages#skills',         as: 'skills'
+  get '/work',          to: 'pages#work',           as: 'work'
+  get '/about-site',    to: 'pages#about_site',     as: 'about_site'
 
   # Work Items
   get '/work/muh-invite-case-study',      to: 'work#muh_invite',  as: 'work_muh_invite'
