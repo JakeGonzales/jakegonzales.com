@@ -18,19 +18,6 @@
   width: 100%;
 }
 
-.c-work-single::before {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 75vh;
-  position: absolute;
-    top: 0;
-    left: 0;
-
-  background: lighten($color__secondary, 45%);
-  z-index: $z-index1;
-}
-
 .c-work-single__header,
 .c-work-single__main {
   position: relative;
