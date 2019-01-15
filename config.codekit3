@@ -2152,7 +2152,7 @@
 		},
 	"/public/apple-touch-icon.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 45905,
 		"oA": 0,
 		"oAP": "/public/apple-touch-icon.png",
 		"oF": 0,
@@ -2410,7 +2410,7 @@
 	"creationDate": 550466480,
 	"displayValue": "jakegonzales.com",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-cryingJordan",
+	"iconImageName": "/public/apple-touch-icon.png",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
