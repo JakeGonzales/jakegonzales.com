@@ -2,10 +2,67 @@ run.config:
   engine: ruby
   engine.config:
     runtime: ruby-2.4.4
+
   extra_packages:
     - nodejs
     - pkgconf
     - libxml2
     - libxslt
+    - nginx
+    - ImageMagick
+
+  extra_steps:
+    - cp .env.nanobox .env
+    - gem install bundler
+    - bundle config build.nokogiri --with-iconv-dir=/data/ --with-zlib-dir=/data/
+    - bundle config build.nokogumbo --with-iconv-dir=/data/ --with-zlib-dir=/data/
+    - bundle install --clean
+    - yarn
+
+  cache_dirs:
+    - node_modules
+
+  extra_path_dirs:
+    - node_modules/.bin
+
+  build_triggers:
+    - .ruby-version
+    - Gemfile
+    - Gemfile.lock
+    - package.json
+    - yarn.lock
+
+deploy.config:
+  # compile assets on deploy
+  extra_steps:
+    - rake assets:precompile RAILS_ENV=production
+  # seed or run db migrations on deploy
+  #before_live:
+  #  web.web:
+  #    - rake db:setup_or_migrate
+
+web.web:
+  start:
+    nginx: nginx -c /app/config/nginx.conf
+    rails: bundle exec puma -C /app/config/puma.rb
+  writable_dirs:
+    - tmp
+    - log
+    - db
+  log_watch:
+    rails: 'log/production.log'
+  network_dirs:
+    data.storage:
+      - public/system
+
+data.db:
+  image: nanobox/postgresql:9.6
+
+data.redis:
+  image: nanobox/redis:3.0
+
+data.storage:
+  image: nanobox/unfs:0.9
+
 data.db:
   image: nanobox/postgresql:9.5
