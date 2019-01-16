@@ -6,9 +6,9 @@ run.config:
   extra_packages:
     - nodejs-8.9
     - pkgconf
+    - libxslt
     - libxml2
     - nginx
-    - ImageMagick
 
   extra_steps:
     - cp .env.nanobox .env
@@ -36,9 +36,10 @@ deploy.config:
   extra_steps:
     - rake assets:precompile RAILS_ENV=production
   # seed or run db migrations on deploy
-  #before_live:
-  #  web.web:
-  #    - rake db:setup_or_migrate
+  before_live:
+    web.web:
+      - bundle exec rake db:create
+      - bundle exec rake db:migrate
 
 web.web:
   start:
