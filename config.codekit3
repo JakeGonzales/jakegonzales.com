@@ -16,6 +16,20 @@
 		"oAP": "/.babelrc",
 		"oF": 0
 		},
+	"/.env": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/.env",
+		"oF": 0
+		},
+	"/.env.nanobox": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/.env.nanobox",
+		"oF": 0
+		},
 	"/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
@@ -690,7 +704,7 @@
 		},
 	"/app/assets/images/work/thumb-wa-exclusive-meats.jpg": {
 		"ft": 16384,
-		"iS": 190274,
+		"iS": 157813,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/app/assets/images/work/thumb-wa-exclusive-meats.jpg",
@@ -1848,6 +1862,13 @@
 		"oAP": "/config/master.key",
 		"oF": 0
 		},
+	"/config/nginx.conf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/config/nginx.conf",
+		"oF": 0
+		},
 	"/config/puma.rb": {
 		"cB": 0,
 		"ft": 8192,
@@ -2354,13 +2375,6 @@
 		"ft": 65536,
 		"oA": 1,
 		"oAP": "/build/tmp/cache",
-		"oF": 0
-		},
-	"/tmp/pids/server.pid": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/tmp/pids/server.pid",
 		"oF": 0
 		},
 	"/tmp/restart.txt": {

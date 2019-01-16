@@ -2,10 +2,66 @@ run.config:
   engine: ruby
   engine.config:
     runtime: ruby-2.4.4
+
   extra_packages:
-    - nodejs
+    - nodejs-8.9
     - pkgconf
-    - libxml2
     - libxslt
+    - libxml2
+    - nginx
+
+  extra_steps:
+    - cp .env.nanobox .env
+    - gem install bundler
+    - bundle config build.nokogiri --with-iconv-dir=/data/ --with-zlib-dir=/data/
+    - bundle config build.nokogumbo --with-iconv-dir=/data/ --with-zlib-dir=/data/
+    - bundle install --clean
+    - yarn
+
+  cache_dirs:
+    - node_modules
+
+  extra_path_dirs:
+    - node_modules/.bin
+
+  build_triggers:
+    - .ruby-version
+    - Gemfile
+    - Gemfile.lock
+    - package.json
+    - yarn.lock
+
+deploy.config:
+  # compile assets on deploy
+  extra_steps:
+    - rake assets:precompile RAILS_ENV=production
+  # seed or run db migrations on deploy
+  before_live:
+    web.web:
+      - bundle exec rake db:create
+      - bundle exec rake db:migrate
+      # - bundle exec rake db:migrate RAILS_ENV=production
+      # - bundle exec rake assets:precompile --trace RAILS_ENV=production PRECOMPILE=true
+
+web.web:
+  start:
+    nginx: nginx -c /app/config/nginx.conf
+    rails: bundle exec puma -C /app/config/puma.rb
+  writable_dirs:
+    - log
+    - db
+  log_watch:
+    rails: 'log/production.log'
+  network_dirs:
+    data.storage:
+      - tmp
+      - public/uploads
+
 data.db:
   image: nanobox/postgresql:9.5
+
+data.redis:
+  image: nanobox/redis:3.0
+
+data.storage:
+  image: nanobox/unfs:0.9
