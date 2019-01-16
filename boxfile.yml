@@ -4,10 +4,9 @@ run.config:
     runtime: ruby-2.4.4
 
   extra_packages:
-    - nodejs
+    - nodejs-8.9
     - pkgconf
     - libxml2
-    - libxslt
     - nginx
     - ImageMagick
 
@@ -46,23 +45,20 @@ web.web:
     nginx: nginx -c /app/config/nginx.conf
     rails: bundle exec puma -C /app/config/puma.rb
   writable_dirs:
-    - tmp
     - log
     - db
   log_watch:
     rails: 'log/production.log'
   network_dirs:
     data.storage:
-      - public/system
+      - tmp
+      - public/uploads
 
 data.db:
-  image: nanobox/postgresql:9.6
+  image: nanobox/postgresql:9.5
 
 data.redis:
   image: nanobox/redis:3.0
 
 data.storage:
   image: nanobox/unfs:0.9
-
-data.db:
-  image: nanobox/postgresql:9.5

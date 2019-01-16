@@ -16,6 +16,20 @@
 		"oAP": "/.babelrc",
 		"oF": 0
 		},
+	"/.env": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/.env",
+		"oF": 0
+		},
+	"/.env.nanobox": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/.env.nanobox",
+		"oF": 0
+		},
 	"/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
