@@ -40,6 +40,8 @@ deploy.config:
     web.web:
       - bundle exec rake db:create
       - bundle exec rake db:migrate
+      # - bundle exec rake db:migrate RAILS_ENV=production
+      # - bundle exec rake assets:precompile --trace RAILS_ENV=production PRECOMPILE=true
 
 web.web:
   start:
