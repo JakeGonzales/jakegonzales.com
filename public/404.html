@@ -4,64 +4,120 @@
   <title>The page you were looking for doesn't exist (404)</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <style>
-  .rails-default-error-page {
-    background-color: #EFEFEF;
-    color: #2E2F30;
-    text-align: center;
-    font-family: arial, sans-serif;
-    margin: 0;
-  }
 
-  .rails-default-error-page div.dialog {
-    width: 95%;
-    max-width: 33em;
-    margin: 4em auto 0;
-  }
+    * {
+      box-sizing: border-box;
+    }
 
-  .rails-default-error-page div.dialog > div {
-    border: 1px solid #CCC;
-    border-right-color: #999;
-    border-left-color: #999;
-    border-bottom-color: #BBB;
-    border-top: #B00100 solid 4px;
-    border-top-left-radius: 9px;
-    border-top-right-radius: 9px;
-    background-color: white;
-    padding: 7px 12% 0;
-    box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
-  }
+    body {
+      font-family:
+        "OCR A Std",
+        "SFMono-Regular",
+        Consolas,
+        "Liberation Mono",
+        Menlo,
+        Courier,
+        monospace;
 
-  .rails-default-error-page h1 {
-    font-size: 100%;
-    color: #730E15;
-    line-height: 1.5em;
-  }
+      color: #ade0fd;
+      text-shadow: 0 0 13px #ade0fd;
+    }
 
-  .rails-default-error-page div.dialog > p {
-    margin: 0 0 1em;
-    padding: 1em;
-    background-color: #F7F7F7;
-    border: 1px solid #CCC;
-    border-right-color: #999;
-    border-left-color: #999;
-    border-bottom-color: #999;
-    border-bottom-left-radius: 4px;
-    border-bottom-right-radius: 4px;
-    border-top-color: #DADADA;
-    color: #666;
-    box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
-  }
+    html,
+    body {
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+    }
+
+    body {
+      margin: 0;
+      background: #000 url(images/nostromos-computer.jpg) no-repeat center top;
+    }
+
+    .screen-text {
+      width: 387px;
+      height: 311px;
+      margin: 0 auto;
+      padding: 20px 40px;
+      position: relative;
+        top: 145px;
+        left: -2px;
+      transform: skew(8deg, -5deg);
+
+      text-transform: uppercase;
+    }
+
+    h1 {
+      font-size: 1.9em;
+      margin-bottom: 0;
+    }
+
+    p, a {
+      font-size: 1.5em;
+      margin-top: 0.5em;
+    }
+
+    a {
+      color: #ade0fd;
+      text-decoration: none;
+      padding-bottom: 0.1em;
+      display: inline-block;
+    }
+
+    @media (hover) {
+
+      a:hover::after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 0.1em;
+        background-color: #ade0fd;
+        box-shadow: 0 0 13px 0 #ade0fd;
+        border-radius: 0.05em;
+      }
+    }
+
+    .choices a {
+      margin-right: 30px;
+    }
+
+    .error-name {
+      margin-top: 0;
+    }
+
+    .waiting {
+      animation: blink 0.2s infinite;
+    }
+
+    @keyframes blink {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+  
   </style>
 </head>
 
 <body class="rails-default-error-page">
   <!-- This file lives in public/404.html -->
-  <div class="dialog">
-    <div>
-      <h1>The page you were looking for doesn't exist.</h1>
-      <p>You may have mistyped the address or the page may have moved.</p>
+  <div class="screen-text">
+
+    <div class="dialogue">
+      <h1>Error 404</h1>
+      <p class="error-name">Creature Missing</p>
     </div>
-    <p>If you are the application owner check the logs for more information.</p>
+
+    <nav class="choices">
+      <p>MU/TH/UR's Choice? <span class="waiting">::</span> </p>
+      <a href="http://jakegonzales.com" title="Fight for your life and see what else is on this ship.">Fight</a>
+      <a href="http://google.com" title"I say we take off and nuke the entire site from orbit...it's the only way to be sure.">Run</a>
+    </nav>
+
   </div>
+
 </body>
 </html>
