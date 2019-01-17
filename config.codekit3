@@ -1201,7 +1201,7 @@
 		"oA": 0,
 		"oAP": "/app/assets/stylesheets/main.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"/app/assets/stylesheets/settings-variables/_colors.scss": {
