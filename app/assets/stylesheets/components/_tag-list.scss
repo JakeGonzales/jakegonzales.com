@@ -11,7 +11,7 @@
   flex-wrap: wrap;
 }
 
-.c-tag-list .c-tag-list__tag {
+.c-tag-list__tag {
   background: $color__tertiary;
   color: $color__white;
   display: block;
@@ -24,6 +24,10 @@
   &::selection {
     background: $color__primary;
   }
+}
+
+.c-tag-list__tag-alt {
+  background-color: $color__primary;
 }
 
 .u-rtl .c-tag-list {
