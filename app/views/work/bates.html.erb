@@ -95,5 +95,18 @@
 
       </main>
 
+      <div class="u-spacers">
+        <div class="u-space-md l__menu-space-between">
+          <%= link_to work_wintec_path, class: 'c-button c-button-fluid c-button-icon' do %>
+            <i class="c-button-icon__icon fa fa-arrow-left"></i>
+            <span class="c-button-icon__text">Prev</span>
+          <% end %>
+          <%= link_to work_izo_path, class: 'c-button c-button-fluid c-button-icon' do %>
+            <i class="c-button-icon__icon fa fa-arrow-right"></i>
+            <span class="c-button-icon__text">Next</span>
+          <% end %>
+        </div>
+      </div>
+
 
 <%= render 'shared/work_after' %>

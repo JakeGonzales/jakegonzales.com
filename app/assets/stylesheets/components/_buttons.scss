@@ -26,6 +26,10 @@
   transition: 0.1s ease-in-out all;
 }
 
+.c-button-fluid {
+  min-width: auto;
+}
+
 .c-button:hover {
   background: darken($color__primary, 20%);
 }
