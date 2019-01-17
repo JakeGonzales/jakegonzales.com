@@ -2211,7 +2211,7 @@
 		"oAP": "/public/images/nostromos-computer.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/public/packs/application-6cb2ce16bb8aeaa1ca55.js": {
