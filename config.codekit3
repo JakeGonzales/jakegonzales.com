@@ -704,7 +704,7 @@
 		},
 	"/app/assets/images/work/thumb-wa-exclusive-meats.jpg": {
 		"ft": 16384,
-		"iS": 190274,
+		"iS": 157813,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/app/assets/images/work/thumb-wa-exclusive-meats.jpg",
@@ -1174,23 +1174,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/app/assets/stylesheets/main.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/app/assets/stylesheets/main-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/app/assets/stylesheets/main.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/app/assets/stylesheets/main.css.map",
-		"oF": 0
-		},
 	"/app/assets/stylesheets/main.scss": {
 		"aP": 1,
 		"bl": 1,
@@ -1198,9 +1181,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/app/assets/stylesheets/main.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3,
 		"uL": 1
 		},
@@ -2019,110 +2002,6 @@
 		"oAP": "/build/node_modules",
 		"oF": 0
 		},
-	"/node_modules/frow/_variables.sass": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 2,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/node_modules/frow/_variables.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/node_modules/frow/frow.sass": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 2,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/node_modules/frow/frow.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/node_modules/frow/src/_flexbox.sass": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 2,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/node_modules/frow/src/_flexbox.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/node_modules/frow/src/_grid.sass": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 2,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/node_modules/frow/src/_grid.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/node_modules/frow/src/_normalize.sass": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 2,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/node_modules/frow/src/_normalize.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/node_modules/frow/src/_responsive-utilities.sass": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 2,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/node_modules/frow/src/_responsive-utilities.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/node_modules/frow/src/_scaffolding.sass": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 2,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/node_modules/frow/src/_scaffolding.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/node_modules/frow/src/_utilities.sass": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 2,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/node_modules/frow/src/_utilities.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"/package-lock.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -2393,6 +2272,13 @@
 		"ft": 65536,
 		"oA": 1,
 		"oAP": "/build/tmp/cache",
+		"oF": 0
+		},
+	"/tmp/pids/server.pid": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/tmp/pids/server.pid",
 		"oF": 0
 		},
 	"/tmp/restart.txt": {

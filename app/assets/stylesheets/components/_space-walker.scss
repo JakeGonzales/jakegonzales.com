@@ -22,7 +22,7 @@
 }
 
   .c-astronaut__suit {
-    background: url(moon-walk-faceless--chopped--clear-visor.png) no-repeat top left;
+    background: asset_url('moon-walk-faceless--chopped--clear-visor.png') no-repeat top left;
     background-size: contain;
     position: relative;
     z-index: $z-index3-1;
@@ -48,7 +48,7 @@
 
       $deep-space-width: 1041px;
       .c-visor__stars {
-        background: transparent url(jeremy-perkins-390608-unsplash__tilable.jpg) repeat top left;
+        background: transparent asset_url('jeremy-perkins-390608-unsplash__tilable.jpg') repeat top left;
         filter: contrast(1.9);
 
         height: 100%;
@@ -75,7 +75,7 @@
   # UMBILICAL CORD
 \*------------------------------------*/
 .c-space-walker__umbilical {
-  background: url(umbilical-cable.png) no-repeat top left;
+  background: asset_url('umbilical-cable.png') no-repeat top left;
   background-size: contain;
 
   width: 100%;
