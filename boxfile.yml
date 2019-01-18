@@ -48,6 +48,7 @@ web.web:
   start:
     nginx: nginx -c /app/config/nginx.conf
     rails: bundle exec puma -C /app/config/puma.rb
+    rails: rails server -e production
   writable_dirs:
     - log
     - db
