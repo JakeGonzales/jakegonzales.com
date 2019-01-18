@@ -17,7 +17,7 @@ $deep-space-width: 1041px;
 }
 
 .c-deep-space__stars {
-  background: transparent url(jeremy-perkins-390608-unsplash__tilable.jpg) repeat top left;
+  background: transparent asset_url('jeremy-perkins-390608-unsplash__tilable.jpg') repeat top left;
 
   height: 100%;
   width: $deep-space-width * 7;

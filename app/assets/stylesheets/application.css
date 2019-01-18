@@ -5,5 +5,5 @@
     https://webdesign.tutsplus.com/articles/structuring-sass-saying-goodbye-to-atomic-design-ambiguity--cms-26679
 
   *= require_self
-  *= require main.css
+  *= require main.scss
 */

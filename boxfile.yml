@@ -38,15 +38,17 @@ deploy.config:
   # seed or run db migrations on deploy
   before_live:
     web.web:
-      - bundle exec rake db:create
-      - bundle exec rake db:migrate
-      # - bundle exec rake db:migrate RAILS_ENV=production
-      # - bundle exec rake assets:precompile --trace RAILS_ENV=production PRECOMPILE=true
+      # - bundle exec rake db:create
+      # - bundle exec rake db:migrate
+      - bundle exec rake db:create RAILS_ENV=production
+      - bundle exec rake db:migrate RAILS_ENV=production
+      - bundle exec rake assets:precompile --trace RAILS_ENV=production PRECOMPILE=true
 
 web.web:
   start:
     nginx: nginx -c /app/config/nginx.conf
     rails: bundle exec puma -C /app/config/puma.rb
+    rails: rails server -e production
   writable_dirs:
     - log
     - db

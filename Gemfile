@@ -29,6 +29,9 @@ gem 'react_on_rails', '11.0.0'
 # Add webpack
 gem "webpacker", "~> 3.0"
 
+# Add CSS Autoprefixer
+gem "autoprefixer-rails"
+
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
