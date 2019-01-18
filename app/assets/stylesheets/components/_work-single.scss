@@ -1,0 +1,35 @@
+/*------------------------------------*\
+  # WORK SINGLE PAGE
+\*------------------------------------*/
+
+.work-single .c-navigation-main {
+  background: transparent;
+}
+
+
+
+
+
+/*------------------------------------*\
+  # WORK SINGLE COMPONENT
+\*------------------------------------*/
+
+.c-work-single {
+  width: 100%;
+}
+
+.c-work-single__header,
+.c-work-single__main {
+  position: relative;
+   z-index: $z-index1-1;
+}
+
+.c-work-single__title {
+  max-width: 600px;
+}
+
+.c-work-single__description {
+  max-width: 500px;
+}
+
+

@@ -1,0 +1,81 @@
+<% content_for :body_class, "work-single " %>
+<% content_for :title, "Work: IZO Photography" %>
+<% content_for :description, "" %>
+
+<%= render 'shared/work_before' %>
+
+
+      <header class="c-work-single__header u-spacers">
+        <div class="u-space-md">
+          <div class="c-article__page-topper">
+            IZO Photography: 
+            <time datetime="2017">2017</time>
+          </div>
+        </div>
+        <div class="u-space-stack-lg">
+          <ul class="c-tag-list">
+            <li class="c-tag-list__tag">Wordpress</li>
+            <li class="c-tag-list__tag">Frontend</li>
+            <li class="c-tag-list__tag">UX</li>
+            <li class="c-tag-list__tag">jQuery</li>
+          </ul>
+          <h1 class="c-work-single__title">Photographer of the Year.</h1>
+          <section class="c-work-single__description">
+            <p>Jimmy and Shona are multi award winning photographers with a focus on wedding photography. They wanted a site that was memorable and stood out from the sea of white cookie cutter photography They also wanted to attract couples who are on trend.</p>
+            <a class="c-article__link-alone" href="http://izo.com.au" title="IZO Photography Website.">izo.com.au <i class="fas fa-external-link-alt fa-xs"></i></a>
+          </section>
+        </div>
+
+        <div class="u-space-md">
+          <div style="--aspect-ratio:1600/940;" class="u-image-loader">
+            <%= image_tag("work/izo-photography/izo-photography__web-banner.jpg", alt: "A comparison of the IZO Photography home page on desktop, tablet, and mobile.") %>
+          </div>
+        </div>
+      </header>
+
+
+      <main class="c-work-single__main u-spacers">
+
+        <div class="u-space">
+          <aside class="c-article__colophon">
+            <h1>Credits</h1>
+            <p>My primary role on this project was building out the backend of the theme in Wordpress and helping with the more complicated frontend challenges like the hexagonal thumbnails and the menu functionality.</p>
+            <ul>
+              <li>Adam Gormley: Site designs including mobile, and tablet layouts; all badges and type treatments; logo; frontend development: CSS/Layouts.</li>
+            </ul>
+          </aside>
+        </div>
+
+        <div class="l__g-fluid">
+          <div class="u-space"><div style="--aspect-ratio:800/470;" class="u-image-loader">
+            <%= image_tag("work/izo-photography/izo-photography__web-about-800x470.jpg", alt: "The about page on the IZO Photography website.") %>
+          </div></div>
+          <div class="u-space"><div style="--aspect-ratio:800/470;" class="u-image-loader">
+            <%= image_tag("work/izo-photography/izo-photography__web-menu-800x470.jpg", alt: "The menu on the IZO Photography website.") %>
+          </div></div>
+        </div>
+
+        <div class="u-space"><div style="--aspect-ratio:1600/940;" class="u-image-loader">
+          <%= image_tag("work/izo-photography/izo-photography__web-latest.jpg", alt: "The latest stories on the IZO Photography website.") %>
+        </div></div>
+        <div class="u-space"><div style="--aspect-ratio:1600/940;" class="u-image-loader">
+          <%= image_tag("work/izo-photography/izo-photography__web-overview.jpg", alt: "A full display of the design and pages on the IZO Photography website.") %>
+        </div></div>
+
+      </main>
+
+      <div class="u-spacers">
+        <div class="u-space-md l__menu-space-between">
+          <%= link_to work_bates_path, class: 'c-button c-button-fluid c-button-icon' do %>
+            <i class="c-button-icon__icon fa fa-arrow-left"></i>
+            <span class="c-button-icon__text">Prev</span>
+          <% end %>
+          <%= link_to work_star_path, class: 'c-button c-button-fluid c-button-icon' do %>
+            <i class="c-button-icon__icon fa fa-arrow-right"></i>
+            <span class="c-button-icon__text">Next</span>
+          <% end %>
+        </div>
+      </div>
+
+
+<%= render 'shared/work_after' %>

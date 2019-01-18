@@ -1,0 +1,67 @@
+/*------------------------------------*\
+  # DEEP SPACE
+
+  // Wishlist
+  - Shooting Star (Cred Adam Nielsen)
+\*------------------------------------*/
+
+
+
+$deep-space-width: 1041px;
+
+.c-deep-space {
+  background-color: #0e0e0e;
+  overflow: hidden;
+
+  position: relative;
+}
+
+.c-deep-space__stars {
+  background: transparent asset_url('jeremy-perkins-390608-unsplash__tilable.jpg') repeat top left;
+
+  height: 100%;
+  width: $deep-space-width * 7;
+  animation: slow-scroll 120s linear infinite;
+
+  position: absolute;
+    top: 0;
+    left: 0;
+}
+
+@keyframes slow-scroll {
+  0%{
+    transform: translate3d(0, 0, 0);
+  }
+  100%{
+    transform: translate3d(-$deep-space-width, 0, 0);
+  }
+}
+
+/*------------------------------------*\
+  # SPACE WALKER POSITIONING
+\*------------------------------------*/
+
+.c-deep-space__space-walker {
+  margin: 0 auto;
+  position: absolute;
+    top: 100px;
+    left: 50%;
+  margin-left: -(320px/2);
+  width: 100%;
+}
+
+.c-deep-space__astronaut {
+  /* — we'd like you to roll right to 008 and null your rates for photography of the Comet Bennett. To do that, we would like you to enable quads C and D. For the maneuver, use all your quads. And in precisely 1 minute, we'd like you to terminate the battery charge on battery B. One other request, we'd like to have you verify — */
+  transform: rotate(-8deg);
+}
+
+
+/*------------------------------------*\
+  # UMBILICAL POSITIONING
+\*------------------------------------*/
+
+.c-deep-space__umbilical {
+}
+
+
+

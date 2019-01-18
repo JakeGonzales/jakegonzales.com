@@ -1,0 +1,397 @@
+<% content_for :body_class, "work-single " %>
+<% content_for :title, "Work: Star International" %>
+<% content_for :description, "" %>
+
+
+
+<style>
+  .word-switcher {
+    text-transform: none;
+    font-weight: 700;
+    font-size: 151px;
+    line-height: (151/140);
+    letter-spacing: -(50em/1000); /* illustrator conversion */
+    transition: 0.2s ease-in-out all;
+
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+
+    background: #0b213e;
+  }
+
+  .star-unpacked {
+    /**
+     * Fallback styles for the SVG
+     */
+    font-size: 107px;
+    letter-spacing: -0.05em;
+    line-height: 0.98;
+  }
+
+  .star-unpacked .word {
+    display: none;
+    color: #ffffff;
+    text-shadow: -1px -1px 0 #b3b3b3, 1px -1px 0 #b3b3b3, -1px 1px 0 #b3b3b3, 1px 1px 0 #b3b3b3;
+  }
+
+  .star-unpacked .word:first-of-type {
+    color: #e7942d;
+    text-shadow: none;
+  }
+
+  .star-unpacked .svg-star-unpacked__ratio-wrapper {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 25%;
+  }
+
+  .star-unpacked .svg-star-unpacked {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .star-unpacked .svg-word {
+    font-weight: 700;
+    letter-spacing: -0.05em;
+  }
+
+  .star-unpacked .svg-word--text-stroke,
+  .star-unpacked .svg-word--text-stroke-2 {
+    fill: none;
+    stroke: none;
+    stroke-miterlimit: 10;
+    stroke-dashoffset: -900;
+    stroke-dasharray: 900;
+    stroke-linecap: butt;
+    stroke-linejoin: round;
+    position: relative;
+  }
+
+  .star-unpacked .svg-word--text-stroke {
+    stroke: #b3b3b3;
+    opacity: 1.0;
+    -webkit-transition: ease-in-out 3.4s all;
+    transition: ease-in-out 3.4s all;
+    z-index: 1000;
+  }
+
+  .star-unpacked .svg-word--text-stroke-2 {
+    stroke: #e7942d;
+    z-index: 1020;
+  }
+
+  .star-unpacked .svg-word--text-fill {
+    fill: #e7942d;
+    fill-opacity: 0;
+  }
+
+  .star-unpacked .svg-word-group--highlight .svg-word--text-stroke {
+    stroke: #b3b3b3;
+    opacity: 0.5;
+  }
+
+  .star-unpacked .svg-word-group--highlight .svg-word--text-stroke-2 {
+    stroke: #e7942d;
+    z-index: 1020;
+  }
+
+  .star-unpacked .svg-word--text-stroke {
+    -webkit-animation: dash 2.5s ease-in-out forwards;
+            animation: dash 2.5s ease-in-out forwards;
+  }
+
+  .star-unpacked .svg-word-group--highlight .svg-word--text-stroke-2 {
+    -webkit-animation: dash 2s ease-in-out forwards;
+            animation: dash 2s ease-in-out forwards;
+  }
+
+  .star-unpacked .svg-word-group--highlight .svg-word--text-fill {
+    -webkit-animation: fill 1.5s ease-in-out forwards;
+            animation: fill 1.5s ease-in-out forwards;
+    -webkit-animation-delay: 1.7s;
+            animation-delay: 1.7s;
+  }
+
+  .star-unpacked.word-switcher--first-run .svg-word-group--highlight .svg-word--text-stroke-2 {
+    -webkit-animation: dash-de-dash 9s ease-in-out forwards;
+            animation: dash-de-dash 9s ease-in-out forwards;
+  }
+
+  .star-unpacked.word-switcher--first-run .svg-word-group--highlight .svg-word--text-fill {
+    -webkit-animation: fill-de-fill 2.5s ease-in-out forwards;
+            animation: fill-de-fill 2.5s ease-in-out forwards;
+    -webkit-animation-delay: 3.4s;
+            animation-delay: 3.4s;
+  }
+
+  .star-unpacked.word-switcher--first-run .svg-word-group:nth-of-type(4).svg-word-group--highlight .svg-word--text-stroke-2 {
+    -webkit-animation: dash 4.5s ease-in-out forwards;
+            animation: dash 4.5s ease-in-out forwards;
+  }
+
+  .star-unpacked.word-switcher--first-run .svg-word-group:nth-of-type(4).svg-word-group--highlight .svg-word--text-fill {
+    -webkit-animation: fill 1.25s ease-in-out forwards;
+            animation: fill 1.25s ease-in-out forwards;
+    -webkit-animation-delay: 3.4s;
+            animation-delay: 3.4s;
+  }
+
+  @-webkit-keyframes dash {
+    100% {
+      stroke-dashoffset: 0;
+    }
+  }
+  @keyframes dash {
+    100% {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  @-webkit-keyframes dash-de-dash {
+    0% {
+      stroke-dashoffset: -900;
+    }
+    50% {
+      stroke-dashoffset: 0;
+    }
+    100% {
+      stroke-dashoffset: -900;
+    }
+  }
+
+  @keyframes dash-de-dash {
+    0% {
+      stroke-dashoffset: -900;
+    }
+    50% {
+      stroke-dashoffset: 0;
+    }
+    100% {
+      stroke-dashoffset: -900;
+    }
+  }
+
+  @-webkit-keyframes fill {
+    100% {
+      fill-opacity: 1;
+    }
+  }
+
+  @keyframes fill {
+    100% {
+      fill-opacity: 1;
+    }
+  }
+
+  @-webkit-keyframes fill-de-fill {
+    0% {
+      fill-opacity: 0;
+    }
+    20% {
+      fill-opacity: 1;
+    }
+    60% {
+      fill-opacity: 1;
+    }
+    100% {
+      fill-opacity: 0;
+    }
+  }
+
+  @keyframes fill-de-fill {
+    0% {
+      fill-opacity: 0;
+    }
+    20% {
+      fill-opacity: 1;
+    }
+    60% {
+      fill-opacity: 1;
+    }
+    100% {
+      fill-opacity: 0;
+    }
+  }
+
+
+  /* Layout */
+
+  .word-switcher {
+    padding: 22% 10% 20% 10%;
+    margin-bottom: 32px;
+  }
+
+  @media only screen and (min-width: 800px) {
+    .word-switcher {
+      padding-top: 12%;
+      padding-bottom: 10%;
+    }
+  }
+
+  .word-switcher .svg-star-unpacked {
+    width: 100%;
+  }
+
+
+</style>
+
+<%= render 'shared/work_before' %>
+
+
+      <header class="c-work-single__header u-spacers">
+        <div class="u-space-md">
+          <div class="c-article__page-topper">
+            Star International: 
+            <time datetime="2018">2018</time>
+          </div>
+        </div>
+        <div class="u-space-stack-lg">
+          <ul class="c-tag-list">
+            <li class="c-tag-list__tag">Craft CMS</li>
+            <li class="c-tag-list__tag">Frontend</li>
+            <li class="c-tag-list__tag">UX</li>
+            <li class="c-tag-list__tag">SVG</li>
+            <li class="c-tag-list__tag">CSS Grid</li>
+            <li class="c-tag-list__tag">Animation</li>
+          </ul>
+          <h1 class="c-work-single__title">Trusted By The Australian Defence Industry</h1>
+          <section class="c-work-single__description">
+            <p>Star International is a safety company specialising in emergency response teams for industry, fire and safety training, and safety audits. Our focus for this rebuild was to increase the amount of people making contact about training for corporations and industry as well as demonstrating Star's integrity.</p>
+            <a class="c-article__link-alone" href="http://starinternational.com.au" title="Star International Website.">starinternational.com.au <i class="fas fa-external-link-alt fa-xs"></i></a>
+          </section>
+        </div>
+
+        <div class="u-space">
+          <div class="word-switcher word-switcher--animate word-switcher--first-run star-unpacked">
+
+            <div class="svg-star-unpacked__ratio-wrapper">
+
+              <svg id="svg-star-unpacked" class="svg-star-unpacked" data-name="svg-star-unpacked" xmlns="http://www.w3.org/2000/svg" width="768.35" height="244.4" viewBox="0 0 768.35 244.4">
+
+                <g transform="translate(1.64 92.46)" class="svg-word-group">
+                  <text text-anchor="start" class="svg-word svg-word--safety svg-word--text-stroke">
+                  Safety.</text>
+                  <text text-anchor="start" class="svg-word svg-word--safety svg-word--text-stroke-2">
+                  Safety.</text>
+                  <text text-anchor="start" class="svg-word svg-word--safety svg-word--text-fill"">
+                  Safety.</text>
+                </g>
+
+                <g transform="translate(1.64 92.46)" class="svg-word-group">
+                  <text text-anchor="start" class="svg-word svg-word--training svg-word--text-stroke" x="329.1" y="0">
+                  Training.</text>
+                  <text text-anchor="start" class="svg-word svg-word--training svg-word--text-stroke-2" x="329.1" y="0">
+                  Training.</text>
+                  <text text-anchor="start" class="svg-word svg-word--training svg-word--text-fill" x="329.1" y="0">
+                  Training.</text>
+                </g>
+
+                <g transform="translate(1.64 92.46)" class="svg-word-group">
+                  <text text-anchor="start" class="svg-word svg-word--audit svg-word--text-stroke" x="0" y="99.82">
+                  Audit.</text>
+                  <text text-anchor="start" class="svg-word svg-word--audit svg-word--text-stroke-2" x="0" y="99.82">
+                  Audit.</text>
+                  <text text-anchor="start" class="svg-word svg-word--audit svg-word--text-fill" x="0" y="99.82">
+                  Audit.</text>
+                </g>
+
+                <g transform="translate(1.64 92.46)" class="svg-word-group">
+                  <text text-anchor="start" class="svg-word svg-word--response svg-word--text-stroke" x="285.94" y="99.82">
+                  Response.</text>
+                  <text text-anchor="start" class="svg-word svg-word--response svg-word--text-stroke-2" x="285.94" y="99.82">
+                  Response.</text>
+                  <text text-anchor="start" class="svg-word svg-word--response svg-word--text-fill" x="285.94" y="99.82">
+                  Response.</text>
+                </g>
+
+              </svg>
+
+            </div><!-- .svg-star-unpacked__ratio-wrapper -->
+
+          </div>
+        </div>
+      </header>
+
+
+      <main class="c-work-single__main u-spacers">
+
+        <div class="l__g-fluid">
+
+          <div class="u-space-md">
+            <aside class="c-article__colophon">
+              <h1>Credits</h1>
+              <ul>
+                <li>Adam Gormley: Desktop design and tablet/mobile menu designs.</li>
+              </ul>
+            </aside>
+          </div>
+
+          <div class="u-space u-max-width-copy">
+            <p>This project was a bit of a tetrad of learning for me in that I used CSS Grid, Flexbox, SVG Animation, and Craft CMS in a production level project for the first time.</p>
+            <p>There were definitely some hills I had to climb and on top of one of those hills was a sign that said "Don't learn four new technologies all at once". I don't regret it though because I learned a tonne and it was a lot of fun.</p>
+            <p>One thing that's really interesting with new CSS tech — and it's especially true with layout — is that you sometimes have to write it many different ways to account for fallbacks and different browsers; it can be pretty punishing.</p>
+          </div>
+
+        </div>
+
+        <div class="u-space"><div style="--aspect-ratio:1600/940;" class="u-image-loader">
+          <%= image_tag("work/star-international/star-international__web-banner.jpg", alt: "Side by side comparison of desktop and mobile views of the Star International home page.") %>
+        </div></div>
+
+        <div class="l__g-fluid">
+          <div class="u-space"><div style="--aspect-ratio:800/470;" class="u-image-loader">
+            <%= image_tag("work/star-international/star-international__web-internal-800x470.jpg", alt: "An internal page on the Star International Website.") %>
+          </div></div>
+          <div class="u-space"><div style="--aspect-ratio:800/470;" class="u-image-loader">
+            <%= image_tag("work/star-international/star-international__web-contact-800x470.jpg", alt: "The contact page on the Star International Website.") %>
+          </div></div>
+        </div>
+
+        <div class="u-space"><div style="--aspect-ratio:1600/940;" class="u-image-loader">
+          <%= image_tag("work/star-international/star-international__web-home-grid.jpg", alt: "Two screens showing how the CSS Grid on the homepage of the Star International website changes.") %>
+        </div></div>
+
+      </main>
+
+      <div class="u-spacers">
+        <div class="u-space-md l__menu-space-between">
+          <%= link_to work_izo_path, class: 'c-button c-button-fluid c-button-icon' do %>
+            <i class="c-button-icon__icon fa fa-arrow-left"></i>
+            <span class="c-button-icon__text">Prev</span>
+          <% end %>
+          <%= link_to work_muh_invite_path, class: 'c-button c-button-fluid c-button-icon' do %>
+            <i class="c-button-icon__icon fa fa-arrow-right"></i>
+            <span class="c-button-icon__text">Next</span>
+          <% end %>
+        </div>
+      </div>
+
+
+<%= render 'shared/work_after' %>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+
+  jQuery.noConflict();
+  jQuery( document ).ready(function( $ ){
+
+    $('.svg-word-group:nth-of-type(1)').delay(1800).addClass("svg-word-group--highlight").promise().then(function(){
+      return $('.svg-word-group:nth-of-type(2)').delay(1800).addClass("svg-word-group--highlight").promise();
+    }).then(function(){
+      return $('.svg-word-group:nth-of-type(3)').delay(1800).addClass("svg-word-group--highlight").promise();
+    }).then(function(){
+      return $('.svg-word-group:nth-of-type(4)').delay(4400).addClass("svg-word-group--highlight").promise();
+    }).then(function(){
+      return $('.svg-word-group:nth-of-type(1), .svg-word-group:nth-of-type(2), .svg-word-group:nth-of-type(3)').removeClass("svg-word-group--highlight").promise();
+    }).then(function(){
+      return $('.word-switcher').removeClass("word-switcher--first-run").promise();
+    }).then(function(){
+      return $('.svg-word-group').addClass("svg-word-group--highlight").promise();
+    }); 
+  });
+
+
+</script>

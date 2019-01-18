@@ -1,0 +1,34 @@
+/*------------------------------------*\
+  # NAVIGATION MAIN
+
+  This should only appear once on the site
+\*------------------------------------*/
+
+.c-navigation-main {
+  background: $color__white;
+  font-family: $font__sans-serif-alt;
+  font-weight: 700;
+
+  position: relative;
+  z-index: $z-index5;
+}
+
+.c-navigation-main__link {
+  padding: 0.1em 0.4em;
+  margin-left: 0.25em;
+  transition: 0.1s ease-in-out all;
+
+  color: $color__black;
+}
+
+.c-navigation-main__link-icon {
+  display: flex;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+}
+
+.c-navigation-main__link--active {
+  background: $color__black;
+  color: $color__white;
+}
+

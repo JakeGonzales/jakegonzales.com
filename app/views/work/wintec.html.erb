@@ -1,0 +1,98 @@
+<% content_for :body_class, "work-single " %>
+<% content_for :title, "Work: Wintec Saddles" %>
+<% content_for :description, "" %>
+
+<%= render 'shared/work_before' %>
+
+
+      <header class="c-work-single__header u-spacers">
+        <div class="u-space-md">
+          <div class="c-article__page-topper">
+            Wintec Saddles: 
+            <time datetime="2013">2013</time> → <time datetime="2018">2018</time>
+          </div>
+        </div>
+        <div class="u-space-stack-lg">
+          <ul class="c-tag-list">
+            <li class="c-tag-list__tag">Wordpress</li>
+            <li class="c-tag-list__tag">Frontend</li>
+            <li class="c-tag-list__tag">Design</li>
+            <li class="c-tag-list__tag">Photoshop</li>
+          </ul>
+          <h1 class="c-work-single__title">The World’s Number One Synthetic Saddle</h1>
+          <section class="c-work-single__description">
+            <p>Wintec and the Bates Australia  have been making saddles and saddle accessories since 1934.</p>
+            <p>Wintec Saddles customers want to explore with their horse. They want to ride through puddles, feel the wind in their hair, and connect with their best friend. And at the end of each adventure they want to be able to hose off their saddle and hang it up to dry.</p>
+            <a class="c-article__link-alone" href="https://wintec-saddles.com" title="Wintec Saddles Website.">wintec-saddles.com <i class="fas fa-external-link-alt fa-xs"></i></a>
+          </section>
+        </div>
+
+        <div class="u-space">
+          <div style="--aspect-ratio:1600/940;" class="u-image-loader">
+            <%= image_tag("work/wintec/wintec__web-banner.jpg", alt: "Side by side comparison of desktop and mobile views of the Wintec Saddles home page.") %>
+          </div>
+        </div>
+      </header>
+
+
+      <main class="c-work-single__main u-spacers">
+
+      <div class="l__g-fluid">
+
+        <div class="u-space">
+          <aside class="c-article__colophon">
+            <h1>Credits</h1>
+            <h2>Support</h2>
+            <ul>
+              <li>Adam Gormley: Occasional layout/design and generally a good sounding board.</li>
+              <li>Michael Congiusta: Some code debugging support and technical feasibility help.</li>
+            </ul>
+          </aside>
+        </div>
+
+        <div class="u-space u-max-width-copy">
+          <p>I've been working with the team at Bates Australia on their projects since 2013 but Wintec Saddles has been the project that has received the most focus. I've learned a lot about Wordpress while working on this project and have gone to all the corners of Wordpress to employ different functionality over the years.</p>
+          <p>This site has been my baby for a long time and I've never been entirely happy with how certain aspects but I've always had constant improvement in mind.</p>
+        </div>
+
+      </div>
+
+        <div class="l__g-fluid">
+          <div class="u-space"><div style="--aspect-ratio:800/470;" class="u-image-loader">
+            <%= image_tag("work/wintec/wintec__web-about-800x470.jpg", alt: "The about page on the Wintec Saddles website.") %>
+          </div></div>
+          <div class="u-space"><div style="--aspect-ratio:800/470;" class="u-image-loader">
+            <%= image_tag("work/wintec/wintec__web-saddles-800x470.jpg", alt: "The saddles page on the Wintec Saddles website.") %>
+          </div></div>
+        </div>
+
+        <div class="u-space"><div style="--aspect-ratio:1600/940;" class="u-image-loader">
+          <%= image_tag("work/wintec/wintec__web-stockists.jpg", alt: "The stockists page on the Wintec Saddles website.") %>
+        </div></div>
+        <div class="u-space"><div style="--aspect-ratio:1600/940;" class="u-image-loader">
+          <%= image_tag("work/wintec/wintec__web-stockist-list.jpg", alt: "The stockists list on the Wintec Saddles website.") %>
+        </div></div>
+
+        <div class="l__g-fluid">
+          <div class="u-space"><div style="--aspect-ratio:800/470;" class="u-image-loader">
+            <%= image_tag("work/wintec/wintec__web-blog-800x470.jpg", alt: "The blog page on the Wintec Saddles website.") %>
+          </div></div>
+          <div class="u-space"><div style="--aspect-ratio:800/470;" class="u-image-loader">
+            <%= image_tag("work/wintec/wintec__web-contact-800x470.jpg", alt: "The contact page on the Wintec Saddles website.") %>
+          </div></div>
+        </div>
+        
+
+      </main>
+
+      <div class="u-spacers">
+        <div class="u-space-md l__menu-right">
+          <%= link_to work_bates_path, class: 'c-button c-button-fluid c-button-icon' do %>
+            <i class="c-button-icon__icon fa fa-arrow-right"></i>
+            <span class="c-button-icon__text">Next</span>
+          <% end %>
+        </div>
+      </div>
+
+
+<%= render 'shared/work_after' %>

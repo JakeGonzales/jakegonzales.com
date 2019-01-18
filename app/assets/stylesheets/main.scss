@@ -1,0 +1,134 @@
+/*------------------------------------*\
+  # COMPONENT STRUCTURE
+
+  In here I'll be going for an Atomic structure.
+
+  Source: https://webdesign.tutsplus.com/articles/structuring-sass-saying-goodbye-to-atomic-design-ambiguity--cms-26679
+
+  ## Config
+  - vars
+  - functions
+  - mixins
+
+  ## UI 
+  - base
+  - typography
+  - plugins
+  - toolbox
+  - components
+  - layout
+  - pages
+  - utility
+  main.scss
+  main.css
+
+\*------------------------------------*/
+
+
+
+/*------------------------------------*\
+  # SETUP
+\*------------------------------------*/
+@import "base/normalize";
+@import "base/site-wides";
+
+
+/*------------------------------------*\
+  # SETTINGS and VARIABLES
+\*------------------------------------*/
+
+// Colors
+@import "settings-variables/colors";
+// Z-Indexes
+@import "settings-variables/zindex";
+// Temporarily here until I can remove normalize as a dependency 
+@import "layout/layout-settings";
+
+/*------------------------------------*\
+  # BASE
+\*------------------------------------*/
+
+// @import "base/normalize";
+
+/*------------------------------------*\
+  # TYPOGRAPHY
+\*------------------------------------*/
+
+@import "typography/fonts";
+@import "typography/copy";
+@import "typography/headings";
+@import "typography/links";
+@import "typography/everything";
+
+/*------------------------------------*\
+  # BUTTONS
+\*------------------------------------*/
+
+@import "components/buttons";
+
+
+/*------------------------------------*\
+  # ARTICLES
+\*------------------------------------*/
+
+@import "components/articles";
+@import "components/work-single";
+
+/*------------------------------------*\
+  # NAVIGATION
+\*------------------------------------*/
+
+@import "components/navigation-main";
+
+/*------------------------------------*\
+  # GENERAL COMPONENTS
+\*------------------------------------*/
+
+@import "components/poster";
+@import "components/linear-list";
+@import "components/tag-list";
+@import "components/code";
+
+/*------------------------------------*\
+  # SPACE SCENES AND ASTRONAUTS
+
+  Astronauts and accessories need to come
+  before the scenes
+\*------------------------------------*/
+
+@import "components/space-walker";
+@import "components/deep-space";
+@import "components/mugshot";
+
+
+/*------------------------------------*\
+  # WORK ITEM SPECIFIC STYLES
+\*------------------------------------*/
+
+@import "components/graphics-websites-yo";
+
+/*------------------------------------*\
+  # UTILITIES
+\*------------------------------------*/
+
+@import "utility/negative";
+@import "utility/visibility";
+@import "utility/email-copy";
+@import "utility/aspect-ratio";
+@import "utility/image-loader";
+
+
+/*------------------------------------*\
+  # LAYOUT
+\*------------------------------------*/
+
+// Layout Settings
+@import "layout/layout-utilities";
+@import "layout/layout";
+
+
+
+
+
+
+

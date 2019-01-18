@@ -1,0 +1,121 @@
+/*------------------------------------*\
+  # SPACING: LEGO WRAPPERS
+
+  Lego Wrappers
+  @link: https://codepen.io/moyicat/pen/wzabao
+\*------------------------------------*/
+
+@mixin layout ($var) {
+
+  $padding-x: map-get($var, padding-x);
+  $padding-y: map-get($var, padding-y);
+  $padding-outer-x: map-get($var, padding-outer-x);
+  $padding-outer-y: map-get($var, padding-outer-y);
+
+  /* 
+   * Space Wrapper to complete the outside padding
+   * Space betweem components 
+   */
+  .u-spacers {
+    box-sizing: border-box;
+    padding: 8px 4vw 8px 4vw;
+  }
+  .u-spacers-static {
+    box-sizing: border-box;
+    padding: 8px $padding-x;
+  }
+  // Space between elements
+  .u-space {
+    padding: ($padding-y / 2) ($padding-x / 2);
+  }
+
+  .u-space-md {
+    padding: ($padding-y * 2) ($padding-x / 2);
+  }
+
+  .u-space-lg {
+    padding: ($padding-y * 5) ($padding-x / 2);
+  }
+
+  .u-space-stack {
+    padding: 0 ($padding-x / 2);
+    margin: ($padding-y / 2) 0;
+  }
+
+  .u-space-stack-md {
+    padding: 0 ($padding-x / 2);
+    margin: ($padding-y * 1.5) 0;
+  }
+
+  .u-space-stack-lg {
+    padding: 0 ($padding-x / 2);
+    margin: ($padding-y * 2) 0;
+  }
+
+}
+
+
+
+// Spacing variables
+$spacing: (
+
+  padding-x: 16px,
+  padding-y: 10px,
+  
+);
+
+// Generate Default CSS Rules
+@include layout($spacing);
+
+// Generate CSS Rules for tablet view
+// @media (max-width: 768px) { 
+//   @include layout($spacing-tablet);
+// }
+
+
+
+/*------------------------------------*\
+  # SPACING: MAX-WIDTHS
+\*------------------------------------*/
+
+.u-width-100 {
+  width: 100%;
+}
+
+.u-max-width-copy {
+  max-width: 490px;
+}
+
+.u-max-width-article {
+  max-width: 1200px;
+}
+
+
+/*------------------------------------*\
+  # DIRECTION 
+\*------------------------------------*/
+
+
+/* CAUTION: This will butcher english,
+if you want to use this on layouts make sure
+to reset the text back to ltr. */
+.u-rtl {
+  direction: rtl;
+}
+
+.u-ltr {
+  direction: ltr;
+}
+
+
+/*------------------------------------*\
+  # FLOATS
+\*------------------------------------*/
+
+.u-float-right {
+  float: right;
+}
+
+.u-float-left {
+  float: left;
+}

@@ -1,0 +1,87 @@
+<% content_for :body_class, "work-single " %>
+<% content_for :title, "Work: Glitched Horror Animation" %>
+<% content_for :description, "" %>
+
+<%= render 'shared/work_before' %>
+
+
+      <header class="c-work-single__header u-spacers">
+        <div class="u-space-md">
+          <div class="c-article__page-topper">
+            Two Of Three: 
+            <time datetime="2017">2017</time>
+          </div>
+        </div>
+        <div class="u-space-stack-lg">
+          <ul class="c-tag-list">
+            <li class="c-tag-list__tag">CSS Animation</li>
+          </ul>
+          <h1 class="c-work-single__title">Glitched Horror Animation</h1>
+          <section class="c-work-single__description">
+            <p>This was a fun little project we put together at Two Of Three for one of our home pages. We wanted to make a project we could all work on with our own direction.</p>
+          </section>
+        </div>
+      </header>
+
+
+      <main class="c-work-single__main u-spacers">
+
+        <div class="u-space">
+          <div class="gawy gawy__background">
+
+            <h1 class="gawy__title">Graphics and Websites yo!</h1>
+
+            <div class="gawy__image">
+
+              <div class="gawy__text">
+                <div class="gawy__text-ratio">
+                  <span class="gawy__text-title"></span>
+                  <span class="gawy__text-outlines"></span>
+                  <span class="gawy__text-outlines-2"></span>
+                  <span class="gawy__text-dropshadow"></span>
+                </div>
+              </div>
+
+
+              <div class="gawy__image-computer">
+                <div class="gawy__image-computer-ratio">
+                  <%= image_tag("work/graphics-websites-yo/1973-BMT-100@2x.png", alt: "An illustration of a 1973 BTM-100 Computer", class: "gawy__image-computer-screen") %>
+                  <span class="gawy__image-computer-glow"></span>
+                  <span class="gawy__image-computer-glow--static"></span>
+                </div>
+              </div>
+
+
+            </div>
+
+          </div>
+        </div>
+
+        <div class="u-space-md">
+          <aside class="c-article__colophon">
+            <h1>Credits</h1>
+            <p>For this project I worked on building this for web. Most of the work went into animations and making it responsive.</p>
+            <ul>
+              <li>Adam Gormley: All computer illustrations including faces, grunge texture.</li>
+              <li>Adam Nielsen: Typography and type treatment.</li>
+            </ul>
+          </aside>
+        </div>
+
+      </main>
+
+      <div class="u-spacers">
+        <div class="u-space-md l__menu-space-between">
+          <%= link_to work_anomaly_path, class: 'c-button c-button-fluid c-button-icon' do %>
+            <i class="c-button-icon__icon fa fa-arrow-left"></i>
+            <span class="c-button-icon__text">Prev</span>
+          <% end %>
+          <%= link_to about_site_path, class: 'c-button c-button-fluid c-button-icon' do %>
+            <i class="c-button-icon__icon fa fa-arrow-right"></i>
+            <span class="c-button-icon__text">About This Site</span>
+          <% end %>
+        </div>
+      </div>
+
+
+<%= render 'shared/work_after' %>

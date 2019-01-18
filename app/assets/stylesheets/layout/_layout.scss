@@ -1,0 +1,194 @@
+/*------------------------------------*\
+  # LAYOUTS
+
+  The aim here is to make a website that is totally
+  based in intrinsic design and without breakpoints.
+\*------------------------------------*/
+
+/**
+ * A two column grid layout used for most of the site.
+ */
+
+html,
+body {
+  height: 100vh;
+}
+
+// Object Layout Grid Fluid Columns (Full Height Page Layouts)
+.l__g-fluid-100vh {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+
+  min-height: 100vh;
+  // This line really doesn't work unless this is used on a full page layout. On simple in-page layouts I kept getting a massive gap at the bottom and not understanding that I had this.
+}
+
+.l__g-fluid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  // This doesn't allow for empty columns, it will just fill it up if there's empty space. @link: https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/
+}
+
+.l__g-2col {
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+   // We really want empty columns here if there's only one image.
+}
+
+
+
+
+
+.l__f-simple {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: flex-start;
+}
+
+.l__f {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+
+
+
+
+// Object Layout Flexbox 2 Rows
+.l__f-2-row {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;  
+  justify-content: flex-start;
+  align-content: stretch;
+}
+  
+  .l__f-2-row-1 {
+    margin-top: 22vh;
+    flex: 1;
+    position: relative;
+    z-index: $z-index1-1;
+  }
+
+  .l__f-2-row-2 {
+    flex: auto;
+    position: relative;
+    z-index: $z-index1;
+  }
+
+
+
+
+
+
+.l__f-col-justify-start {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+// Object Layout Flexbox Justify End
+.l__f-col-justify-end {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.l__f-row-justify-end {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.l__f-align-center {
+  align-self: center;
+}
+
+.l__f-align-end {
+  align-self: flex-end;
+}
+
+.l__f-justify-stretch {
+  justify-content: stretch;
+}
+
+/*------------------------------------*\
+  # SPECIFIC LAYOUTS
+\*------------------------------------*/
+
+.l__menu-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+
+  flex-wrap: wrap;
+}
+
+.l__menu-space-between {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+
+
+
+
+
+/*------------------------------------*\
+  # TESSERACT LAYOUT
+\*------------------------------------*/
+.l__tesseract {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+
+  width: 100%;
+  max-width: 320px * 4;
+}
+
+  
+  .l__tesseract__obvious,
+  .l__tesseract__simple {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    align-items: center;
+  }
+  
+  .l__tesseract__obvious {
+    grid-column: 1/-1; 
+  }
+
+  .l__tesseract__simple {
+    grid-column: auto / span 2;
+  }
+
+ol.l__tesseract { // Oh interesting pattern there!
+  margin: 0 0 4em 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+
+
+/*------------------------------------*\
+  # PARAGRAPH COLUMNS
+\*------------------------------------*/
+
+.l__text-coumns-3 {
+  columns: 3 280px;
+  column-gap: 2em;
+}
+
+.l__text-coumns-2 {
+  columns: 2 320px;
+  column-gap: 2em;
+}

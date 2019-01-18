@@ -1,0 +1,9 @@
+<nav class="c-navigation-main u-spacers">
+  <span class="u-space-stack l__menu-right">
+    <%= link_to "About", '/', title: "", :class => "c-navigation-main__link #{current_page?('/') ? 'c-navigation-main__link--active' : ''}"  %>
+    <%= link_to "Skills", skills_path, title: "", :class => "c-navigation-main__link #{current_page?('/skills') ? 'c-navigation-main__link--active' : ''}"  %>
+    <%= link_to "Work", work_path, title: "", :class => "c-navigation-main__link #{request.fullpath.start_with?('/work') ? 'c-navigation-main__link--active' : ''}"  %>
+    <a href="https://twitter.com/jakegonzales" class="c-navigation-main__link-icon c-navigation-main__link"><i class="fab fa-twitter"></i></a>
+    <a href="mailto:comms@jakegonzales.com" class="u-email-copy-btn c-navigation-main__link-icon c-navigation-main__link"><i class="far fa-envelope"></i><span class="u-email-copy-address u-js--hidden">jakeegonzales@gmail.com</span></a>
+  </span>
+</nav>

@@ -1,0 +1,104 @@
+<% content_for :body_class, "work-single " %>
+<% content_for :title, "Work: WA Exclusive Meats" %>
+<% content_for :description, "" %>
+
+<%= render 'shared/work_before' %>
+
+
+      <header class="c-work-single__header u-spacers">
+        <div class="u-space-md">
+          <div class="c-article__page-topper">
+            WA Exclusive Meats: 
+            <time datetime="2016">2016</time>
+          </div>
+        </div>
+        <div class="u-space-stack-lg">
+          <ul class="c-tag-list">
+            <li class="c-tag-list__tag">Wordpress</li>
+            <li class="c-tag-list__tag">Frontend</li>
+            <li class="c-tag-list__tag">UX</li>
+            <li class="c-tag-list__tag">Illustration</li>
+          </ul>
+          <h1 class="c-work-single__title">Over 80 years serving the community.</h1>
+          <section class="c-work-single__description">
+            <p>WA Exclusive Meats is a family run business that specialises in sourcing only quality local produce. However they also do spit hire. One of the primary aims for this project was to raise awareness that they have this service and to get more people following through on an order for a spit.</p>
+            <a class="c-article__link-alone" href="http://waexclusivemeats.com.au" title="WA Exclusive Meats Website.">waexclusivemeats.com.au <i class="fas fa-external-link-alt fa-xs"></i></a>
+          </section>
+        </div>
+
+        <div class="u-space">
+          <div style="--aspect-ratio:1600/940;" class="u-image-loader">
+            <%= image_tag("work/wa-exclusive-meats/waexclusivemeats__web-banner.jpg", alt: "A comparison of the WA Exclusive Meats homepage on desktop, tablet, and mobile.") %>
+          </div>
+        </div>
+      </header>
+
+
+      <main class="c-work-single__main u-spacers">
+
+        <div class="u-space">
+          <aside class="c-article__colophon">
+            <h1>Credits</h1>
+            <ul>
+              <li>Adam Gormley: Desktop designs, creative direction, roughly a third of the frontend build.</li>
+              <li>Adam Nielsen: Logo, stand out type treatments.</li>
+            </ul>
+          </aside>
+        </div>
+
+        <div class="l__g-fluid">
+          <div class="u-space"><div style="--aspect-ratio:800/470;" class="u-image-loader">
+            <%= image_tag("work/wa-exclusive-meats/waexclusivemeats__web-about-800x470.jpg", alt: "The about and history page on WA Exclusive Meats.") %>
+          </div></div>
+          <div class="u-space"><div style="--aspect-ratio:800/470;" class="u-image-loader">
+            <%= image_tag("work/wa-exclusive-meats/waexclusivemeats__animation-specials.gif", alt: "An animation of the specials title pulsing on WA Exclusive Meats.") %>
+          </div></div>
+        </div>
+
+        <div class="u-space"><div style="--aspect-ratio:1600/940;" class="u-image-loader">
+          <%= image_tag("work/wa-exclusive-meats/waexclusivemeats__web-spithire.jpg", alt: "The spit hire page on WA Exclusive Meats.") %>
+        </div></div>
+
+        <div class="l__g-2col">
+          <div class="u-space"><div style="--aspect-ratio:800/470;" class="u-image-loader">
+            <%= image_tag("work/wa-exclusive-meats/waexclusivemeats__web-contact-800x470.jpg", alt: "The contact page on WA Exclusive Meats.") %>
+          </div></div>
+          <div class="u-space"><div style="--aspect-ratio:800/470;" class="u-image-loader">
+            <%= image_tag("work/wa-exclusive-meats/waexclusivemeats__web-products-800x470.jpg", alt: "The product page on WA Exclusive Meats.") %>
+          </div></div>
+        </div>
+
+        <div class="u-space"><div style="--aspect-ratio:1600/940;" class="u-image-loader">
+          <%= image_tag("work/wa-exclusive-meats/waexclusivemeats__web-404.jpg", alt: "The illustrated 404 page on WA Exclusive Meats. The numbers are made of meat.") %>
+        </div></div>
+
+        <div class="l__g-2col">
+
+          <div class="u-space u-max-width-copy">
+            <h2>A little bit of illustration</h2>
+            <p>After working around two extremely good designer/illustrators for years I thought I should use what I'd picked up and hide a little bit of artwork on the site; also meat puns.</p> 
+          </div>
+
+          <div class="u-space"><div style="--aspect-ratio:800/800;" class="u-image-loader">
+            <%= image_tag("work/wa-exclusive-meats/waexclusivemeats_illustration-800x800.jpg", alt: "A photo of the 404 illustration hand drawn and on a laptop.") %>
+          </div></div>
+
+        </div>
+
+      </main>
+
+      <div class="u-spacers">
+        <div class="u-space-md l__menu-space-between">
+          <%= link_to work_muh_invite_path, class: 'c-button c-button-fluid c-button-icon' do %>
+            <i class="c-button-icon__icon fa fa-arrow-left"></i>
+            <span class="c-button-icon__text">Prev</span>
+          <% end %>
+          <%= link_to work_anomaly_path, class: 'c-button c-button-fluid c-button-icon' do %>
+            <i class="c-button-icon__icon fa fa-arrow-right"></i>
+            <span class="c-button-icon__text">Next</span>
+          <% end %>
+        </div>
+      </div>
+
+
+<%= render 'shared/work_after' %>

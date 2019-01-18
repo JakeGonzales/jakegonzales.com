@@ -1,0 +1,112 @@
+<% content_for :body_class, "work-single " %>
+<% content_for :title, "Work: Bates Australia" %>
+<% content_for :description, "" %>
+
+<%= render 'shared/work_before' %>
+
+
+      <header class="c-work-single__header u-spacers">
+        <div class="u-space-md">
+          <div class="c-article__page-topper">
+            Bates Saddles: 
+            <time datetime="2013">2013</time> → <time datetime="2018">2018</time>
+          </div>
+        </div>
+        <div class="u-space-stack-lg">
+          <ul class="c-tag-list">
+            <li class="c-tag-list__tag">Wordpress</li>
+            <li class="c-tag-list__tag">Frontend</li>
+            <li class="c-tag-list__tag">Design</li>
+            <li class="c-tag-list__tag">Photoshop</li>
+          </ul>
+          <h1 class="c-work-single__title">The Most Saddle Patents Globally.</h1>
+          <section class="c-work-single__description">
+            <p>Bates Saddles is a high end luxury saddle brand which designs and builds dressage, jump and all purpose saddles. Their customers love their horses more than life itself and are extremely critical of what they choose to strap atop their friend.</p>
+            <a class="c-article__link-alone" href="https://batessaddles.com/" title="Bates Saddles Website.">batessaddles.com.au <i class="fas fa-external-link-alt fa-xs"></i></a>
+          </section>
+        </div>
+
+        <div class="u-space">
+          <div style="--aspect-ratio:1600/940;" class="u-image-loader">
+            <%= image_tag("work/bates/bates__web-banner.jpg", alt: "The Bates Saddles homepage compared on desktop, tablets, and mobile.") %>
+          </div>
+        </div>
+      </header>
+
+
+      <main class="c-work-single__main u-spacers">
+
+        <div class="u-space">
+          <aside class="c-article__colophon">
+            <h1>Credits</h1>
+            <ul>
+              <li>Adam Gormley: Initial skin designs for the Bates theme.</li>
+            </ul>
+            <h2>Support</h2>
+            <ul>
+              <li>Micheal Congiusta: Programming impossible things with jQuery at ridiculous hours. Bates Advanta test ride form functionality.</li>
+              <li>Adam Gormley: Mockup, CSS, and layout work particularly related to the stockists, and advocates.</li>
+            </ul>
+          </aside>
+        </div>
+
+        <div class="l__g-fluid">
+          <div class="u-space" ><div style="--aspect-ratio:800/470;" class="u-image-loader">
+            <%= image_tag("work/bates/bates__web-performance-800x470.jpg", alt: "An internal generic page on the Bates Saddles Website showing high performance features.") %>
+          </div></div>
+          <div class="u-space"><div style="--aspect-ratio:800/470;" class="u-image-loader">
+            <%= image_tag("work/bates/bates__web-leather-800x470.jpg", alt: "An internal generic page on the Bates Saddles Website showing their Luxe Leather.") %>
+          </div></div>
+        </div>
+
+        <div class="l__g-fluid">
+          <div class="u-space"><div style="--aspect-ratio:800/470;" class="u-image-loader">
+            <%= image_tag("work/bates/bates__web-advocates-800x470.jpg", alt: "The Bates Saddles Advocates section, rider profiles.") %>
+          </div></div>
+          <div class="u-space"><div style="--aspect-ratio:800/470;" class="u-image-loader">
+            <%= image_tag("work/bates/bates__web-products-800x470.jpg", alt: "A product page on the Bates Saddles Website.") %>
+          </div></div>
+        </div>
+
+        <div class="u-space"><div style="--aspect-ratio:1600/940;" class="u-image-loader">
+          <%= image_tag("work/bates/bates__web-stockists.jpg", alt: "The stockists homepage on the Bates Saddles website display on desktop and mobile.") %>
+        </div></div>
+        <div class="u-space"><div style="--aspect-ratio:1600/940;" class="u-image-loader">
+          <%= image_tag("work/bates/bates__web-stockist-list.jpg", alt: "The stockists country page and the stockist single page on the Bates Saddles website.") %>
+        </div></div>
+
+        <div class="l__g-fluid">
+          <div class="u-space"><div style="--aspect-ratio:800/470;" class="u-image-loader">
+            <%= image_tag("work/bates/bates__web-contact-800x470.jpg", alt: "The FAQ page and contact page on the Bates Saddles Website.") %>
+          </div></div>
+          <div></div>
+        </div>
+
+        <div class="u-space-md u-max-width-copy">
+          <h2>Bates Advanta Product Launch</h2>   
+          <p>In 2018 Bates Saddles released the Advanta eventing saddle. As part of their release campaign I designed and built their product page and test ride funnel. The campaign was a massive success; a <em>single</em> stockist received over 100 test ride bookings which is a wait time of about 2-3 years.</p>
+          <a class="c-article__link-alone" href="https://www.batessaddles.com/bates-advanta-eventing-saddle/" title="Bates Advanta Event Saddle ">Bates Advanta Event Saddle <i class="fas fa-external-link-alt fa-xs"></i></a>
+          
+        </div>
+
+        <div class="u-space-md"><div style="--aspect-ratio:2728/11932;" class="u-image-loader">
+          <%= image_tag("work/bates/bates__web-advanta-spread.jpg", alt: "The full web product page for the Bates Advanta eventing saddle.") %>
+        </div></div>
+
+      </main>
+
+      <div class="u-spacers">
+        <div class="u-space-md l__menu-space-between">
+          <%= link_to work_wintec_path, class: 'c-button c-button-fluid c-button-icon' do %>
+            <i class="c-button-icon__icon fa fa-arrow-left"></i>
+            <span class="c-button-icon__text">Prev</span>
+          <% end %>
+          <%= link_to work_izo_path, class: 'c-button c-button-fluid c-button-icon' do %>
+            <i class="c-button-icon__icon fa fa-arrow-right"></i>
+            <span class="c-button-icon__text">Next</span>
+          <% end %>
+        </div>
+      </div>
+
+
+<%= render 'shared/work_after' %>

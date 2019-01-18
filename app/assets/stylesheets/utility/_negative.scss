@@ -1,0 +1,29 @@
+/*------------------------------------*\
+  # COLOUR NEGATIVES
+
+  These change the polarity of text colour and 
+  background colour. So from a white background
+  to a coloured background and the appropriate text colour.
+\*------------------------------------*/
+
+.u-negative--blue {
+  background: $color__primary;
+  color: $color__white;
+}
+
+.u-negative--red {
+  background: $color__tertiary;
+  color: $color__white;
+}
+
+.u-negative--grey {
+  background: $color__secondary;
+  color: $color__white;
+}
+
+.u-negative b,
+.u-negative strong {
+  font-weight: 300;
+  background: transparentize($color__highlight, 0.8);
+  color: $color__highlight-text;
+}

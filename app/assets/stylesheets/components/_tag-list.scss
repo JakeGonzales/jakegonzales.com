@@ -1,0 +1,39 @@
+/*------------------------------------*\
+  # TAG LIST
+\*------------------------------------*/
+
+
+.c-tag-list {
+  list-style-type: none;
+  padding: 0;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.c-tag-list__tag {
+  background: $color__tertiary;
+  color: $color__white;
+  display: block;
+
+  font-size: 0.8em;
+
+  margin: 0 0.25em 0.25em 0;
+  padding: 0.25em 0.5em;
+
+  &::selection {
+    background: $color__primary;
+  }
+}
+
+.c-tag-list__tag-alt {
+  background-color: $color__primary;
+}
+
+.u-rtl .c-tag-list {
+    justify-content: flex-end;
+}
+
+.u-rtl .c-tag-list__tag {
+  margin: 0 0 0.25em 0.25em;
+}

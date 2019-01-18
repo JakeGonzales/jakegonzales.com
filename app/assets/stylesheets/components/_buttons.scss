@@ -1,0 +1,45 @@
+/*------------------------------------*\
+  # BUTTONS
+
+  Notes:
+  I need to make sure that the arrows are 
+  only ever the height of the text to keep
+  in line with the styleguide.
+\*------------------------------------*/
+
+.c-button {
+  background: $color__btn;
+  color: $color__btn-text;
+
+  font-family: $font__sans-serif;
+  font-size: 1.333333333em; // 24px/18px
+  font-weight: 700;
+  letter-spacing: 0.03em;
+
+  display: inline-flex;
+  padding: 0.5em;
+  position: relative;
+    top: 0;
+
+  min-width: 200px;
+
+  transition: 0.1s ease-in-out all;
+}
+
+.c-button-fluid {
+  min-width: auto;
+}
+
+.c-button:hover {
+  background: darken($color__primary, 20%);
+}
+
+.c-button:active,
+.c-button:focus {
+  background: darken($color__primary, 20%);
+  transform: skewX(-3deg);
+}
+
+.c-button-icon__icon {
+  margin-right: 0.5em;
+}
